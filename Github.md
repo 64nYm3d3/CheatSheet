@@ -4,10 +4,10 @@
 git clone [url] [file location]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-                            ex..
-                            git clone https://github.com/secretsqirrel/the-back-door-factory /extras/opt/the-backdoor-factory
-                            git clone https://github.com/fuzzdb-project/fuzzdb /extras/web-apps/fuzzdb
-                                                                (While in the FuzzDB dir, you can update your local repo with the command "git pull")
+ex..
+git clone https://github.com/secretsqirrel/the-back-door-factory /extras/opt/the-backdoor-factory
+git clone https://github.com/fuzzdb-project/fuzzdb /extras/web-apps/fuzzdb
+(While in the FuzzDB dir, you can update your local repo with the command "git pull")
                                                                 
                   ##  Create a new repository in Bash
 
@@ -23,7 +23,7 @@ git push -u origin master
 
                     ##   Push the repo
                        
- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                      
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                      
 git remote add origin [https://github.com/64nYm3d3/CheatSheet.git]
 git push -u origin master
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
