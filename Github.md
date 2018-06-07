@@ -1,4 +1,4 @@
-                  How to download a git repo
+                 ## How to download a git repo
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 git clone [url] [file location]
@@ -9,7 +9,7 @@ git clone [url] [file location]
                             git clone https://github.com/fuzzdb-project/fuzzdb /extras/web-apps/fuzzdb
                                                                 (While in the FuzzDB dir, you can update your local repo with the command "git pull")
                                                                 
-                    Create a new repository in Bash
+                  ##  Create a new repository in Bash
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 echo "# CheatSheet" >> README.md                             #creates local .md file, placing "# CheatSheet" in it
@@ -21,14 +21,14 @@ git remote add origin https://github.com/64nYm3d3/CheatSheet.git
 git push -u origin master
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-                       Push the repo
+                    ##   Push the repo
                        
  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                      
 git remote add origin [https://github.com/64nYm3d3/CheatSheet.git]
 git push -u origin master
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-                        Git Pull
+                    ##    Git Pull
 
 From what I understand, git pull will pull down from a remote  whatever you ask (so, whatever trunk you’re asking for) and instantly  merge it into the branch you’re in when you make the request. Pull is a  high-level request that runs ‘fetch’ then a ‘merge’ by default, or a  rebase with ‘–rebase’. You could do without it, it’s just a convenience.
 
