@@ -71,15 +71,7 @@ git add file_path
 # Git clone
 
 git clone [url] [file location]
-                            ex..
-                          
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-git clone https://github.com/secretsqirrel/the-back-door-factory /extras/opt/the-backdoor-factory
-git clone https://github.com/fuzzdb-project/fuzzdb /extras/web-apps/fuzzdb
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
- (While in the FuzzDB dir, you can update your local repo with the command "git pull")
- 
+                           
  
 Git clone will clone a repo int a newly created directory. It’s useful for when you’re setting up your local doodah
 
@@ -92,6 +84,12 @@ git branch
 remoteBranch
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+
+ (While in the FuzzDB dir, you can update your local repo with the command "git pull")
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+git clone https://github.com/secretsqirrel/the-back-door-factory /extras/opt/the-backdoor-factory
+git clone https://github.com/fuzzdb-project/fuzzdb /extras/web-apps/fuzzdb
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Git clone additionally creates a remote called ‘origin’ for the repo  cloned from, sets up a local branch based on the remote’s active branch  (generally master), and creates remote-tracking branches for all the  branches in the repo
 
