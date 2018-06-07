@@ -11,7 +11,7 @@ git clone https://github.com/fuzzdb-project/fuzzdb /extras/web-apps/fuzzdb
 (While in the FuzzDB dir, you can update your local repo with the command "git pull")
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
                                                                 
-#  Create a new repository in Bash
+#  Create a new repository
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 echo "# CheatSheet" >> README.md                             #creates local .md file, placing "# CheatSheet" in it
@@ -61,6 +61,12 @@ remoteBranch
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 So, the fetch will have pulled down the remoteBranch and put it into a local branch called “remoteBranch”.  creates a local copy of a remote branch which you shouldn’t manipulate  directly; instead create a proper local branch and work on that. ‘git  checkout’ has a confusing feature though. If you ‘checkout’ a local copy  of a remote branch, it creates a local copy and sets up a merge to it  by default.
+
+# Git Add
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+git add file_path
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Git clone
 
