@@ -6,7 +6,7 @@ Hubs
 
 ![Hub](https://conceptdraw.com/a1789c3/p47/preview/640/pict--small-hub-logical-symbols---vector-stencils-library.png--diagram-flowchart-example.png)
 
-A dumb device allowing computers to communicate with eachother on a network segment
+A dumb device allowing computers to communicate with eachother.  Hubs dont segment networks, they connect network segments.
 
 Switch
 ![Switch](https://conceptdraw.com/a1780c3/p4/preview/640/pict--workgroup-switch-cisco-switches-and-hubs---vector-stencils-library.png--diagram-flowchart-example.png)
