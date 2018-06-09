@@ -16,6 +16,9 @@ And the address of the memory makes your floppy disk abort,
 
 Then the socket packet pocket has an error to report!
 
+
+
+
 If the label on the cable on the table at your house, 
 
 Says the network is connected to the button on your mouse, 
