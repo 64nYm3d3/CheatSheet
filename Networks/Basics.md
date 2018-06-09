@@ -21,11 +21,11 @@ A device that efficiently breaks up broadcast domains, they also provide connect
 
 Hosts must use a protocol like IPv4 to communicate with a host to another network (Layer 3) When a host or server sends a network broadcast, every device on the netork must read and process that broadcast unless you have a router. When a routers interface receives this layer 2 broadcast it can discard it without forwarding it to other networks.
 
-So
+So...
 * They don't forward broadcasts by default
 * They can filter the network based on Layer 3 information such as an IP address
 
-Functionally they do this
+Functionally in your network they do this...
 * Packet Switching
 * Packet filtering
 * Internetwork communication
