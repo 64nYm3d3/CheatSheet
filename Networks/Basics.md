@@ -26,8 +26,8 @@ So...
 
 Functionally in your network they do this...
 * Packet Switching (transmitting data via an addressed packet)
-* Packet filtering (controlling access to a network based on IP address of source and destination) *packet filtering is botha tool and a technique that is a basic building block of network security*
-* Internetwork communication
-* Packet Selection
+* Packet filtering (controlling access to a network based on IP address of source and destination) *packet filtering is both a tool and a technique that is a basic building block of network security*
+* Internetwork communication (Two or more routers, connected to eachother, routing traffic between two or more networks)
+* Path Selection (routing data from one location to another efficiently)
 
 
