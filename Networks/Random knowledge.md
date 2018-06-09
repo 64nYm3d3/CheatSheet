@@ -25,4 +25,12 @@ Says the network is connected to the button on your mouse,
 
 But your packets want to tunnel on another protocol, 
 
-That's repeatedly rejected by the printer down the hall,
+That's repeatedly rejected by the printer down the hall, 
+
+And your screen is all distorted by the side effects of gauss
+
+So your icons in the window are as wavy as a souse,
+
+Then you may as well reboot and go out with a bang,
+
+'Cause as sure as I'm a poet, the sucker's gonna hang!
