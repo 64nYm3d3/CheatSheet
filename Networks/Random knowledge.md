@@ -6,7 +6,7 @@
 *Adding hubs for connectivity to the network
 *A bunch of ARP broadcasts
 
-# important stuff
+# Important Things
 
 If a packet hits a pocket on a socket on a port,
 And the bus is interrupted as a very last resort, 
