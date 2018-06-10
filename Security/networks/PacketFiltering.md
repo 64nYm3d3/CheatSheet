@@ -23,6 +23,10 @@ Packet filtering is appropriate where there are modest security requirements. Th
 
 # How do packet filters work?
 
+All packet filters function in the same general fashion. Operating at the layer 3 (*network*) and layer 4 (*transport*), every packet is examined as it enters the protocol stack. The network and transport layers are examined for the following:
+
+* **Protocol** (IP header, network layer) \- In the IP header, the 9th byte (remember the byte count begins with 0) identifies the protocol of the packet. Most filter devices have the capability to differentiate between TCP, UDP, and ICMP
+* **Source Address** (IP header, network layer) \-
 
 ---
 This is a modified and expanded upon GIAC paper I made for personal use.
