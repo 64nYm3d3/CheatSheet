@@ -23,6 +23,8 @@ Packet filtering is appropriate where there are modest security requirements. Th
 
 # How do packet filters work?
 
+
+---
 This is a modified and expanded upon GIAC paper I made for personal use.
 
 Ref: https://www.giac.org/paper/gsec/131/packet-filter-basic-network-security-tool/100197
