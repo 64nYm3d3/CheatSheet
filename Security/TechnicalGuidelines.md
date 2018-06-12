@@ -6,9 +6,9 @@
   - 1.1 [Operating Systems](#Operating_Systems)
     * 1.1.1 [MacOS X](#MacOS_X)
     * 1.1.2 [VMware Workstation](#VMware_Workstation)
-     + 1.1.2.1 [Linux](#Linux)
-     + 1.1.2.2 [Windows XP/7](#Windows_XP/7)
-    1 Tools Required
+      + 1.1.2.1 [Linux](#Linux)
+      + 1.1.2.2 [Windows XP/7](#Windows_XP/7)
+    
  
 -[System] (System)  
 
