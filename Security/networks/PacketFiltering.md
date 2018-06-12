@@ -44,6 +44,22 @@ ipchains -A int-ext -p tcp -dport www -j ACCEPT
 ipchains -A int-ext -j REJECT
 ~~~
 
+The first line adds the ability for connections on port 80 (www) to be accepted and pass from the internal interface to the external interface. It is added to the int-ext chain (sometimes referred to as the access control list). Line two acts as a catch that rejects all other packets. 
+
+Even though its an extremely simplified example, it illustrates a few important popints. First, for a packet to pass, it must be be explicitly defined in the rules. Second, its a good idea to have a "catch all" rule for handling the unexpected.
+
+# Limitations
+
+Packet filters do not inspect the payload of the packet. They do not read the data and make decisions based on the contents. Dangerous forms of permissaible traffic may pass through the filter undetected based on the contents. DA virus in an e-mail attachment will pass id SMTP/POP connections are allowed.
+
+Packet filters are not stateful and will not remember a packet once it's passed. Conversation streams cannot be reconstructe to determine if a connection attempt is malicious (tcpdump might help ;p)  As a result, an assault based upon some packet fragmentation scheme, is difficult to prevent using a packet filter only.
+
+Packet filtering does not deal well with the quirks of certain protocols. FTP is a good example of this. The FTP command stream is established on port 21/TCP and the data stream is on port 20/TCP. The client uses random high TCP ports. The data connection from the ftp server has a source port of 20 and tries to connect to a high destination port number.There are ways around this, but the best all-around solution seemsto be an FTP proxy server.
+
+# Applications of packet filtering
+
+A packet filtering device can be te first-line of defense in the networkand used to block in-bound packets of specific types from ever reaching the protected network. This is known as ingress filtering. Although not a robust firewall, it can be used to reduce the load on the proxy or application firewall.
+
 ---
 This is a modified and expanded upon GIAC paper I made for personal use.
 
