@@ -34,7 +34,15 @@ All packet filters function in the same general fashion. Operating at the layer 
 
 The filtering device compares the values of these fields to rules that have been defined, based upon the values and the rules the packet is either passed or discarded. Many filters also allow additional criteria from the link layer (layer 2) to be defined, such as the network interface where the filtering is to occur.
 
+# Example
+Suppose you want to create a simple packet-filtering firewall in linux. You have two NICs, installed and conigured for the two IP subnets, with packet forwarding enabled between the to network interfaces. At this point you have a linux based router.
 
+Supposing that this is your primary firewall between your internal network and the internet, then you might want to allow only www connections originating internally and reject all else. Your ipchains configuration might look like this.
+
+~~~
+ipchains -A int-ext -p tcp -dport www -j ACCEPT
+ipchains -A int-ext -j REJECT
+~~~
 
 ---
 This is a modified and expanded upon GIAC paper I made for personal use.
