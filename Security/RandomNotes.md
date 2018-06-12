@@ -11,7 +11,7 @@ You can change your mac adress to bypass mac adress filtering:
 ~~~
 sh if-config
 ~~~
-Remember the OUI!
+Remember to look up an OUI!
 ![MAC structure](http://iris.hdplus.es/wp-content/uploads/2015/11/2000px-MAC-48_Address.svg_.png)
 
 ---
