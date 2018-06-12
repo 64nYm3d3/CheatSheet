@@ -2,7 +2,7 @@
 
 ##### Table of Contents  
 
- 1. [Tools Required](#Tools Required)
+ 1. [Tools Required](#Tools_Required)
   - 1.1 [Operating Systems](#Operating Systems)
     * 1.1.1 [MacOS X](#MacOS X)
     * 1.1.2 [VMware Workstation](#VMware Workstation)
@@ -13,6 +13,7 @@
 -[System] (System)  
 
 ...snip...    
+## Tools Required
 <a name="Tools Required"></a>
 ---
 
