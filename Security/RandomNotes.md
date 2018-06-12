@@ -8,7 +8,7 @@ Stuff I learned at random or heard of at some point but can't really source and 
 You can change your mac adress to bypass mac adress filtering:
 ~~~
 ~~~
-Remember the OID!
+Remember the OUI!
 ![MAC structure](http://iris.hdplus.es/wp-content/uploads/2015/11/2000px-MAC-48_Address.svg_.png)
 
 ---
