@@ -3,7 +3,7 @@
 When alone I get a buffalo chicken pizza with sundried tomatoes on it,3 cheese styx, and a side of garlic as well as bleu cheese. Please order as follows:
 
 ~~~
-URL="https://toppers.com/lunch/cgi-bin/order.cgi"
+URL="https://toppers.com/myorder/cgi-bin/order.cgi"
 
 O="order=Order"
 A="amount_%d=%%d&amount_foil_container_%d=%%d"
