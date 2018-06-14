@@ -10,7 +10,7 @@
       + [Adam's_Rite]
       + [Travelors_Hook]
       + [Shims]
-      + [Underdoor_Tool]
+      + [Underdoor_Tool](Underdoor_Tool)
     * [Lockpicks]
   - [Software](Software)
     * [USB_Tools](USB_Tools)
@@ -22,8 +22,8 @@
       * [Mylar_Blankets]
     - [Documentaion]
       * [Cameras]
-       + [Go_Pro]
-       + [Nikon_P900]
+       + [Go_Pro](Go_Pro)
+       + [Nikon_P900](Nikon_P900)
 3. [Clothes](#Clothes)
   
 
@@ -49,14 +49,14 @@ More lock picks than you need. We use 4 or 5 on a consistent basis for the past 
 ## Software
 <a name="Software"></a>
 
-** Go_Pro**
+**Go_Pro**
 <a name="Go_Pro"></a>
 
 Go Pro Hero 6 Black
 We use our GoPro with the head and chest mount pretty heavily during recon and execution. It's awesome for capturing evidence! However, it's not good in low light situations, even with version 6. It's small enough to cup in your hand, which we do often!
 
 
-** Nikon_P900**
+**Nikon_P900**
 <a name="Nikon_P900"></a>
 
 Nikon COOLPIX P900 Digital Camera with 83x Optical Zoom and Built-In Wi-Fi(Black) 
