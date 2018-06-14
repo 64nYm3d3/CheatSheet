@@ -2,6 +2,11 @@
 Quick little cheat sheet for NMap usage of what I find useful to know :p
 
 
+Base Syntax
+-
+
+\# nmap [ScanType] [Options] {targets}
+
 Target Specification
 -
 IPv4address: **192.168.1.1**
