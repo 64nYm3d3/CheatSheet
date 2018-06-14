@@ -56,7 +56,7 @@ No port range specified scans 1,000 most popular ports
 
 **--top-ports \<n>** Scan n most popular ports
   
-**-p-** 65535 Leaving off initial port in range makes Nmap scan start at port 1
+**-p-65535** Leaving off initial port in range makes Nmap scan start at port 1
 
 **-p0-** Leaving off end port in range makes Nmap scan through port 65535-p - Scan ports 1-65535
   
