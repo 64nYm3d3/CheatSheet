@@ -8,7 +8,7 @@ IPv4address: **192.168.1.1**
 
 IPv6address: **AABB:CCDD::FF%eth0**
 
-Host name: **\www\.target\.tgt**
+Host name: **www\.target\.tgt**
 
 IP address range: **192.168.0-255.0-255**
 
