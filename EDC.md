@@ -62,6 +62,7 @@ We use our GoPro with the head and chest mount pretty heavily during recon and e
 
 Nikon COOLPIX P900 Digital Camera with 83x Optical Zoom and Built-In Wi-Fi(Black) 
 This is awesome for long-distance recon under low light conditions. This has exceptional zoom and takes crisp photos.
+
 ---
 Ref:
 
