@@ -34,6 +34,19 @@ For the longest time could not figure out why my scans were not working in lab b
 
 **\-T5** Insane Very aggressive; will likely overwhelm targets or miss open ports
 
+Output Format
+-
+
+**\-oN** Standard Nmap output
+
+**\-oG** Greppable format
+
+**\-oX** XML format
+
+**\-oA** <basename> Generate Nmap, Greppable, and XML  output files using basename for files
+  
+  
+
 Scripting engine
 - 
 Did you guys know NMap has scripting engine? It's useful too
