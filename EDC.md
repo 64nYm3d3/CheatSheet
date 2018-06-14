@@ -10,7 +10,7 @@
       + [Adam's_Rite]
       + [Travelors_Hook]
       + [Shims]
-      + [Underdoor]
+      + [Underdoor_Tool]
   - [Software](Software)
     * [USB_Tools](USB_Tools)
   
@@ -20,7 +20,9 @@
       * [Compressed_Air]
       * [Mylar_Blankets]
     - [Documentaion]
-      * [Go_Pro]
+      * [Cameras]
+       + [Go_Pro]
+       + [Nikon_P900]
 3. [Clothes](#Clothes)
   
 
@@ -33,6 +35,11 @@
 ## Physical
 <a name="Physical"></a>
 
+## Underdoor_Tool
+<a name="Underdoor_Tool"></a>
+
+A definite in every Red Teamer's toolbag. We've opened so many doors with this awesome tool!
+
 ## Software
 <a name="Software"></a>
 
@@ -41,6 +48,13 @@
 
 Go Pro Hero 6 Black
 We use our GoPro with the head and chest mount pretty heavily during recon and execution. It's awesome for capturing evidence! However, it's not good in low light situations, even with version 6. It's small enough to cup in your hand, which we do often!
+
+
+## Nikon_P900
+<a name="Nikon_P900"></a>
+
+Nikon COOLPIX P900 Digital Camera with 83x Optical Zoom and Built-In Wi-Fi(Black) 
+This is awesome for long-distance recon under low light conditions. This has exceptional zoom and takes crisp photos.
 ---
 Ref:
 
