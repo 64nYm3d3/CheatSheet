@@ -4,19 +4,19 @@ Quick littles cheat sheet for NMap usage of what I find useful to know :p
 Scan Types
 -
 
-\-sn Probe only (host discovery, not port scan)
+**\-sN** Probe only (host discovery, not port scan)
 
-\-sS SYN Scan
+**\-sS** SYN Scan
 
-\-sT TCP Connect Scan
+**\-sT** TCP Connect Scan
 
-\-sU UDP Scan
+**\-sU** UDP Scan
 
-\- sV Version Scan
+**\-sV** Version Scan
 
-\-O OS Detection
+**\-O** OS Detection
 
---scanflags Set custom list of TCP  using  URGACKPSHRSTSYNFIN in any order
+**--scanflags** Set custom list of TCP  using  URGACKPSHRSTSYNFIN in any order
 
 Aggregate timing options
 -
