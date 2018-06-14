@@ -5,11 +5,16 @@ Quick littles cheat sheet for NMap usage of what I find useful to know :p
 Target Specification
 -
 IPv4address: **192.168.1.1**
+
 IPv6address: **AABB:CCDD::FF%eth0**
+
 Host name: **www.target.tgt**
+
 IP address range: **192.168.0-255.0-255**
+
 CIDR block: **192.168.0.0/16**
-Use file with lists of targets: **-iL <filename>**
+
+Use file with lists of targets: **-iL \<filename>**
 
 Scan Types
 -
