@@ -164,6 +164,35 @@ by target hosts.
 
 **vul:** Measure whether target systems have a known vulnerability.
 
+Notable scripts
+-
+
+A full list of Nmap Scripting Engine scripts is 
+available at 
+http://nmap.org/nsedoc/
+Some particularly useful scripts include:
+
+dns-zone-transfer: Attempts to pull a zone file 
+(AXFR) from a DNS server.
+~~~
+$ nmap --script dns-zone-transfer.nse --script-args dns-zone-transfer.domain=<domain> -p53 <hosts> 
+~~~
+
+http-robots.txt: Harvests robots.txt files from discovered web servers.
+~~~
+$ nmap --script http-robots.txt <hosts>
+~~~
+smb-brute:
+Attempts to determine valid username and password combinations via automated guessing.
+~~~
+$ nmap --script smb-brute.nse -p445 <hosts> 
+~~~
+smb-psexec: Attempts to run a series of 
+programs on the target machine, using 
+credentials provided as scriptargs.
+~~~
+$ nmap --script smb-psexec.nse –script-args=smbuser=<username>,smbpass=<password>[,config=<config>] -p445 <hosts>
+~~~
 Misc
 -
 -n Disable reverse IP address lookups
