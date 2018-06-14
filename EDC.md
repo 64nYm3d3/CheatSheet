@@ -15,7 +15,7 @@
   - [Software](Software)
     * [USB_Tools](USB_Tools)
   
-2.[Gear]
+2.[Gear] (Gear)
     - [Manipulation]
       * [Handwarmers]
       * [Compressed_Air]
@@ -24,6 +24,7 @@
       * [Cameras]
        + [Go_Pro](Go_Pro)
        + [Nikon_P900](Nikon_P900)
+       
 3. [Clothes](#Clothes)
   
 
