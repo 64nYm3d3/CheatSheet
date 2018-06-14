@@ -46,6 +46,21 @@ Output Format
 **\-oA** <basename> Generate Nmap, Greppable, and XML  output files using basename for files
   
   
+Fine grained timing options
+-
+
+**\-\-min-hostgroup/max-hostgroup <size>** Parallel host scan group sizes
+  
+**--min-parallelism/max-parallelism <numprobes>** Probe parallelization
+  
+**--min-rtt-timeout/max-rtt-timeout/initial-rtt-timeout <time>** Specifies probe round trip time.
+  
+**--max-retries <tries>Caps number of port scan probe retransmissions.--host-timeout <time>** Give up on target after this long-scan-delay/
+  
+**--max-scan-delay <time>Adjust delay between probes--min-rate <number>** Send packets no slower than <number> per second
+  
+**--max-rate <number>Send packets no faster than <number>** per second
+  
 
 Scripting engine
 - 
