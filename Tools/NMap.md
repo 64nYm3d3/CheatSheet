@@ -1,5 +1,5 @@
 # NMap Cheatz
-Quick littles cheat sheet for NMap usage of what I find useful to know :p
+Quick little cheat sheet for NMap usage of what I find useful to know :p
 
 
 Target Specification
