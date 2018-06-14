@@ -51,9 +51,9 @@ Probing Options
 **-Pn** Don't probe (assume all hosts are up)
 **-PB** Default probe (TCP 80, 445 & ICMP)
 **-PS\<portlist>** Check whether targets are up by probing TCP ports
-**-PE Use ICMP Echo Request
-**-PP Use ICMP Timestamp Request
-**-PM Use ICMP Netmask Request
+**-PE** Use ICMP Echo Request
+**-PP** Use ICMP Timestamp Request
+**-PM** Use ICMP Netmask Request
   
 Fine grained timing options
 -
