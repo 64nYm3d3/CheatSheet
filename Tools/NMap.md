@@ -4,8 +4,9 @@ Quick little cheat sheet for NMap usage of what I find useful to know :p
 
 Base Syntax
 -
-
+~~~
 \# nmap [ScanType] [Options] {targets}
+~~~
 
 Target Specification
 -
@@ -38,6 +39,26 @@ Scan Types
 
 **--scanflags** Set custom list of TCP  using  URGACKPSHRSTSYNFIN in any order
 
+Target Ports
+-
+
+No port range specified scans 1,000 most popular ports
+
+**-F** Scan 100 most popular ports
+
+**-p <port1> \-<port2>** Port range
+
+**-p <port1>,<port2>,...** Port List
+
+**-pU:53,U:110,T20\-445** Mix TCP and UDP
+
+**-r** Scan linearly (do not randomize ports)
+
+**--top-ports \<n>** Scan n most popular ports
+  
+**-p-** 65535 Leaving off initial port in range makes Nmap scan start at port 1
+
+**-p0-** Leaving off end port in range makes Nmap scan through port 65535-p - Scan ports 1-65535
   
 Aggregate timing options
 -
