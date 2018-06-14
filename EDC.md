@@ -10,7 +10,7 @@
       + [Adam's_Rite]
       + [Travelors_Hook]
       + [Shims]
-      + [Underdoor_Tool](Underdoor_Tool)
+      + [Underdoor_Tool](#Underdoor_Tool)
     * [Lockpicks]
   - [Software](Software)
     * [USB_Tools](USB_Tools)
