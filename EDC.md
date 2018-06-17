@@ -20,7 +20,7 @@
   - [Special_Bypass](#Special_Bypass)
     * [Handwarmers](#Handwarmers)
     * [Compressed_Air](#Compressed_Air)
-    * [Mylar_Blankets]
+    * [Mylar_Blankets](#Mylar_Blankets)
   - [Recon](#Mylar_Blankets)
     * [Cameras](#Cameras)
       + [Go_Pro](#Go_Pro)
