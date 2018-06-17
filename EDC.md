@@ -17,14 +17,14 @@
   -[Hardware](#Hardware)
   
 2.[Gear](#Gear)
-    - [Manipulation](#Manipulation)
-      * [Handwarmers](#Handwarmers)
-      * [Compressed_Air](#Compressed_Air)
-      * [Mylar_Blankets]
-    - [Recon](#Mylar_Blankets)
-      * [Cameras](#Cameras)
-       + [Go_Pro](#Go_Pro)
-       + [Nikon_P900](#Nikon_P900)
+  - [Manipulation](#Manipulation)
+    * [Handwarmers](#Handwarmers)
+    * [Compressed_Air](#Compressed_Air)
+    * [Mylar_Blankets]
+  - [Recon](#Mylar_Blankets)
+    * [Cameras](#Cameras)
+      + [Go_Pro](#Go_Pro)
+      + [Nikon_P900](#Nikon_P900)
       * [Wearable]()
        + [Headlamp](#Headlamp)
        + 
