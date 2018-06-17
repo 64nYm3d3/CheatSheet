@@ -1,4 +1,4 @@
-# A big gear list
+# A big gear list for physical engagements
 
 ##### Table of Contents  
 
