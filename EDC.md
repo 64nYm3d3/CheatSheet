@@ -6,23 +6,23 @@
  
 1.[Tools](#Tools)
   - [Physical](#Physical)
-    * [Quick_Bypass]
-      + [Adam's_Rite]
-      + [Travelors_Hook]
-      + [Shims]
+    * [Quick_Bypass](#Quick_Bypass)
+      + [Adam's_Rite](#Adam's_Rite)
+      + [Travelors_Hook](#Travelors_Hook)
+      + [Shims](#Shims)
       + [Underdoor_Tool](#Underdoor_Tool)
-    * [Lockpicks]
+    * [Lockpicks](#Lockpicks)
   - [Software](#Software)
     * [USB_Tools](#USB_Tools)
-  -[Hardware]
+  -[Hardware](#Hardware)
   
 2.[Gear](#Gear)
-    - [Manipulation]
-      * [Handwarmers]
-      * [Compressed_Air]
+    - [Manipulation](#Manipulation)
+      * [Handwarmers](#Handwarmers)
+      * [Compressed_Air](#Compressed_Air)
       * [Mylar_Blankets]
-    - [Recon]
-      * [Cameras]
+    - [Recon](#Mylar_Blankets)
+      * [Cameras](#Cameras)
        + [Go_Pro](#Go_Pro)
        + [Nikon_P900](#Nikon_P900)
       * [Wearable]()
