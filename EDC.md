@@ -21,7 +21,7 @@
       * [Handwarmers]
       * [Compressed_Air]
       * [Mylar_Blankets]
-    - [Documentaion]
+    - [Recon]
       * [Cameras]
        + [Go_Pro](#Go_Pro)
        + [Nikon_P900](#Nikon_P900)
@@ -67,6 +67,12 @@ We use our GoPro with the head and chest mount pretty heavily during recon and e
 Nikon COOLPIX P900 Digital Camera with 83x Optical Zoom and Built-In Wi-Fi(Black) 
 This is awesome for long-distance recon under low light conditions. This has exceptional zoom and takes crisp photos.
 
+## Binoculars 
+<a name="Binoculars"></a>
+
+https://www.amazon.com/dp/B00E0G3NRW?tag=redteamsecure-20
+Pretty good binos for long-distance recon or for monitoring the Red Team from afar.
+
 ## Gear
 -
 
@@ -74,6 +80,8 @@ This is awesome for long-distance recon under low light conditions. This has exc
 
 **Headlamp**
 <a name="Headlamp"></a>
+https://kit.com/product/flash-deal-led-headl-319664
+A great headlamp that we use on our Red Team Operations. It can switch to red, which is most advantageous when in covert situations. Check your light discipline!
 
 ---
 Ref:
