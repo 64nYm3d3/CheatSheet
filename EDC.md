@@ -12,10 +12,11 @@
       + [Shims]
       + [Underdoor_Tool](#Underdoor_Tool)
     * [Lockpicks]
-  - [Software](Software)
-    * [USB_Tools](USB_Tools)
+  - [Software](#Software)
+    * [USB_Tools](#USB_Tools)
+  -[Hardware]
   
-2.[Gear] (Gear)
+2.[Gear](#Gear)
     - [Manipulation]
       * [Handwarmers]
       * [Compressed_Air]
@@ -24,8 +25,9 @@
       * [Cameras]
        + [Go_Pro](#Go_Pro)
        + [Nikon_P900](#Nikon_P900)
-       
-3. [Clothes](#Clothes)
+      * [Wearable]()
+       + [Headlamp](#Headlamp)
+       + 
   
 
 ...snip...    
@@ -45,6 +47,8 @@ A definite in every Red Teamer's toolbag. We've opened so many doors with this a
 ## Lockpicks
 <a name="Lockpicks"></a>
 
+https://www.amazon.com/dp/B071RQ9NHK?tag=redteamsecure-20
+
 More lock picks than you need. We use 4 or 5 on a consistent basis for the past 8 years. But this will get you everything you need.
 
 ## Software
@@ -63,7 +67,17 @@ We use our GoPro with the head and chest mount pretty heavily during recon and e
 Nikon COOLPIX P900 Digital Camera with 83x Optical Zoom and Built-In Wi-Fi(Black) 
 This is awesome for long-distance recon under low light conditions. This has exceptional zoom and takes crisp photos.
 
+## Gear
+-
+
+## Wearable
+
+**Headlamp**
+<a name="Headlamp"></a>
+
 ---
 Ref:
 
 https://kit.com/redteamtraining/red-team-physical-penetration-testing-equipment/1068922-gopro-hero6-black
+https://kit.com/ChaliceOn2/emergency-tech-kit
+https://www.tunnelsup.com/contents-of-a-physical-pen-testers-backpack/
