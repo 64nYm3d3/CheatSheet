@@ -14,7 +14,7 @@
       + [Underdoor_Tool](#Underdoor_Tool)
 </p></details>
 
-   + [1.1b Lockpicks](#Lockpicks)
+    - [1.1b Lockpicks](#Lockpicks)
     
   - [Software](#Software)
     * [On_USB](#On_USB
