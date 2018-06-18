@@ -1,4 +1,4 @@
-[Link2](./Network/Basics.md)
+[Link2](./Networks/Basics.md)
 
 IR, Theory, Proccess, Planning.
 ___
