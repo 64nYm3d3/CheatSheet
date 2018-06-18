@@ -1,4 +1,4 @@
-# A big gear list for physical engagements
+# A big gear list for engagements
 
 ##### Table of Contents  
 
@@ -13,18 +13,21 @@
       + [Underdoor_Tool](#Underdoor_Tool)
     * [Lockpicks](#Lockpicks)
   - [Software](#Software)
-    * [On_the_USB](#On_the_USB
-  -[Hardware](#Hardware)
+    * [On_USB](#On_USB
+  - [Hardware](#Hardware)
   
 2.[Gear](#Gear)
   - [Special_Bypass](#Special_Bypass)
     * [Handwarmers](#Handwarmers)
     * [Compressed_Air](#Compressed_Air)
     * [Mylar_Blankets](#Mylar_Blankets)
-  - [Recon](#Mylar_Blankets)
+  - [Recon](#Recon)
     * [Cameras](#Cameras)
       + [Go_Pro](#Go_Pro)
       + [Nikon_P900](#Nikon_P900)
+    * [Oculars](#Oculars)
+      + [High_Power](#High_Power)
+      + [Night_Vision](#Night_Vision)
    -[Wearable]()
      * [Headlamp](#Headlamp)
      * 
@@ -70,9 +73,16 @@ This is awesome for long-distance recon under low light conditions. This has exc
 ## Binoculars 
 <a name="Binoculars"></a>
 
+**High_Power**
+<a name="High_Power"></a>
+
 https://www.amazon.com/dp/B00E0G3NRW?tag=redteamsecure-20
 Pretty good binos for long-distance recon or for monitoring the Red Team from afar.
 
+**Night_Vision**
+<a name="Night_Vision"></a>
+
+You can buy military grade night optics if you have that kind of money. Otherwise, we use one of these to check for IR cameras outside the perimeter of a building. Also, so we can see where we're going during very low light covert entry points.
 ## Gear
 -
 
