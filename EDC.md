@@ -7,8 +7,8 @@
 [1.0 Tools](#Tools)
   - [1.1 Physical](#Physical)
                   
-    * <details><summary>[1.1a Quick_Bypass](#Quick_Bypass)
-</summary><p>
+    * [1.1a Quick_Bypass](#Quick_Bypass)
+<details><summary></summary><p>
       + [Adam's_Rite](#Adam's_Rite)
       + [Travelors_Hook](#Travelors_Hook)
       + [Shims](#Shims)
