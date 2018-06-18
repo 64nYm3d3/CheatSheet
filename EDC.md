@@ -28,10 +28,10 @@
     * [Oculars](#Oculars)
       + [High_Power](#High_Power)
       + [Night_Vision](#Night_Vision)
-   -[Wearable]()
+   -[Lights]()
      * [Headlamp](#Headlamp)
-     * 
-  
+     * [Flashlight](#Flashlight)
+     
 
 ...snip...    
 
@@ -86,12 +86,17 @@ You can buy military grade night optics if you have that kind of money. Otherwis
 ## Gear
 -
 
-## Wearable
+## Lights
 
 **Headlamp**
 <a name="Headlamp"></a>
 https://kit.com/product/flash-deal-led-headl-319664
 A great headlamp that we use on our Red Team Operations. It can switch to red, which is most advantageous when in covert situations. Check your light discipline!
+
+**Flashlight**
+https://www.amazon.com/dp/B071WLCJ2D?tag=redteamsecure-20
+
+TurnRaise 1200LM XML-L2 LED Mini Portable Tactical Handheld Flashlight Torch Lamp for Outdoor Sports , Indoor Activities(Camping, Hiking, 
 
 ---
 Ref:
