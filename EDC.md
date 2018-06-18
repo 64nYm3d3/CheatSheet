@@ -7,9 +7,8 @@
 [1.0 Tools](#Tools)
   - [1.1 Physical](#Physical)
                   
-    * [1.1a Quick_Bypass](#Quick_Bypass)
-<details><summary></summary><p>
-      + [Adam's_Rite](#Adam's_Rite)
+    * [1.1a Quick_Bypass](#Quick_Bypass)<details><summary></summary><p>
+      - [Adam's_Rite](#Adam's_Rite)
       + [Travelors_Hook](#Travelors_Hook)
       + [Shims](#Shims)
       + [Underdoor_Tool](#Underdoor_Tool)
