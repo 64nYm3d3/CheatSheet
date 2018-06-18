@@ -4,7 +4,7 @@
 
 
  
-1.[Tools](#Tools)
+[1.0 Tools](#Tools)
   - [Physical](#Physical)
     * [Quick_Bypass](#Quick_Bypass)
       + [Adam's_Rite](#Adam's_Rite)
@@ -16,7 +16,7 @@
     * [On_USB](#On_USB
   - [Hardware](#Hardware)
   
-2.[Gear](#Gear)
+2.0 Gear](#Gear)
   - [Special_Bypass](#Special_Bypass)
     * [Handwarmers](#Handwarmers)
     * [Compressed_Air](#Compressed_Air)
