@@ -6,18 +6,13 @@
  
 [1.0 Tools](#Tools)
   - [1.1 Physical](#Physical)
-    * [1.1a Quick_Bypass](#Quick_Bypass)
-      <details><summary>
+                   
+    * <details><summary> [1.1a Quick_Bypass](#Quick_Bypass)<details></summary></p>
       + [Adam's_Rite](#Adam's_Rite)
       + [Travelors_Hook](#Travelors_Hook)
       + [Shims](#Shims)
       + [Underdoor_Tool](#Underdoor_Tool)
- </summary>
-<p>
-      + [Adam's_Rite](#Adam's_Rite)
-      + [Travelors_Hook](#Travelors_Hook)
-      + [Shims](#Shims)
-      + [Underdoor_Tool](#Underdoor_Tool)
+
     * [1.1b Lockpicks](#Lockpicks)
   - [Software](#Software)
     * [On_USB](#On_USB
