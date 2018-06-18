@@ -198,3 +198,7 @@ Misc
 -6 Use IPv6 only
 -A Use several features, including OS Detection, Version Detection, Script Scanning (default), and traceroute
 --reason Display reason Nmap thinks port is open, closed, or filtered
+
+---
+Ref: Some sans document
+
