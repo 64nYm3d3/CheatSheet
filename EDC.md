@@ -5,13 +5,13 @@
 
  
 [1.0 Tools](#Tools)
-  - [Physical](#Physical)
-    * [Quick_Bypass](#Quick_Bypass)
+  - [1.1 Physical](#Physical)
+    * [1.1a Quick_Bypass](#Quick_Bypass)
       + [Adam's_Rite](#Adam's_Rite)
       + [Travelors_Hook](#Travelors_Hook)
       + [Shims](#Shims)
       + [Underdoor_Tool](#Underdoor_Tool)
-    * [Lockpicks](#Lockpicks)
+    * [1.1b Lockpicks](#Lockpicks)
   - [Software](#Software)
     * [On_USB](#On_USB
   - [Hardware](#Hardware)
