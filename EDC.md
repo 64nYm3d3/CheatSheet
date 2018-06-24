@@ -23,9 +23,10 @@
 2.0 Gear](#Gear)
   - [Special_Bypass](#Special_Bypass)
     * [REX_Sensors]
-     - [Handwarmers](#Handwarmers)
-     - [Compressed_Air](#Compressed_Air)
-    * [Mylar_Blankets](#Mylar_Blankets)
+      + [Handwarmers](#Handwarmers)
+      + [Compressed_Air](#Compressed_Air)
+    * [Thermal_Imaging](#Thermal_Imaging)
+      +[Mylar_Blankets](#Mylar_Blankets)
     * [Wondrous_Magnetic_Locks_Of_Wizards](#Magnetic_Locks)
   - [Recon](#Recon)
     * [Cameras](#Cameras)
@@ -70,6 +71,11 @@ Multi-hump wave jiggler (a.k.a. Faux-Gota) pick
 
 ## Software
 <a name="Software"></a>
+
+## Wondrous_Magnetic_Locks_Of_Wizards
+<a name="Magnetic_Locks"></a>
+
+https://unitedlocksmith.net/blog/everything-you-need-to-know-about-magnetic-locks
 
 **Go_Pro**
 <a name="Go_Pro"></a>
