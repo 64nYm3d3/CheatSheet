@@ -58,6 +58,7 @@ https://www.amazon.com/dp/B071RQ9NHK?tag=redteamsecure-20
 
 More lock picks than you need. We use 4 or 5 on a consistent basis for the past 8 years. But this will get you everything you need.
 
+Main Picks:
 Short hook pick
 Deep reach curve pick
 Offset diamond (DeForrest) pick
