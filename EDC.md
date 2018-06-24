@@ -12,7 +12,7 @@
       + [Travelors_Hook](#Travelors_Hook)
       + [Shims](#Shims)
       + [Underdoor_Tool](#Underdoor_Tool)
-</p></details>
+      </p></details>
 
     - [1.1b Lockpicks](#Lockpicks)
     
