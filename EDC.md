@@ -22,9 +22,11 @@
   
 2.0 Gear](#Gear)
   - [Special_Bypass](#Special_Bypass)
-    * [Handwarmers](#Handwarmers)
-    * [Compressed_Air](#Compressed_Air)
+    * [REX_Sensors]
+     - [Handwarmers](#Handwarmers)
+     - [Compressed_Air](#Compressed_Air)
     * [Mylar_Blankets](#Mylar_Blankets)
+    * [Wondrous_Magnetic_Locks_Of_Wizards](#Magnetic_Locks)
   - [Recon](#Recon)
     * [Cameras](#Cameras)
       + [Go_Pro](#Go_Pro)
