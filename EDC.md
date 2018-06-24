@@ -26,7 +26,7 @@
       + [Handwarmers](#Handwarmers)
       + [Compressed_Air](#Compressed_Air)
     * [Thermal_Imaging](#Thermal_Imaging)
-      +[Mylar_Blankets](#Mylar_Blankets)
+      + [Mylar_Blankets](#Mylar_Blankets)
     * [Wondrous_Magnetic_Locks_Of_Wizards](#Magnetic_Locks)
   - [Recon](#Recon)
     * [Cameras](#Cameras)
