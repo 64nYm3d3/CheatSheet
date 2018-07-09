@@ -14,3 +14,8 @@ Encapsulation: I'm guessing this is a supporting case that prevents physical dam
 Chip: It kind of looks like a semi conductor device honestly Im not sure what the purpose of this is in detail 
 
 Wire Bonding: A way of making interconnections between an IC or other semi conductor device and IC packaging
+
+---
+Refs and Material: 
+
+ISO 7816 (Which I didnt use because of the common 200$ shakedown and paywall, its a good thing "Only informative sections are publicly available" with this doc.The only public information from this ISO standard is the introduction and the definition of a few terms.)
