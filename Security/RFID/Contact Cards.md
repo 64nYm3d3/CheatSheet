@@ -52,7 +52,6 @@ The T = 0 protocol is byte-oriented, which means that the smallest unit processe
 |Class (CLS 8 bits) |	Command (CMD 8 bits) |	Parameter Byte|	Parameter Byte | Parameter Byte |
 
 
-| First Header  | Second Header |
 | --- | --- |
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
