@@ -15,6 +15,8 @@ Chip: It kind of looks like a semi conductor device honestly Im not sure what th
 
 Wire Bonding: A way of making interconnections between an IC or other semi conductor device and IC packaging
 
+![Contact card pinout](http://www.smartcardbasics.com/smart_card_images/smart-card-module.gif)
+
 ---
 Refs and Material: 
 
