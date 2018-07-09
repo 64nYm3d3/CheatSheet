@@ -47,9 +47,15 @@ Communication protocols for contact smart cards include T=0 (character-level tra
 
 The T = 0 protocol is byte-oriented, which means that the smallest unit processed by the protocol is a single byte. The transmission data unit consists of a header containing a class byte, a command byte and three parameter bytes, optionally followed by a data section. 
 
-| Class | Command | Parameter |
+| Class | Command | Parameter | Parameter | Parameter |
 | --- | --- | --- | --- | ---  | --- |
 |Class (CLS 8 bits) |	Command (CMD 8 bits) |	Parameter Byte|	Parameter Byte | Parameter Byte |
+
+
+| First Header  | Second Header |
+| --- | --- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
 
 |Data|
 
