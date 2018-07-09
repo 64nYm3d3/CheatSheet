@@ -19,3 +19,5 @@ Wire Bonding: A way of making interconnections between an IC or other semi condu
 Refs and Material: 
 
 ISO 7816 (Which I didnt use because of the common 200$ shakedown and paywall, its a good thing "Only informative sections are publicly available" with this doc.The only public information from this ISO standard is the introduction and the definition of a few terms.)
+
+http://www.smartcardbasics.com/smart-card-types.html
