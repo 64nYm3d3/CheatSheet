@@ -33,9 +33,24 @@
 
 **C8 	RESERVED 	AUX2:** optionally used for USB interfaces and other uses.
 
-Communication protocols for contact smart cards include T=0 (character-level transmission protocol, defined in ISO/IEC 7816-3) and T=1 (block-level transmission protocol, defined in ISO/IEC 7816-3). 
+Communication protocols for contact smart cards include T=0 (character-level transmission protocol, defined in ISO/IEC 7816-3) and T=1 (block-level transmission protocol, defined in ISO/IEC 7816-3). In contrast to the application protocol data unit (APDU, which is the communication unit between the smart card and the smart card reader) specified by ISO/IEC 7816-4, length information is provided only by parameter P3. This indicates the length of the command data or response data. It is also specified by the ISO/IEC 7816-3 standard.
 
 ![TheCost](http://www.smartcardbasics.com/smart_card_images/smart-card-functionality.gif)
+
+
+
+
+
+
+
+
+
+The T = 0 protocol is byte-oriented, which means that the smallest unit processed by the protocol is a single byte. The transmission data unit consists of a header containing a class byte, a command byte and three parameter bytes, optionally followed by a data section. 
+Class byte	Command Byte	Parameter Byte	Parameter Byte	Parameter Byte
+Data
+
+40 bits and I’m guessing 8 more bits will get tacked on to data in order to indicate there is none if left blank. So frames(?) will end up being a minimum of 48 bits or 6 bytes minimum
+
 
 ---
 Refs and Material: 
@@ -45,3 +60,7 @@ ISO 7816 (Which I didnt use because of the common 200$ shakedown and paywall, it
 http://www.smartcardbasics.com/smart-card-types.html
 
 http://pinoutguide.com/Memory/SmartCardIso_pinout.shtml
+
+http://www.gorferay.com/the-t-0-transmission-protocol/
+
+https://en.wikipedia.org/wiki/Smart_card_application_protocol_data_unit
