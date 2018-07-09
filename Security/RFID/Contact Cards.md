@@ -33,6 +33,8 @@ C7 	I/O: 	Input or Output for serial data (half-duplex) to the integrated circui
 
 C8 	RESERVED 	AUX2: optionally used for USB interfaces and other uses.
 
+![TheCost](http://www.smartcardbasics.com/smart_card_images/smart-card-functionality.gif)
+
 ---
 Refs and Material: 
 
