@@ -46,8 +46,10 @@ Communication protocols for contact smart cards include T=0 (character-level tra
 
 
 The T = 0 protocol is byte-oriented, which means that the smallest unit processed by the protocol is a single byte. The transmission data unit consists of a header containing a class byte, a command byte and three parameter bytes, optionally followed by a data section. 
-Class byte	Command Byte	Parameter Byte	Parameter Byte	Parameter Byte
-Data
+
+|--------------|--------------|--------------|--------------|--------------|
+|Class (CLS 8 bits) |	Command (CMD 8 bits) |	Parameter Byte|	Parameter Byte | Parameter Byte |
+|Data|
 
 40 bits and I’m guessing 8 more bits will get tacked on to data in order to indicate there is none if left blank. So frames(?) will end up being a minimum of 48 bits or 6 bytes minimum
 
