@@ -11,15 +11,14 @@ There is no silver bullet for security, no all encompasing knowledge, the concep
 Also a lot of things are incomplete since I have so much to add overall. So here is a list to help with what is worth looking at right now...
 
 Completed
--NMAP
--TMUX
+- NMAP
+- TMUX
 
-In progress currently but worth looking at!
+In progress currently but worth looking at.
 - Contact Cards
-- RFID Hackerz
-- EDC
 
 Not worth looking at but in progress
-
--Technical Guidelines
--Network Basics
+- Technical Guidelines
+- Network Basics
+- RFID Hackerz
+- EDC
