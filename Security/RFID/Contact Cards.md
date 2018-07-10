@@ -93,6 +93,9 @@ The  control  logic  should  not  be  overlooked  as  this  is  necessary  not  
 -Memory with security logic
 -Memory with CPU
 
+The  security  logic  can  be  used  to  control  access  to  the  memory  for  authorized  use  only.  This  is
+usually  accomplished  by  some  form  of  access  code  which  may  be  quite  large  (64  bits  or  more)
+
 The T = 0 protocol is byte-oriented, which means that the smallest unit processed by the protocol is a single byte. The transmission data unit consists of a header containing a class byte, a command byte and three parameter bytes, optionally followed by a data section. 
 
 
