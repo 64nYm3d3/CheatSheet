@@ -30,17 +30,13 @@ potential  is  measured.
 
 **C6 	VPP:** 	Programing voltage input (optional). This contact may be used to supply the voltage required to program or to erase the internal non-volatile memory.  The Vpp  connector    is  used  for  the  high  voltage  signal  that  is  necessary  to  program  the  EPROM memory. ISO/IEC 7816-3:1997 designated this as a programming voltage: an input for a higher voltage to program persistent memory (e.g., EEPROM). ISO/IEC 7816-3:2006 designates it SPU, for either standard or proprietary use, as input and/or output.
 
-**C7 	I/O:** 	Input or Output for serial data (half-duplex) to the integrated circuit inside the card. Used for sending and receiving commands with either T=0 or T=1 protocol. Their is a communication unit between called an [APDU (Application Protocol Data Unit](https://en.wikipedia.org/wiki/Smart_card_application_protocol_data_unit)
+**C7 	I/O:** 	Input or Output for serial data (half-duplex) to the integrated circuit inside the card. Used for sending and receiving commands with either T=0 or T=1 protocol. Their is a communication unit between called an [APDU (Application Protocol Data Unit.](https://en.wikipedia.org/wiki/Smart_card_application_protocol_data_unit) There are two categories of APDUs: command APDUs and response APDUs. A command APDU is sent by the reader to the card – it contains a mandatory 4-byte header (CLA, INS, P1, P2) and from 0 to 65 535 bytes of data. A response APDU is sent by the card to the reader – it contains from 0 to 65 536 bytes of data, and 2 mandatory status bytes (SW1, SW2).
 
 **C8 	RESERVED 	AUX2:** optionally used for USB interfaces and other uses.
 
 Communication protocols for contact smart cards include T=0 (character-level transmission protocol, defined in ISO/IEC 7816-3) and T=1 (block-level transmission protocol, defined in ISO/IEC 7816-3). In contrast to the application protocol data unit (APDU, which is the communication unit between the smart card and the smart card reader) specified by ISO/IEC 7816-4, length information is provided only by parameter P3. This indicates the length of the command data or response data. It is also specified by the ISO/IEC 7816-3 standard.
 
 ![TheCost](http://www.smartcardbasics.com/smart_card_images/smart-card-functionality.gif)
-
-
-
-
 
 
 
