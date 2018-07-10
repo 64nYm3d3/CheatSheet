@@ -17,7 +17,7 @@
 
 ![Contact card pinout](http://www.smartcardbasics.com/smart_card_images/smart-card-module.gif)
 
-**C1 	Vcc:** 	+5 VDC power supply input (optional use by the card). As we move towards the future we will likely see this change to 3 volts
+**C1 	Vcc:** 	+5 VDC power supply input (optional use by the card). As we move towards the future we will likely see this change to +3 VDC
 
 **C2 	RESET:** 	Reset signal, used to reset the card's communications. Either used itself (reset signal supplied from the interface device) or in combination with an interal reset control circuit (optional use by the card). If internal reset is implemented, the voltage supply on Vcc is mandatory
 
