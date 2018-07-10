@@ -1,4 +1,6 @@
-# This is documentation for smart chips, plagiarism is likely all around and formatted for my needs
+# This is documentation for smart chips
+
+Plagiarism is likely all around and formatted for my needs!
 
 Basic construction
 
