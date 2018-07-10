@@ -72,3 +72,5 @@ http://pinoutguide.com/Memory/SmartCardIso_pinout.shtml
 http://www.gorferay.com/the-t-0-transmission-protocol/
 
 https://en.wikipedia.org/wiki/Smart_card_application_protocol_data_unit
+
+http://www.smartcard.co.uk/tutorials/sct-itsc.pdf
