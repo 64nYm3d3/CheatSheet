@@ -36,6 +36,13 @@ potential  is  measured.
 
 Communication protocols for contact smart cards include T=0 (character-level transmission protocol, defined in ISO/IEC 7816-3) and T=1 (block-level transmission protocol, defined in ISO/IEC 7816-3). In contrast to the application protocol data unit (APDU, which is the communication unit between the smart card and the smart card reader) specified by ISO/IEC 7816-4, length information is provided only by parameter P3. This indicates the length of the command data or response data. It is also specified by the ISO/IEC 7816-3 standard.
 
+The fundamental component of these IC cards are
+- ROM Read only memory (mask ROM)
+- PROM Programmable read only memory
+- EPROM Erasable programmable ROM
+- EEPROM Electrically erasable PROM
+- RAM Random access memory
+
 ![TheCost](http://www.smartcardbasics.com/smart_card_images/smart-card-functionality.gif)
 
 
