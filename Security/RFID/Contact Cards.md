@@ -47,27 +47,16 @@ Communication protocols for contact smart cards include T=0 (character-level tra
 
 The T = 0 protocol is byte-oriented, which means that the smallest unit processed by the protocol is a single byte. The transmission data unit consists of a header containing a class byte, a command byte and three parameter bytes, optionally followed by a data section. 
 
-| Class | Command | Parameter | Parameter | Parameter | 
-| --- | --- | --- | --- | ---  | --- |
-|Class (8 bits) |	Command ( 8 bits) |	Parameter Byte|	Parameter Byte | Parameter Byte |
 
+| Class  | Command | Parameter 1 | Parameter 2 | Parameter 3 | Data (optional) |
+| --- | --- |  --- |  --- |  --- | --- |
+| CLS 8 bits  | CMDS 8 bits  | P1 8 bits | P2 8 bits | P3 8 bits | Data |
+ | Data (Optional) | Data (Optional) | Data (Optional) | Data (Optional) | Data (Optional) | Data (Optional)|
 
-| Class  | Command | Parameter 1 | Parameter 2 | Parameter 3 |
-| --- | --- |  --- |  --- |  --- |
-| CLS 8 bits  | CMDS 8 bits  | P1 8 bits | P2 8 bits | P3 8 bits |
-|  Data (Optional) | |
-| --- |
-| Data |
-
-
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
 
 |Data|
 
-40 bits and I’m guessing 8 more bits will get tacked on to data in order to indicate there is none if left blank. So frames(?) will end up being a minimum of 48 bits or 6 bytes minimum
+40 bits and I’m guessing 8 more bits will get tacked on in data to terminate the header if there is no data, but didnt see anything on it. So I will asssume frames(?) will end up being a minimum of 48 bits or 6 bytes minimum. I apologize as I did not find a visual example or a detailed description on the header size when reading about T=0 transmission protocol.
 
 
 ---
