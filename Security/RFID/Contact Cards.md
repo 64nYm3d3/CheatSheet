@@ -21,16 +21,16 @@
 
 **C2 	RESET:** 	Reset signal, used to reset the card's communications. Either used itself (reset signal supplied from the interface device) or in combination with an interal reset control circuit (optional use by the card). If internal reset is implemented, the voltage supply on Vcc is mandatory. Reset  is  the  signal  line  that  is  used  to  initiate  the  state  of  the  integrated circuit after power on and it is an integral complex process that I will hopefully get too later.
 
-**C3 	CLOCK:** 	Provides the card with a clock signal, from which data communications timing is derived
+**C3 	CLOCK:** 	Provides the card with a clock signal, from which data communications timing is derived. The  clock  signal  is  used  drive  the  logic  of  the  IC  and  is  also  used  as  the  reference  for  the  serial communications link, the two most common being 3.57 MHz and 4.92 MHz . Which is a weird thing about cameras and really probably not worth explaining why those frequencies.
 
 **C4 	RESERVED 	AUX1:** optionally used for USB interfaces and other uses.
 
 **C5 	GND:** 	Ground (reference voltage). Vss  is  the  substrate  or  ground  reference  voltage  against  which  the  Vcc
 potential  is  measured.  
 
-**C6 	VPP:** 	Programing voltage input (optional). This contact may be used to supply the voltage required to program or to erase the internal non-volatile memory. ISO/IEC 7816-3:1997 designated this as a programming voltage: an input for a higher voltage to program persistent memory (e.g., EEPROM). ISO/IEC 7816-3:2006 designates it SPU, for either standard or proprietary use, as input and/or output.
+**C6 	VPP:** 	Programing voltage input (optional). This contact may be used to supply the voltage required to program or to erase the internal non-volatile memory.  The Vpp  connector    is  used  for  the  high  voltage  signal  that  is  necessary  to  program  the  EPROM memory. ISO/IEC 7816-3:1997 designated this as a programming voltage: an input for a higher voltage to program persistent memory (e.g., EEPROM). ISO/IEC 7816-3:2006 designates it SPU, for either standard or proprietary use, as input and/or output.
 
-**C7 	I/O:** 	Input or Output for serial data (half-duplex) to the integrated circuit inside the card. 
+**C7 	I/O:** 	Input or Output for serial data (half-duplex) to the integrated circuit inside the card. Used for sending and receiving commands with either T=0 or T=1 protocol. Their is a communication unit between called an (APDU (Application Protocol Data Unit)[https://en.wikipedia.org/wiki/Smart_card_application_protocol_data_unit] 
 
 **C8 	RESERVED 	AUX2:** optionally used for USB interfaces and other uses.
 
@@ -55,10 +55,10 @@ The T = 0 protocol is byte-oriented, which means that the smallest unit processe
  | Data (Optional) | Data (Optional) | Data (Optional) | Data (Optional) | Data (Optional) | Data (Optional)|
 
 
-|Data|
-
 40 bits and I’m guessing 8 more bits will get tacked on in data to terminate the header if there is no data, but didnt see anything on it. So I will asssume frames(?) will end up being a minimum of 48 bits or 6 bytes minimum. I apologize as I did not find a visual example or a detailed description on the header size when reading about T=0 transmission protocol.
 
+The  clock  signal  is  used  drive  the  logic  of  the  IC  and  is  also  used  as  the  reference  for  the  serial
+communications link.
 
 ---
 Refs and Material: 
