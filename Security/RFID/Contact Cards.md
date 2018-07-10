@@ -118,10 +118,8 @@ application  software.
 Security  is  a  fundamental  aspect  in  the  manufacture  of  a smart card and is intrinsic to the total process. However for now consider security separate and it will be covered later on in the series.
 
 
-
-
-
-
+![SmartCardmanufactureProcess](https://i.imgur.com/0FUIfnf.png)
+Stage in the process of manufacturing smart cards.
 
 
 
