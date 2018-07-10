@@ -1,3 +1,7 @@
+# This is documentation for smart chips, plagiarism is likely all around and formatted for my needs
+
+Basic construction
+
 
 ![SmartCardVertConstruct](https://upload.wikimedia.org/wikipedia/commons/2/2e/Smartcard_chip_structure_and_packaging_EN.svg)
 
@@ -47,11 +51,41 @@ The fundamental component of these IC cards are for portable storage and retriev
 - RAM Random access memory
 
 A particular chip may have one or more of these memory types.
-ROM is fixed and cannot be changed once manufactured. This  is  a  low  cost memory,  in  that,  it  occupies  minimum  space  on  the  silicon  substrate. The  use  of  the  silicon  is often  referred  to  as  real  estate  because  clearly  one  wants  to  get  as  much  as  possible  into  the smallest possible space.
+
+ROM is fixed and cannot be changed once manufactured. This  is  a  low  cost memory,  in  that,  it  occupies  minimum  space  on  the  silicon  substrate. The  use  of  the  silicon  is often  referred  to  as  real  estate  because  clearly  one  wants  to  get  as  much  as  possible  into  the smallest possible space. Usually this contains the chips OS.
+ROM
 - Can not be changed 
 - Takes several months to  be  produced  by  the  semiconductor  company.  
 - There  is  also  effectively  a  minimum  order quantity in order to achieve this low cost.
 
+In order of increaing real estate: 
+
+PROM
+- Programmable by the user through fusible links
+- High voltage and currents are required for the programming cycle (and not normally used in ICC)
+
+EPROM
+-Widely  used  in  the  past.
+-While the  memory  is technically erasable,  by  means  of  ultra  violet  light,  the  necessary  quartz
+window  is  never  available  in  the  ICC  and  the  memory  is  really  used  in  one  time  programmable
+mode (OTP). 
+
+Getting  pretty heavy in real estate terms is: 
+
+EEPROM 
+- This memory is erasable by the user and can be rewritten many times (between 10,000 and 1,000,000 in a typical implementation)  
+
+RAM
+-The  random  access  memory  (RAM)  is a bit different from the other types of memory here in that it is  volatile  memory  and  as  soon  as  the  power  is  removed  the  datacontents is lost.
+
+As applications became more advanced we implemented more technology into these chips. Where old telphone cards such as SIM could operate with EEPROM   memory   (128   -   512   bytes)   and   the   memory   control   logic. More
+sophisticated  applications  will  demand  ROM,  EEPROM,  RAM  and  a  CPU depending on the application. The CPU or micro-controller really being the implementation that lets us refer to them as a "smart".
+
+The  control  logic  should  not  be  overlooked  as  this  is  necessary  not  only  for  communication protocols  but  also  to  offer  some  protection  of  the  memory  against  fraudulent  use. We can differentiate the different types of ICC by their content
+
+-Memory Only
+-Memory with security logic
+-Memory with CPU
 
 The T = 0 protocol is byte-oriented, which means that the smallest unit processed by the protocol is a single byte. The transmission data unit consists of a header containing a class byte, a command byte and three parameter bytes, optionally followed by a data section. 
 
