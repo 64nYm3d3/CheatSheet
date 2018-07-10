@@ -3,7 +3,7 @@
 
 **Chip Adhesive:** Pretty sure this is self explanatory, adhesive keeping the chip in place inside the encapsulation
 
-*Hotmelt:* I'm guessing this is glue mounting the substrate to the card body
+**Hotmelt:** I'm guessing this is glue mounting the substrate to the card body
 
 **Substrate:** I'm guessing the is the mount for the contacts on the chip and acts as the system GND(Vss) for the chip 
 
