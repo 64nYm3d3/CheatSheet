@@ -19,13 +19,14 @@
 
 **C1 	Vcc:** 	+5 VDC power supply input (optional use by the card). As we move towards the future we will likely see this change to +3 VDC
 
-**C2 	RESET:** 	Reset signal, used to reset the card's communications. Either used itself (reset signal supplied from the interface device) or in combination with an interal reset control circuit (optional use by the card). If internal reset is implemented, the voltage supply on Vcc is mandatory
+**C2 	RESET:** 	Reset signal, used to reset the card's communications. Either used itself (reset signal supplied from the interface device) or in combination with an interal reset control circuit (optional use by the card). If internal reset is implemented, the voltage supply on Vcc is mandatory. Reset  is  the  signal  line  that  is  used  to  initiate  the  state  of  the  integrated circuit after power on and it is an integral complex process that I will hopefully get too later.
 
 **C3 	CLOCK:** 	Provides the card with a clock signal, from which data communications timing is derived
 
 **C4 	RESERVED 	AUX1:** optionally used for USB interfaces and other uses.
 
-**C5 	GND:** 	Ground (reference voltage)
+**C5 	GND:** 	Ground (reference voltage). Vss  is  the  substrate  or  ground  reference  voltage  against  which  the  Vcc
+potential  is  measured.  
 
 **C6 	VPP:** 	Programing voltage input (optional). This contact may be used to supply the voltage required to program or to erase the internal non-volatile memory. ISO/IEC 7816-3:1997 designated this as a programming voltage: an input for a higher voltage to program persistent memory (e.g., EEPROM). ISO/IEC 7816-3:2006 designates it SPU, for either standard or proprietary use, as input and/or output.
 
