@@ -5,6 +5,8 @@ Plagiarism is likely all around and formatted for my needs!
 ### Table
 [Basic Construction](#Basic_Construction)
  - [Memory Fundamentals](#Memory_Fundamentals)
+ 
+[Card Fabrication](#Card_Construction)
 
 
 <a name="Basic_Construction"></a>
@@ -94,9 +96,48 @@ The  control  logic  should  not  be  overlooked  as  this  is  necessary  not  
 -Memory with CPU
 
 The  security  logic  can  be  used  to  control  access  to  the  memory  for  authorized  use  only.  This  is
-usually  accomplished  by  some  form  of  access  code  which  may  be  quite  large  (64  bits  or  more)
+usually  accomplished  by  some  form  of  access  code  which  may  be  quite  large  (64  bits  or  more). Clearly the use of EEPROM memory must be strictly controlled and this applies as much to telephone cards as applications using  ICC  for  cryptographic  key  carriers.  The  security  advantage  of  the  CPU  device  is  of  course more significant because the CPU is capable of implementing cryptographic algorithms in its own right, but will be, probably, maybe covered later.
 
 The T = 0 protocol is byte-oriented, which means that the smallest unit processed by the protocol is a single byte. The transmission data unit consists of a header containing a class byte, a command byte and three parameter bytes, optionally followed by a data section. 
+
+## Card Fabrication
+<a name="Card_Construction"></a>
+
+The  manufacture  of  a  smart  card  involves  a  large  number  of  processes  of  which  the  embedding  of  the  chip into the plastic card is key in achieving an overall quality product. This latter process is usually referred to as card  fabrication.  
+
+ 1. The  whole  operation  starts  with  the  application  requirements  specification.  
+
+2. From  the requirements  individual  specifications  can  be  prepared  for  the  chip,  card,  mask  ROM  software  and  the
+application  software.  
+
+3. The  ROM  software  is  provided  to  the  semiconductor  supplier  who  manufactures  the chips. 
+
+4. The card fabricator embeds the chip in the plastic card. It is also quite normal for the fabricator to load the  application  software  and  personalisation  data.  
+
+Security  is  a  fundamental  aspect  in  the  manufacture  of  a smart card and is intrinsic to the total process. However for now consider security separate and it will be covered later on in the series.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 | Class  | Command | Parameter 1 | Parameter 2 | Parameter 3 | Data (optional) |
@@ -124,3 +165,5 @@ http://www.gorferay.com/the-t-0-transmission-protocol/
 https://en.wikipedia.org/wiki/Smart_card_application_protocol_data_unit
 
 http://www.smartcard.co.uk/tutorials/sct-itsc.pdf
+
+Sneaky plug for the real wiz kids out there https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication500-157.pdf p.s. I didnt read this either.
