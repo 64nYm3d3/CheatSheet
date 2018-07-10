@@ -62,7 +62,7 @@ The T = 0 protocol is byte-oriented, which means that the smallest unit processe
 ---
 Refs and Material: 
 
-ISO 7816 (Which I didnt use because of the common 200$ shakedown and paywall, its a good thing they let us know "Only informative sections are publicly available" with this doc. The only public information from this ISO standard is the introduction and the definition of a few terms, so informative /s.)
+ISO 7816 (Which I didnt use because of the common 200$ shakedown and paywall with ISO, its a good thing they let us know "Only informative sections are publicly available" with this doc. The only public information from this ISO standard is the introduction and the definition of a few terms, which is soooo informative /s.)
 
 http://www.smartcardbasics.com/smart-card-types.html
 
