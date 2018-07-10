@@ -4,6 +4,7 @@ Plagiarism is likely all around and formatted for my needs!
 
 ### Table
 [Basic Construction](#Basic_Construction)
+
 [Memory](#Memory)
 
 
