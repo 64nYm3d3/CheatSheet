@@ -11,7 +11,7 @@ Basic construction
 
 **Hotmelt:** I'm guessing this is glue mounting the substrate to the card body
 
-**Substrate:** I'm guessing the is the mount for the contacts on the chip and acts as the system GND(Vss) for the chip 
+**Substrate:** This is the epoxy resin thing that all electronics go in (like the memory, raw DIE, pins, whatever) and acts as the system GND(Vss) for the chip 
 
 **Card Body:** The pvc card the chip is attached to
 
