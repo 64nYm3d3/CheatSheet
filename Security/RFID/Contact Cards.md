@@ -1,6 +1,6 @@
 # This is documentation for smart chips
 
-Plagiarism is likely all around and formatted for my needs!
+Plagiarism is all around and formatted for my needs!
 
 ### Table
 [Basic Construction](#Basic_Construction)
@@ -172,6 +172,17 @@ The  choice  of  card  material  effects  the  environmental  properties  of  th
 The fabrication of the card involves a number of processes as shown below. The first part of the process is to  manufacture  a  substrate  which  contains  the  chip.    This  is  often  called  a  COB  (Chip  On  Board)  and consists  of  a  glass  epoxy  connector  board  on  which  the  chip  is  bonded  to  the  connectors.  There  are  three technologies  available  for  this  process,  wire  bonding,  flip  chip  processing  and  tape  automated  bonding (TAB).  In  each  case  the  semiconductor  wafer  manufactured  by  the  semiconductor  supplier  is  diced  intoindividual  chips .  This  may  be  done  by  scribing  with  a  diamond  tipped  point  and  then  pressure  rolling  thewafers so that it fractures along the scribe lines. More commonly the die are separated from the wafer by the use of a diamond saw. A mylar sheet is stuck to the back of the wafer so that following separation the dice remain attached to the mylar film. Danger Will Robinson! Raw DIEs ahead
 
 ![ChipFabrication](https://i.imgur.com/G2W2AUB.png)
+
+Wire bonding is the most commonly used technique in the manufacture of smart cards. Here a 25uM gold or aluminium wire is bonded to the pads on the chip using ultrasonic or thermo compression bonding. Thermo compression bonding requires the substrate to be maintained at between 150C and 200C. The temperature at 6 the bonding interface can reach 350C. To alleviate these problems thermo sonic bonding is often used which is a combination of the two processes but which operate at lower temperatures.
+
+The  die  mounting  and  wire  bonding  processes  involve  a  large  number  of  operations  and  are  therefore  quite expensive.  Because  in  general  only  5  or  6  wires  are  bonded  for  smart  card  applications  this  approach  is acceptable.  However  in  the  semiconductor  industry  generally  two  other  techniques  are  used,  the  flip  chip process and tape automated bonding. In both cases gold bumps are formed on the die. In flip chip processing the dice are placed face down on the substrate and bonding is effected by solder reflow. With tape automated bonding the dice are attached by thermocompression to copper leads supported on a flexible tape similar to a 35mm film.
+
+The  finished  substrate  is  hermetically  sealed  with  an  inert  material  such  as  epoxy  resin.  The  complete micromodule is then glued into the card which contains the appropriately sized hole. The  fabrication  of  a  contactless  card  is  somewhat  different  since  it  always  involves  a  laminated  card  as shown  inext.  The  ICs  and  their  interconnections  as  well  as  the  aerial  circuits  are  prepared  on  a  flexible polyimide substrate
+
+
+
+
+
 
 
 
