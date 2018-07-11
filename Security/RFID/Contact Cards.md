@@ -133,6 +133,8 @@ There are a number of factors to be decided in the specification of the integrat
 - Reset          mechanism
 - Sleep mode (low current standby operation)
 - Co-processor (e.g for public key cryptography)
+
+
 In  practice  the  semiconductor  manufacturers  have  a  range  of  products  for  which  the  above  parameters  are pre-defined.  The  task  of  the  designer  is  therefore  concerned  with  choosing  the  appropriate  product  for  the particular  application.  As  mentioned  previously  security  may  be  an  important  issue  for  the  application  and accordingly  there  may  be  extra  requirements  on  the  physical  and  logical  security  offered  by  the  particular chip.  Conformance  to  ISO  standards  is  also  likely  to  be  a  requirement  and  in  this  area  ISO  7816  -  3 (Electronic signals and transmission protocols) is the principle standard to be considered. It should be noted however  that  ETSI  (European  Telecommunications  Standard  Institute)  are  currently  developing  new standards for the CEN TC224 committee. These standards are more stringent than that described by the ISO standards.  For  example  the  ISO  7816-3  allows  a  card  current  supply  of  up  to  200  mA.  ETSI  have recommended 20mA for normal use and 10mA for applications such as portable phones.
 
 
