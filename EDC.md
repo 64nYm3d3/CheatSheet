@@ -4,10 +4,10 @@
 
 
  
-[1.0 Tools](#Tools)
+[1.0 Tools](#Tools) <details><summary>Details</summary><p>
   - [1.1 Physical](#Physical)
                   
-    - [1.1a Quick_Bypass](#Quick_Bypass)<details><summary>Details</summary><p>
+    - [1.1a Quick_Bypass](#Quick_Bypass)
       - [Adam's_Rite](#Adam's_Rite)
       + [Travelors_Hook](#Travelors_Hook)
       + [Shims](#Shims)
@@ -15,6 +15,7 @@
       </p></details>
 
     - [1.1b Lockpicks](#Lockpicks)
+       </p></details>
     
   - [Software](#Software)
     * [On_USB](#On_USB
