@@ -99,8 +99,6 @@ The  control  logic  should  not  be  overlooked  as  this  is  necessary  not  
 The  security  logic  can  be  used  to  control  access  to  the  memory  for  authorized  use  only.  This  is
 usually  accomplished  by  some  form  of  access  code  which  may  be  quite  large  (64  bits  or  more). Clearly the use of EEPROM memory must be strictly controlled and this applies as much to telephone cards as applications using  ICC  for  cryptographic  key  carriers.  The  security  advantage  of  the  CPU  device  is  of  course more significant because the CPU is capable of implementing cryptographic algorithms in its own right, but will be, probably, maybe covered later.
 
-The T = 0 protocol is byte-oriented, which means that the smallest unit processed by the protocol is a single byte. The transmission data unit consists of a header containing a class byte, a command byte and three parameter bytes, optionally followed by a data section. 
-
 ## Card Fabrication
 <a name="Card_Construction"></a>
 
@@ -115,7 +113,7 @@ application  software.
 
 4. The card fabricator embeds the chip in the plastic card. It is also quite normal for the fabricator to load the  application  software  and  personalisation  data.  
 
-Security  is  a  fundamental  aspect  in  the  manufacture  of  a smart card and is intrinsic to the total process. However for now consider security separate and it will be covered later on in the series.
+Security  is  a  fundamental  aspect  in  the  manufacture  of  a smart card and is intrinsic to the total process. However for now consider security separate and it will be covered later.
 
 ![SmartCardmanufactureProcess](https://i.imgur.com/0FUIfnf.png)
 *Stages involved in the process of manufacturing smart cards*
@@ -155,7 +153,7 @@ In  practice  the  semiconductor  manufacturers  have  a  range  of  products  f
 
 
 
-
+The T = 0 protocol is byte-oriented, which means that the smallest unit processed by the protocol is a single byte. The transmission data unit consists of a header containing a class byte, a command byte and three parameter bytes, optionally followed by a data section. 
 
 | Class  | Command | Parameter 1 | Parameter 2 | Parameter 3 | Data (optional) |
 | --- | --- |  --- |  --- |  --- | --- |
