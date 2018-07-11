@@ -171,7 +171,7 @@ The  choice  of  card  material  effects  the  environmental  properties  of  th
 #### Chip Fabrication
 The fabrication of the card involves a number of processes as shown below. The first part of the process is to  manufacture  a  substrate  which  contains  the  chip.    This  is  often  called  a  COB  (Chip  On  Board)  and consists  of  a  glass  epoxy  connector  board  on  which  the  chip  is  bonded  to  the  connectors.  There  are  three technologies  available  for  this  process,  wire  bonding,  flip  chip  processing  and  tape  automated  bonding (TAB).  In  each  case  the  semiconductor  wafer  manufactured  by  the  semiconductor  supplier  is  diced  intoindividual  chips .  This  may  be  done  by  scribing  with  a  diamond  tipped  point  and  then  pressure  rolling  thewafers so that it fractures along the scribe lines. More commonly the die are separated from the wafer by the use of a diamond saw. A mylar sheet is stuck to the back of the wafer so that following separation the dice remain attached to the mylar film. Danger Will Robinson! Raw DIEs ahead
 
-![ChipFabrication](https://imgur.com/G2W2AUB)
+![ChipFabrication](https://i.imgur.com/G2W2AUB.png)
 
 
 
