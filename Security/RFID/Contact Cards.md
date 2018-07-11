@@ -74,8 +74,8 @@ PROM
 - High voltage and currents are required for the programming cycle (and not normally used in ICC)
 
 EPROM
--Widely  used  in  the  past.
--While the  memory  is technically erasable,  by  means  of  ultra  violet  light,  the  necessary  quartz
+- Widely  used  in  the  past.
+- While the  memory  is technically erasable,  by  means  of  ultra  violet  light,  the  necessary  quartz
 window  is  never  available  in  the  ICC  and  the  memory  is  really  used  in  one  time  programmable
 mode (OTP). 
 
@@ -85,16 +85,16 @@ EEPROM
 - This memory is erasable by the user and can be rewritten many times (between 10,000 and 1,000,000 in a typical implementation)  
 
 RAM
--The  random  access  memory  (RAM)  is a bit different from the other types of memory here in that it is  volatile  memory  and  as  soon  as  the  power  is  removed  the  datacontents is lost.
+- The  random  access  memory  (RAM)  is a bit different from the other types of memory here in that it is  volatile  memory  and  as  soon  as  the  power  is  removed  the  datacontents is lost.
 
 As applications became more advanced we implemented more technology into these chips. Where old telphone cards such as SIM could operate with EEPROM   memory   (128   -   512   bytes)   and   the   memory   control   logic. More
 sophisticated  applications  will  demand  ROM,  EEPROM,  RAM  and  a  CPU depending on the application. The CPU or micro-controller really being the implementation that lets us refer to them as a "smart".
 
 The  control  logic  should  not  be  overlooked  as  this  is  necessary  not  only  for  communication protocols  but  also  to  offer  some  protection  of  the  memory  against  fraudulent  use. We can differentiate the different types of ICC by their content
 
--Memory Only
--Memory with security logic
--Memory with CPU
+- Memory Only
+- Memory with security logic
+- Memory with CPU
 
 The  security  logic  can  be  used  to  control  access  to  the  memory  for  authorized  use  only.  This  is
 usually  accomplished  by  some  form  of  access  code  which  may  be  quite  large  (64  bits  or  more). Clearly the use of EEPROM memory must be strictly controlled and this applies as much to telephone cards as applications using  ICC  for  cryptographic  key  carriers.  The  security  advantage  of  the  CPU  device  is  of  course more significant because the CPU is capable of implementing cryptographic algorithms in its own right, but will be, probably, maybe covered later.
@@ -106,7 +106,7 @@ The T = 0 protocol is byte-oriented, which means that the smallest unit processe
 
 The  manufacture  of  a  smart  card  involves  a  large  number  of  processes  of  which  the  embedding  of  the  chip into the plastic card is key in achieving an overall quality product. This latter process is usually referred to as card  fabrication.  
 
- 1. The  whole  operation  starts  with  the  application  requirements  specification.  
+1. The  whole  operation  starts  with  the  application  requirements  specification.  
 
 2. From  the requirements  individual  specifications  can  be  prepared  for  the  chip,  card,  mask  ROM  software  and  the
 application  software.  
