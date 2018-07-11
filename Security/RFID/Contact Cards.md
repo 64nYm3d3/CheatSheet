@@ -7,6 +7,9 @@ Plagiarism is likely all around and formatted for my needs!
  - [Memory Fundamentals](#Memory_Fundamentals)
  
 [Card Fabrication](#Card_Construction)
+ - [Chip Specification](#Chip_Specification)
+ - [Card Specifications](#Card_Specifications)
+ - [Mask ROM](#Mask_ROM)
 
 
 ## Basic Construction
@@ -118,7 +121,8 @@ Security  is  a  fundamental  aspect  in  the  manufacture  of  a smart card and
 ![SmartCardmanufactureProcess](https://i.imgur.com/0FUIfnf.png)
 *Stages involved in the process of manufacturing smart cards*
 
-**Chip specification**
+#### Chip specification
+<a name=Chip_Specification></a>
 There are a number of factors to be decided in the specification of the integrated circuit for the smart card. For the purpose of this discussion we will consider a CPU based card although the manufacture of a memory card  is  substantially  a  subset  of  that  described  here.  The  key  parameters  for  the  chip  specification  are  as follows: 
 - Microcontroller type (e.g 6805,8051)
 - Mask ROM size
@@ -133,15 +137,55 @@ There are a number of factors to be decided in the specification of the integrat
 - Co-processor (e.g for public key cryptography)
 
 
-In  practice  the  semiconductor  manufacturers  have  a  range  of  products  for  which  the  above  parameters  are pre-defined.  The  task  of  the  designer  is  therefore  concerned  with  choosing  the  appropriate  product  for  the particular  application.  As  mentioned  previously  security  may  be  an  important  issue  for  the  application  and accordingly  there  may  be  extra  requirements  on  the  physical  and  logical  security  offered  by  the  particular chip.  Conformance  to  ISO  standards  is  also  likely  to  be  a  requirement  and  in  this  area  ISO  7816  -  3 (Electronic signals and transmission protocols) is the principle standard to be considered. It should be noted however  that  ETSI  (European  Telecommunications  Standard  Institute)  are  currently  developing  new standards for the CEN TC224 committee. These standards are more stringent than that described by the ISO standards.  For  example  the  ISO  7816-3  allows  a  card  current  supply  of  up  to  200  mA.  ETSI  have recommended 20mA for normal use and 10mA for applications such as portable phones.
+In  practice  the  semiconductor  manufacturers  have  a  range  of  products  for  which  the  above  parameters  are pre-defined.  **The  task  of  the  designer  is  therefore  concerned  with  choosing  the  appropriate  product  for  the particular  application.***  As  mentioned  previously  security  may  be  an  important  issue  for  the  application  and accordingly  there  may  be  extra  requirements  on  the  physical  and  logical  security  offered  by  the  particular chip. 
 
+Conformance  to  ISO  standards  is  also  likely  to  be  a  requirement  and  in  this  area  ISO  7816  -  3 (Electronic signals and transmission protocols) is the principle standard to be considered. It should be noted however  that  ETSI  (European  Telecommunications  Standard  Institute)  are  currently  developing  new standards for the CEN TC224 committee. These standards are more stringent than that described by the ISO standards.  For  example  the  ISO  7816-3  allows  a  card  current  supply  of  up  to  200  mA.  ETSI  have recommended 20mA for normal use and 10mA for applications such as portable phones.
 
+#### Card Specifications
+<a name =Card_Specifications></a>
+The specification of a card involves parameters that are common to many existing applications using the ISO
+ID-1 card. The following list defines the main parameters that should be defined,
+- Card dimensions
+- Chip location (contact card)
+- Card material (e.g PVC, ABS)
+- Printing requirements
+- Magnetic stripe (optional)
+- Signature strip (optional)
+- Hologram or photo (optional)
+- Embossing (optional)
+- Environmental parameters
 
+The  characteristics  of  the  smart  card  are  part  of  the  ISO  7816  part  1  (physical)  and  2  (contact  location)
+standards. The choice of chip location has been a difficult subject due largely to the use of magnetic stripes.
+The  early  French  cards  put  the  IC  module  further  off  the  longitudinal  axis  of  the  card  than  the  standard
+eventually agreed by ISO.
 
+This  was  preferable  because  of  the  residual  risk  of  chip  damage  due  to  bending.  The  French  Transac  tracks
+were  lower  on  the  card  which  also  made  this  position  preferable.  The  now  agreed  ISO  standards  for
+magnetic  stripes  resulted  in  the  French  chip  position  and  the  magnetic  stripe  being  coincident.  Hence  the
+now agreed lower location which does of course result in higher bending stress on the chip.  The ISO 7816-2
+standard  does  however  allow  the  position  of  the  contacts  to  be  either  side  of  the  card.  More  recently  there
+have  been  moves  to  remove  this  option  with  the  front  (opposite  to  the  side  containing  the  magnetic  stripe)
+being the preferred position for the IC connector.
 
+The  choice  of  card  material  effects  the  environmental  properties  of  the  finished  product.  PVC  was
+traditionally  used  in  the  manufacture  of  cards  and  enabled  a  higher  printing  resolution.  Such  cards  are
+laminated as three layers with transparent overlays on the front and back. More recently ABS has been used
+which  allows  the  card  to  be  produced  by  an  injection  moulding  process.  It  is  even  proposed  that  the  chip
+micromodule  could  be  inserted  in  one  step  as  part  of  the  moulding  process.  Temperature  stability  is  clearly
+important for some applications and ETSI are particulary concerned here, such that their higher temperature
+requirement will need the use of polycarbonate materials
 
-
-
+#### Mask ROM Specification
+<a name=Mask_ROM></a>
+The  mask  ROM  contains  the  operating  system  of  the  smart  card.  It  is  largely  concerned  with  the
+management  of  data  files  but  it  may  optionally  involve  additional  features  such  as  cryptographic  algorithms
+(e.g  DES).  In  some  ways  this  is  still  a  relatively  immature  part  of  the  smart  card  standards  since  the  early
+applications  used  the  smart  card  largely  as  a  data  store  with  some  simple  security  features  such  as  PIN
+checking.  The  relevant  part  of  the  ISO  standard  is  7816-4  (commands).  There  is  a  school  of  thought    that
+envisages  substantial  changes  in  this  area  to  account  for  the  needs  of  multi-application  cards  where  it  is
+essential  to  provide  the  necessary  security  segregation.  The  developed  code  is  given  to  the  supplier  who
+incorporates this data as part of the chip manufacturing process
 
 
 
