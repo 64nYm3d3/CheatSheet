@@ -12,14 +12,11 @@
       + [Travelors_Hook](#Travelors_Hook)
       + [Shims](#Shims)
       + [Underdoor_Tool](#Underdoor_Tool)
-      </p></details>
-
     - [1.1b Lockpicks](#Lockpicks)
-       </p></details>
-    
   - [Software](#Software)
     * [On_USB](#On_USB
   - [Hardware](#Hardware)
+     </p></details>
   
 2.0 Gear](#Gear)
   - [Special_Bypass](#Special_Bypass)
