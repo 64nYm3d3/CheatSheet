@@ -65,8 +65,8 @@ The fundamental component of these IC cards are for portable storage and retriev
 A particular chip may have one or more of these memory types.
 
 ROM is fixed and cannot be changed once manufactured. This  is  a  low  cost memory,  in  that,  it  occupies  minimum  space  on  the  silicon  substrate. The  use  of  the  silicon  is often  referred  to  as  real  estate  because  clearly  one  wants  to  get  as  much  as  possible  into  the smallest possible space. Usually this contains the chips OS.
-ROM
-- Can not be changed 
+
+- ROM Can not be changed 
 - Takes several months to  be  produced  by  the  semiconductor  company.  
 - There  is  also  effectively  a  minimum  order quantity in order to achieve this low cost.
 
