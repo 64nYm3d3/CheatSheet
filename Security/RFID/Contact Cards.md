@@ -119,6 +119,7 @@ application  software.
 Security  is  a  fundamental  aspect  in  the  manufacture  of  a smart card and is intrinsic to the total process. However for now consider security separate and it will be covered later.
 
 ![SmartCardmanufactureProcess](https://i.imgur.com/0FUIfnf.png)
+
 *Stages involved in the process of manufacturing smart cards*
 
 #### Chip specification
@@ -179,11 +180,11 @@ The  die  mounting  and  wire  bonding  processes  involve  a  large  number  of
 
 The  finished  substrate  is  hermetically  sealed  with  an  inert  material  such  as  epoxy  resin.  The  complete micromodule is then glued into the card which contains the appropriately sized hole. The  fabrication  of  a  contactless  card  is  somewhat  different  since  it  always  involves  a  laminated  card  as shown  inext.  The  ICs  and  their  interconnections  as  well  as  the  aerial  circuits  are  prepared  on  a  flexible polyimide substrate
 
+The  fabrication  of  a  contactless  card  is  somewhat  different  since  it  always  involves  a  laminated  card. The  ICs  and  their  interconnections  as  well  as  the  aerial  circuits  are  prepared  on  a  flexible polyimide substrate.
 
 
 
-
-
+*Contactless card construction
 
 
 The T = 0 protocol is byte-oriented, which means that the smallest unit processed by the protocol is a single byte. The transmission data unit consists of a header containing a class byte, a command byte and three parameter bytes, optionally followed by a data section. 
