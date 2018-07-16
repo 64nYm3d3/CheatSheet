@@ -1,5 +1,7 @@
 
-## Neatoworking quickguide
+## Neato-working quickguide
+learn the basics
+
 ---
 
 Various headers
