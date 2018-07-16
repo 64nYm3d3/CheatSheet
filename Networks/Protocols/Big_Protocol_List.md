@@ -4,13 +4,15 @@ Must knows
   - IP
   - TCP
   - UDP
-Mission Criticla must knows
+  
+Mission Critical must knows
   - NTP
   - SIP
   - RTSP
   - DHCP
-  - Birdnet (IPoAC with QoS, RFC2549)
-
+  - TFTP
+  - IPoAC with QoS (RFC2549)
+  
 SSH (it's my nindo, my ninja way, and it deserve it's own section)
   - Secrets of the SSH protocol
   
