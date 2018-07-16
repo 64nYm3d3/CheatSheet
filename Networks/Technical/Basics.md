@@ -15,13 +15,21 @@ Routing
 Icon Guide
 ![Icon Guide](http://www.conceptdraw.com/How-To-Guide/picture/Cisco-switches-and-hubs-Design-elements.png)
 
+Common networking equipment
+-
+
 #### Hubs
 
-A dumb device allowing computers to communicate with eachother.  Hubs dont segment networks, they connect network segments. All hosts hear data being on the same line. 
+A dumb device allowing computers to communicate with eachother.  
+* Hubs dont segment networks, they connect network segments. 
+* All hosts hear data being on the same line. 
 
 #### Switch
 
-A device that separates collision domains on a network segment, but not broadcast domains. All hosts in the same broadcast domain hear broadcasts sent to FF:FF:FF:FF:FF:FF on the local network. (Layer 2) These forward or filter frames
+A device that separates collision domains on a network segment, but not broadcast domains. 
+
+* All hosts in the same broadcast domain hear broadcasts sent to FF:FF:FF:FF:FF:FF on the local network. (Layer 2) 
+* These forward or filter frames
 
 #### Router
 A device that efficiently breaks up broadcast domains, they also provide connections to WAN services through a serial interface for WAN connections.
