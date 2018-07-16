@@ -15,19 +15,15 @@ Routing
 Icon Guide
 ![Icon Guide](http://www.conceptdraw.com/How-To-Guide/picture/Cisco-switches-and-hubs-Design-elements.png)
 
-Hubs
-
-![Hub](https://conceptdraw.com/a1789c3/p47/preview/640/pict--small-hub-logical-symbols---vector-stencils-library.png--diagram-flowchart-example.png)
+#### Hubs
 
 A dumb device allowing computers to communicate with eachother.  Hubs dont segment networks, they connect network segments. All hosts hear data being on the same line. 
-Switch
-![Switch](https://conceptdraw.com/a1780c3/p4/preview/640/pict--workgroup-switch-cisco-switches-and-hubs---vector-stencils-library.png--diagram-flowchart-example.png)
+
+#### Switch
 
 A device that separates collision domains on a network segment, but not broadcast domains. All hosts in the same broadcast domain hear broadcasts sent to FF:FF:FF:FF:FF:FF on the local network. (Layer 2) These forward or filter frames
 
-Router
-![Router](https://conceptdraw.com/a1778c3/p1/preview/640/pict--router-cisco-routers---vector-stencils-library.png--diagram-flowchart-example.png)
-
+#### Router
 A device that efficiently breaks up broadcast domains, they also provide connections to WAN services through a serial interface for WAN connections.
 * a V.35 physical interface on cisco routers, You can sometimes use V.35-to-RS-232 gender changers to connect V.35 equipment using 25-pin (DB25) serial cables, I know because it's what I have to do.
 
