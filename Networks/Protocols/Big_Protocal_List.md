@@ -1,9 +1,18 @@
 #Big Love, networking good, strong, is important
 
-Mission Critical must knows
-  - Birdnet (IPoAC with QoS 2549)
-  - 
+Must knows
+  - IP
+  - TCP
+  - UDP
+Mission Criticla must knows
+  - NTP
+  - SIP
+  - RTSP
+  - DHCP
+  - Birdnet (IPoAC with QoS, RFC2549)
 
+SSH(because it deserves an entire section, and it's my nindo, my ninja way)
+  -Secrets of the SSH protocol
 RFID protocols
   - NFC
   - EMx
@@ -16,3 +25,6 @@ IoT
   - Z-Wave
   - Insteon
   - Thread
+Crypto
+  - Signal
+
