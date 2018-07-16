@@ -1,5 +1,5 @@
 # This is Advanced Darkness
-Here is my greatest fear, the shellcode cometh.
+Here is a secret that hits my greatest fear, the shellcoder cometh.
 
 
 
