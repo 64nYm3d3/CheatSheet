@@ -6,12 +6,7 @@ learn the basics of networking
 
 Various headers
 
-## Mac Address
--
-The mac address breakdown
-[Macs](https://en.wikipedia.org/wiki/MAC_address#/media/File:MAC-48_Address.svg)
-
-Routing
+Icons you'll see in the wild
 -
 
 Icon Guide
@@ -49,4 +44,9 @@ Functionally in your network they do this...
 * Internetwork communication (Two or more routers, connected to eachother, routing traffic between two or more networks)
 * Path Selection (routing data from one location to another efficiently)
 
+
+#### Mac Address
+
+The mac address breakdown
+[Macs](https://en.wikipedia.org/wiki/MAC_address#/media/File:MAC-48_Address.svg)
 
