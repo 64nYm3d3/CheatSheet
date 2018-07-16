@@ -27,7 +27,7 @@ Completed
 - [TMUX](https://github.com/64nYm3d3/CheatSheet/blob/master/Tools/Tmux.md)
 
 In progress and I'm proud of.
-- (Contact Card)[https://github.com/64nYm3d3/CheatSheet/blob/master/Security/RFID/Contact%20Cards.md]
+- [Contact Card](https://github.com/64nYm3d3/CheatSheet/blob/master/Security/RFID/Contact%20Cards.md)
 
 Not worth looking at but in progress
 - Technical Guidelines
