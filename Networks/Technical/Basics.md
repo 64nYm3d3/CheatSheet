@@ -1,5 +1,5 @@
 
-## Neato-working quickguide
+# Neato-working quickguide
 learn the basics of networking
 
 ---
@@ -26,7 +26,7 @@ A dumb device allowing computers to communicate with eachother.
 A device that separates collision domains on a network segment, but not broadcast domains. 
 
 * All hosts in the same broadcast domain hear broadcasts sent to FF:FF:FF:FF:FF:FF on the local network. (Layer 2) 
-* These forward or filter frames
+* These forward or filter frames(Layer 2)
 
 #### Router
 A device that efficiently breaks up broadcast domains, they also provide connections to WAN services through a serial interface for WAN connections.
@@ -39,14 +39,11 @@ So...
 * They can filter the network based on Layer 3 information such as an IP address
 
 Functionally in your network they do this...
-* Packet Switching (transmitting data via an addressed packet)
-* Packet filtering (controlling access to a network based on IP address of source and destination) *packet filtering is both a tool and a technique that is a basic building block of network security*
-* Internetwork communication (Two or more routers, connected to eachother, routing traffic between two or more networks)
-* Path Selection (routing data from one location to another efficiently)
+* **Packet Switching** (transmitting data via an addressed packet)
+* **Packet filtering** (controlling access to a network based on IP address of source and destination) *packet filtering is both a tool and a technique that is a basic building block of network security*
+* **Internetwork communication** (Two or more routers, connected to eachother, routing traffic between two or more networks)
+* **Path Selection** (routing data from one location to another efficiently)
 
 
-#### Mac Address
 
-The mac address breakdown
-[Macs](https://en.wikipedia.org/wiki/MAC_address#/media/File:MAC-48_Address.svg)
 
