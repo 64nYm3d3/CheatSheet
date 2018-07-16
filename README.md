@@ -23,10 +23,10 @@ Some Weirdo
 Also a lot of things are incomplete since I have so much to add overall. So here is a list to help with what is worth looking at right now...
 
 Completed
-- NMAP
-- TMUX
+- (NMAP) [https://github.com/64nYm3d3/CheatSheet/blob/master/Tools/NMap.md]
+- (TMUX) [https://github.com/64nYm3d3/CheatSheet/blob/master/Tools/Tmux.md]
 
-In progress currently but worth looking at.
+In progress and I'm proud of.
 - Contact Cards
 
 Not worth looking at but in progress
