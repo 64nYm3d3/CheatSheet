@@ -1,4 +1,5 @@
 #Big Love, networking good, strong, is important
+These will eventually link out to the document on the protocol we are looking. Important stuff Watson! You couldn't possible comprehend it!
 
 Must knows
   - IP
@@ -12,9 +13,22 @@ Mission Critical must knows
   - DHCP
   - TFTP
   - IPoAC with QoS (RFC2549)
-  
-SSH (it's my nindo, my ninja way, and it deserve it's own section)
-  - Secrets of the SSH protocol
+  - FTP
+  - SFTP
+  - SSH (My nindo, my ninja way BELIEVE IT!)
+  - Telnet
+  - SMTP
+  - IMAP4
+  - POP3
+  - HTTP
+  - HTTPS
+  - LDAP
+  - RDP
+  - DNS
+  - SMB
+  - NetBIOS
+  - SNMP
+  - SLP
   
 RFID protocols
   - NFC
@@ -30,4 +44,7 @@ IoT
   - Thread
 Crypto
   - Signal
+  
+For fun (and profit)
+  - Gopher
 
