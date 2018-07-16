@@ -3,7 +3,7 @@
 Dirty Cheetz
 
 
- A lot of this is stuff is knowledge I probably stole from somewhere else. If I made a mistake, and you want credit for something, let me know! I'm attempting to document what I know and have experience with. It's a bit lacking in progress but if you scroll down a ways you can find quick links to some of my docs.
+ A lot of this is stuff is knowledge I probably stole from somewhere else. If I made a mistake, and you want credit for something, let me know! I'm attempting to document what I know and have experience with. It's lacking in progress but if you scroll down a bit you can find quick links to some of my docs.
  
  
 ### Intro
