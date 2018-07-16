@@ -1,6 +1,6 @@
 # My Toppers Order, **VERY IMPORTANT**
 
-When alone I get a buffalo chicken pizza with sundried tomatoes on it,3 cheese styx, and a side of garlic as well as bleu cheese. Please order as follows:
+When alone I get a buffalo chicken pizza with sundried tomatoes on it,3 cheese styx, and a side of garlic as well as bleu cheese. Will modify. Please order as follows:
 
 ~~~
 URL="https://toppers.com/myorder/cgi-bin/order.cgi"
