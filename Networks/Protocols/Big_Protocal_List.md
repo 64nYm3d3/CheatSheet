@@ -11,8 +11,9 @@ Mission Criticla must knows
   - DHCP
   - Birdnet (IPoAC with QoS, RFC2549)
 
-SSH(because it deserves an entire section, and it's my nindo, my ninja way)
-  -Secrets of the SSH protocol
+SSH(it's my nindo, my ninja way, and itdeserve it's own section)
+  - Secrets of the SSH protocol
+  
 RFID protocols
   - NFC
   - EMx
