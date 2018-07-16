@@ -1,5 +1,5 @@
 
-## Netoworking quickguide
+## Neatoworking quickguide
 ---
 
 Various headers
