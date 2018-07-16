@@ -68,7 +68,9 @@ It is worth mentioning that there are a few different kinds of NAT
 
 #### PAT
 
-Is an extension to network address translation (NAT) that permits multiple devices on a local area network (LAN) to be mapped to a single public IP address. For example an ISP assigns your router an IP adress, when your client communicates out, it is assigned a port number representing your client, and appended to the private IP address of the router giving it a unique internal address. Lets say your brother drops by your house unannounced after his girlfriend left him, then connects to your personal network with his own client, he gets a different port number, and while you are playing videogames, the traffic from the videos he's watching of his ex on instagram can distinguished by you ISP thanks to this.
+Is an extension to network address translation (NAT) that permits multiple devices on a local area network (LAN) to be mapped to a single public IP address. 
+
+For example an ISP assigns your router an IP adress, when your client communicates out, it is assigned a port number representing your client, and appended to the private IP address of the router giving it a unique internal address. Lets say your brother drops by your house unannounced after his girlfriend left him, then connects to your personal network with his own client, he gets a different port number, and while you are playing videogames, the traffic from the videos he's watching of his ex on instagram can distinguished by you ISP thanks to this.
 
 It's got a shorter definition under NAT if you just wann a read that.
 
