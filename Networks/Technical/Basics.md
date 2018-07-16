@@ -1,6 +1,6 @@
 
 ## Neato-working quickguide
-learn the basics
+learn the basics of networking
 
 ---
 
