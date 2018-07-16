@@ -1,15 +1,24 @@
 # CheatSheet
+-
 Dirty Cheetz
 
 
- A lot of this is stuff is knowledge I probably stole from somewhere else. If I made a mistake, and you want credit for something, let me know!
+ A lot of this is stuff is knowledge I probably stole from somewhere else. If I made a mistake, and you want credit for something, let me know! I'm attempting to document what I know and have experience with. It's a bit lacking in progress but if you scroll down a ways you can find quick links to some of my docs.
  
- I'm attempting to document what I know and have experience with. It's a bit lacking in progress but if you scroll down a ways you can find quick links to some of my docs.
  
-There is no silver bullet for security, no all encompasing knowledge, the concept of "perfect security" is separate from the statement of perfect security in a sense that one is reasonably possible and the other is impenetrable, which there in lie faults itself. Imagine if you had security so tight, that when a breach occurred, you did not know because it is so complicated and cumbersome for your own minimally paid, underskilled, overworked employees to manage, and monitor themelves that the breach goes on for months, perhaps never known due to the complicated nature of your environment. Those of us learning are well aware of the shortcomings of others but may very well be confused and lost, unaware of our own weaknesses due to the vast diversity of knowledge we must hold to contribute and work effectively. This document is my own contribution of borrowed knowledge, as such that I may reflect on this thought. It's here to help me evaluate my own skills and round them out.
- 
+### Intro
+
+There is no silver bullet for security, no all encompasing knowledge, the concept of "perfect security" is separate from the statement of perfect security in a sense that one is reasonably possible and the other is impenetrable, which there in lie faults itself. Imagine if you had security so tight, that when a breach occurred, you did not know because it is so complicated and cumbersome for your own minimally paid, underskilled, overworked employees to manage, and monitor themelves that the breach goes on for months, perhaps never known due to the complicated nature of your environment. Those of us learning are well aware of the shortcomings of others but may very well be confused and lost, unaware of our own weaknesses due to the vast diversity of knowledge we must hold to contribute and work effectively. This document is my own contribution of borrowed knowledge, as such that I may reflect on this thought. In less romantic terms, it's here to help me evaluate my own skills and round them out. 
+
+<3 Love 
+me
+
+
+### The Lore/Disclaimer
  Disclaimer: This Document has "deepest lore" scattered among it's pages. The lore starting here, In 1848, under the rule of first High Chancellor Abraham Lincoln, when I was just a humble repair technician in his robot army. Often reading to myself as back then, we didnt have the technological comforts of present day, began the lore which contains references and misquotes of my favorite and sometimes least favorite authors, movies, anime, real life, video games, sometimes including but not limited to requests from friends, family, the homeless, etc, irc, whatever.
 
+
+### The good stuff
 Also a lot of things are incomplete since I have so much to add overall. So here is a list to help with what is worth looking at right now...
 
 Completed
