@@ -3,7 +3,7 @@
 Dirty Cheetz
 
 
- A lot of this is stuff is knowledge I probably stole from somewhere else. If I made a mistake, and you want credit for something, let me know! I'm attempting to document what I know and have experience with. It's lacking in progress but if you scroll down a bit you can find quick links to some of my docs.
+ A lot of this is stuff is knowledge I probably stole from somewhere else. If I made a mistake, and you want credit for something, let me know! I'm attempting to document what I know and have experience with. It's a bit lacking in information but if you scroll down a bit in this readme filer you can find quick links to some of my docs.
  
  
 ### Intro
@@ -35,3 +35,8 @@ Not worth looking at but in progress
 - RFID Hackerz
 - EDC
 - NIST SP 800-53
+
+What I really want to add more information on
+- OSSTMM
+- x86 and opcode
+- Networks
