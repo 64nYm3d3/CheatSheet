@@ -183,7 +183,7 @@ The  finished  substrate  is  hermetically  sealed  with  an  inert  material  s
 The  fabrication  of  a  contactless  card  is  somewhat  different  since  it  always  involves  a  laminated  card. The  ICs  and  their  interconnections  as  well  as  the  aerial  circuits  are  prepared  on  a  flexible polyimide substrate.
 
 
-!(CardConstuction)[https://s3.amazonaws.com/cyberkitten-images/SmartCards/CardConstruction.png]
+![CardConstuction](https://s3.amazonaws.com/cyberkitten-images/SmartCards/CardConstruction.png)
 *Contactless card construction
 
 
