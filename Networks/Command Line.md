@@ -55,11 +55,17 @@ Switch1-Name# show dhcp lease
 ### Router Modes:
 
 Router>: User mode = Limited to basic monitoring commands
+
 Router#: Privileged mode (exec-level mode) = Provides access to all other router commands
+
 Router(config)#: global configuration mode = Commands that affect the entire system
+
 Router(config-if)#: interface mode = Commands that affect interfaces
+
 Router(config-subif)#: subinterface mode = Commands that affect subinterfaces
+
 Router(config-line)#: line mode = Commands that affect in lines modes (console, vty, aux…)
+
 Router(config-router)#: router configuration mode
 
 ### Changing switch hostname:
@@ -70,32 +76,32 @@ Switch(config)# hostname SW1
 
 ### Configuring passwords:
 ~~~
-SW1(config)# enable secret cisco    ! MD5 hash
-SW1(config)# enable password notcisco    ! Clear text
+Switch1-Name(config)# enable secret cisco    ! MD5 hash
+Switch1-Name(config)# enable password notcisco    ! Clear text
 ~~~
 
 ### Securing console port:
 
 ~~~
-SW1(config)# line con 0
-SW1(config-line)# password cisco
-SW1(config-line)# login
+Switch1-Name(config)# line con 0
+Switch1-Name(config-line)# password cisco
+Switch1-Name(config-line)# login
 ~~~
 
 ### Securing terminal lines:
 ~~~
-SW1(config)# line vty 0 4
-SW1(config-line)# password cisco
-SW1(config-line)# login
+Switch1-Name(config)# line vty 0 4
+Switch1-Name(config-line)# password cisco
+Switch1-Name(config-line)# login
 ~~~
 
 ### Encrypting passwords:
 ~~~
-SW1(config)# service password-encryption
+Switch1-Name(config)# service password-encryption
 ~~~
 ### Configuring banners:
 ~~~
-SW1(config)# banner motd $
+Switch1-Name(config)# banner motd $
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 UNAUTHORIZED ACCESS IS PROHIBITED
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
@@ -106,24 +112,24 @@ $
 ### Giving the switch an IP address:
 
 ~~~
-SW1(config)# interface vlan 1
-SW1(config-if)# ip address 172.16.1.11 255.255.255.0    ! or DHCP
-SW1(config-if)# no shutdown
+Switch1-Name(config)# interface vlan 1
+Switch1-Name(config-if)# ip address 172.16.1.11 255.255.255.0    ! or DHCP
+Switch1-Name(config-if)# no shutdown
 ~~~
 
 ### Setting the default gateway:
 ~~~
-SW1(config)# ip default-gateway 172.16.1.1
+Switch1-Name(config)# ip default-gateway 172.16.1.1
 ~~~
 ### Saving configuration:
 ~~~
-SW1# copy running-config startup-config
+Switch1-Name# copy running-config startup-config
 Destination filename [startup-config]?    ! Press enter to confirm file name.
 Building configuration…
 [OK]
  
 ! Short for write memory.
-SW1# wr
+Switch1-Name# wr
 Building configuration…
 [OK]
 ~~~
