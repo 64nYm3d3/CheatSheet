@@ -11,42 +11,58 @@ Shows the current configuration file stored in DRAM.
 ~~~
 Switch1-Name# show running-config
 ~~~
+ 
+ 
 
 Shows the configuration file stored in NVRAM which is used at first boot process.
 ~~~
 Switch1-Name# show startup-config
 ~~~
+ 
+ 
 
 Lists the commands currently held in the history buffer.
 ~~~
 Switch1-Name# show history
 ~~~
+ 
+ 
 
 Shows an overview of all interfaces, their physical status, protocol status and ip address if assigned.
 ~~~
 Switch1-Name# show ip interface brief
 ~~~
 
+ 
+ 
 Shows detailed information about the specified interface, its status, protocol, duplex, speed, encapsulation, last 5 min traffic.
 ~~~
 Switch1-Name# show interface vlan 1
 ~~~
 
+ 
+ 
 Shows the description of all interfaces
 ~~~
 Switch1-Name# show interfaces description
 ~~~
 
+ 
+ 
 Shows the status of all interfaces like connected or not, speed, duplex, trunk or access vlan.
 ~~~
 Switch1-Name# show interfaces status
 ~~~
 
+ 
+ 
 Shows the public encryption key used for SSH.
 ~~~
 Switch1-Name# show crypto key mypubkey rsa
 ~~~
 
+ 
+ 
 Shows information about the leased IP address (when an interface is configured to get IP address via a dhcp server)
 ~~~
 Switch1-Name# show dhcp lease
