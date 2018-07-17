@@ -52,7 +52,7 @@ Shows information about the leased IP address (when an interface is configured t
 Switch1-Name# show dhcp lease
 ~~~
 
---- Router Modes:
+### Router Modes:
 
 Router>: User mode = Limited to basic monitoring commands
 Router#: Privileged mode (exec-level mode) = Provides access to all other router commands
@@ -62,51 +62,61 @@ Router(config-subif)#: subinterface mode = Commands that affect subinterfaces
 Router(config-line)#: line mode = Commands that affect in lines modes (console, vty, aux…)
 Router(config-router)#: router configuration mode
 
---- Changing switch hostname:
+### Changing switch hostname:
 
+~~~
 Switch(config)# hostname SW1
+~~~
 
---- Configuring passwords:
-
+### Configuring passwords:
+~~~
 SW1(config)# enable secret cisco    ! MD5 hash
 SW1(config)# enable password notcisco    ! Clear text
+~~~
 
---- Securing console port:
+### Securing console port:
 
+~~~
 SW1(config)# line con 0
 SW1(config-line)# password cisco
 SW1(config-line)# login
+~~~
 
---- Securing terminal lines:
-
+### Securing terminal lines:
+~~~
 SW1(config)# line vty 0 4
 SW1(config-line)# password cisco
 SW1(config-line)# login
+~~~
 
---- Encrypting passwords:
-
+### Encrypting passwords:
+~~~
 SW1(config)# service password-encryption
-
---- Configuring banners:
-
+~~~
+### Configuring banners:
+~~~
 SW1(config)# banner motd $
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 UNAUTHORIZED ACCESS IS PROHIBITED
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 $
+~~~
+(Pretty Banners save lives!)
 
---- Giving the switch an IP address:
+### Giving the switch an IP address:
 
+~~~
 SW1(config)# interface vlan 1
 SW1(config-if)# ip address 172.16.1.11 255.255.255.0    ! or DHCP
 SW1(config-if)# no shutdown
+~~~
 
---- Setting the default gateway:
-
+### Setting the default gateway:
+~~~
 SW1(config)# ip default-gateway 172.16.1.1
-
---- Saving configuration:
-
+~~~
+### Saving configuration:
+~~~
 SW1# copy running-config startup-config
 Destination filename [startup-config]?    ! Press enter to confirm file name.
 Building configuration…
@@ -116,7 +126,7 @@ Building configuration…
 SW1# wr
 Building configuration…
 [OK]
-
+~~~
 ---
 Refs: 
 https://github.com/slyth11907/Cheatsheets
