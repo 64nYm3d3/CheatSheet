@@ -17,8 +17,7 @@ This is a modified list of the pentest-standard.org technical guidelines. The si
       + 1.2.4 802.11_USB_adapter
       + 1.2.5 External_Antennas
       + 1.2.6 USB_GPS
-    - 1.3 Software 
-   </p></details>
+    - 1.3 Software  </p></details>
    
    
    
