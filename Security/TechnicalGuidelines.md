@@ -4,32 +4,33 @@ This is a modified list of the pentest-standard.org technical guidelines. The si
 
 ##### Table of Contents  
 
-1 Tools_Required
-   - 1.1 Operating_Systems <details><summary>Show</summary><p>
+1 Tools_Required <details><summary>Show</summary><p>
+   
+   - 1.1 Operating_Systems
       + 1.1.1 MacOS_X
       + 1.1.2 VMware_Workstation
          * 1.1.2.1 Linux
          * 1.1.2.2 Windows_XP/7
-            </p></details>
-   - 1.2 Radio_Frequency_Tools <details><summary>Show</summary><p>
+    - 1.2 Radio_Frequency_Tools 
             1.2.1 Frequency_Counter
             1.2.2 Frequency_Scanner
             1.2.3 Spectrum_Analyzer
             1.2.4 802.11_USB_adapter
             1.2.5 External_Antennas
             1.2.6 USB_GPS
-           </p></details>
-        1.3 Software 
+     -  1.3 Software 
+   </p></details>
    
-   2 Intelligence Gathering 
-        2.1 OSINT <details><summary>Show</summary><p>
+   2 Intelligence Gathering <details><summary>Show</summary><p>
+   
+        2.1 OSINT 
             2.1.1 Corporate
             2.1.2 Physical
                 2.1.2.1 Locations
                 2.1.2.2 Shared/Individual
                 2.1.2.3 Owner
                     2.1.2.3.1 Land/tax_records
-   </p></details>
+   
             2.1.3 Datacenter_Locations
                 2.1.3.1 Time_zones
                 2.1.3.2 Offsite_gathering
@@ -143,7 +144,11 @@ This is a modified list of the pentest-standard.org technical guidelines. The si
                     2.6.1.9.3 enumIAX
                 2.6.1.10 Passive_Reconnaissance
                     2.6.1.10.1 Packet_Sniffing
-    3 Vulnerability_Analysis
+                    
+  </p></details>
+                     
+                     
+   3 Vulnerability_Analysis
         3.1 Vulnerability Testing
             3.1.1 Active
             3.1.2 Automated_Tools
