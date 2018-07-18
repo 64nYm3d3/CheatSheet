@@ -19,7 +19,7 @@ This is a modified list of the pentest-standard.org technical guidelines. The si
       + 1.2.6 USB_GPS
     - 1.3 Software  </p></details>
    
-   
+   -
    
    2 Intelligence Gathering <details><summary>Show</summary><p>
    
