@@ -4,8 +4,7 @@ This is a modified list of the pentest-standard.org technical guidelines. The si
 
 ##### Table of Contents  
 
-1 Tools_Required <details><summary>Show</summary><p>
-   
+1 Tools_Required <details><summary>Show</summary><p> 
    - 1.1 Operating_Systems
       + 1.1.1 MacOS_X
       + 1.1.2 VMware_Workstation
@@ -20,6 +19,8 @@ This is a modified list of the pentest-standard.org technical guidelines. The si
       + 1.2.6 USB_GPS
     - 1.3 Software 
    </p></details>
+   
+   
    
    2 Intelligence Gathering <details><summary>Show</summary><p>
    
