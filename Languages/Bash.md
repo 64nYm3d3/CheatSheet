@@ -2,23 +2,25 @@
 
 Basic commands for interacting with linux
 
-cd - Change Directory
+**cd** - Change Directory
 
-ls - List Selection
+**ls** - List Selection
 
-file - determine filetype
+**file** - determine filetype
 
-mkdir - Make Directory
+**mkdir** - Make Directory
 
-touch - create a file
+**touch** - create a file
 
-mv - move the file
+**mv** - move the file
 
-cp - copy and paste a file
+**cp** - copy and paste a file
 
-pwd - print working directory
+**pwd** - print working directory
 
-tree - creates a kind of map
+**tree** - creates a kind of map
+
+**ifconfig** - displays cnetwork interfaces, can be used to do some configurations
 
 
 Useful to know
