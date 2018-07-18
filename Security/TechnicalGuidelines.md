@@ -148,7 +148,7 @@ This is a modified list of the pentest-standard.org technical guidelines. The si
   </p></details>
                      
                      
-   3 Vulnerability_Analysis
+   3 Vulnerability_Analysis <details><summary>Show</summary><p> 
         3.1 Vulnerability Testing
             3.1.1 Active
             3.1.2 Automated_Tools
@@ -209,7 +209,11 @@ This is a modified list of the pentest-standard.org technical guidelines. The si
                     3.3.2.2.2 Whitelisting
                     3.3.2.2.3 AV/Filtering/Behavioral_Analysis
                 3.3.2.3 Application_level_protections
-    4 Exploitation
+   
+   </p></details>
+   
+   
+   4 Exploitation <details><summary>Show</summary><p> 
         4.1 Precision_strike
             4.1.1 Countermeasure_Bypass
                 4.1.1.1 AV
@@ -306,7 +310,11 @@ This is a modified list of the pentest-standard.org technical guidelines. The si
                 4.9.1.1 History/Logs
             4.9.2 Cleanup
         4.10 Persistence
-    5 Post Exploitation
+        </p></details>
+        
+        
+        
+  5 Post Exploitation <details><summary>Show</summary><p> 
         5.1 Windows_Post_Exploitation
             5.1.1 Blind_Files
             5.1.2 Non_Interactive_Command_Execution
@@ -336,13 +344,20 @@ This is a modified list of the pentest-standard.org technical guidelines. The si
                 5.2.2.1 Copy_from_the_Registry
                 5.2.2.2 Extracting_the_Hashes
             5.2.3 Extracting_Passwords_from_Registry_using_Meterpreter
-    6 Reporting
+            
+            </p></details>
+            
+            
+   6 Reporting <details><summary>Show</summary><p> 
         6.1 Executive-Level_Reporting
         6.2 Technical_Reporting
         6.3 Quantifying_the_risk
         6.4 Deliverable
-    7 Custom_tools_developed
-    8 Appendix_A-Creating_OpenVAS_"Only_Safe_Checks"Policy
+        </p></details>
+        
+   7 Custom_tools_developed
+    
+   8 Appendix_A-Creating_OpenVAS_"Only_Safe_Checks"Policy <details><summary>Show</summary><p> 
         8.1 General
         8.2 Plugins
         8.3 Credentials
@@ -350,22 +365,30 @@ This is a modified list of the pentest-standard.org technical guidelines. The si
         8.5 Access_Rules
         8.6 Preferences
         8.7 Knowledge_Base
-    9 Appendix_B-Creating_the_"Only_Safe_Checks"\_Policy
+  </p></details>
+  
+  9 Appendix_B-Creating_the_"Only_Safe_Checks"\_Policy <details><summary>Show</summary><p> 
         9.1 General
         9.2 Credentials
         9.3 Plugins
         9.4 Preferences
-    10 Appendix_C-Creating_the_"Only_Safe_Checks_(Web)"\_Policy
+        </p></details>
+    
+   10 Appendix_C-Creating_the_"Only_Safe_Checks_(Web)"\_Policy <details><summary>Show</summary><p> 
         10.1 General
         10.2 Credentials
         10.3 Plugins
         10.4 Preferences
-    11 Appendix_D-Creating_the_"Validation_Scan"\_Policy
+    </p></details>
+ 
+ 11 Appendix_D-Creating_the_"Validation_Scan"\_Policy <details><summary>Show</summary><p> 
         11.1 General
         11.2 Credentials
         11.3 Plugins
         11.4 Preferences
-    12 Appendix_E-NeXpose_Default_Templates
+        </p></details>
+ 
+ 12 Appendix_E-NeXpose_Default_Templates <details><summary>Show</summary><p> 
         12.1 Denial_of_service
         12.2 Discovery_scan
         12.3 Discovery_scan_(aggressive)
@@ -382,6 +405,7 @@ This is a modified list of the pentest-standard.org technical guidelines. The si
         12.14 Sarbanes-Oxley_(SOX)compliance
         12.15 SCADA_audit
         12.16 Web_audit
+        </p></details>
 
 
 ---
