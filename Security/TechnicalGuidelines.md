@@ -4,15 +4,14 @@ This is a modified list of the pentest-standard.org technical guidelines. The si
 
 ##### Table of Contents  
 
-
-   1 Tools_Required
-        - 1.1 Operating_Systems <details><summary>Show</summary><p>
-            + 1.1.1 MacOS_X
-            + 1.1.2 VMware_Workstation
-               * 1.1.2.1 Linux
-               * 1.1.2.2 Windows_XP/7
+1 Tools_Required
+   - 1.1 Operating_Systems <details><summary>Show</summary><p>
+      + 1.1.1 MacOS_X
+      + 1.1.2 VMware_Workstation
+         * 1.1.2.1 Linux
+         * 1.1.2.2 Windows_XP/7
             </p></details>
-        - 1.2 Radio_Frequency_Tools <details><summary>Show</summary><p>
+   - 1.2 Radio_Frequency_Tools <details><summary>Show</summary><p>
             1.2.1 Frequency_Counter
             1.2.2 Frequency_Scanner
             1.2.3 Spectrum_Analyzer
