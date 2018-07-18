@@ -12,13 +12,13 @@ This is a modified list of the pentest-standard.org technical guidelines. The si
          * 1.1.2.1 Linux
          * 1.1.2.2 Windows_XP/7
     - 1.2 Radio_Frequency_Tools 
-            1.2.1 Frequency_Counter
-            1.2.2 Frequency_Scanner
-            1.2.3 Spectrum_Analyzer
-            1.2.4 802.11_USB_adapter
-            1.2.5 External_Antennas
-            1.2.6 USB_GPS
-     -  1.3 Software 
+      + 1.2.1 Frequency_Counter
+      + 1.2.2 Frequency_Scanner
+      + 1.2.3 Spectrum_Analyzer
+      + 1.2.4 802.11_USB_adapter
+      + 1.2.5 External_Antennas
+      + 1.2.6 USB_GPS
+    - 1.3 Software 
    </p></details>
    
    2 Intelligence Gathering <details><summary>Show</summary><p>
