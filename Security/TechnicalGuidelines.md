@@ -344,8 +344,7 @@ This is a modified list of the pentest-standard.org technical guidelines. The si
                 5.2.2.1 Copy_from_the_Registry
                 5.2.2.2 Extracting_the_Hashes
             5.2.3 Extracting_Passwords_from_Registry_using_Meterpreter
-            
-            </p></details>
+        </p></details>
             
             
    6 Reporting <details><summary>Show</summary><p> 
