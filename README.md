@@ -27,7 +27,7 @@ Completed
 - [TMUX](https://github.com/64nYm3d3/CheatSheet/blob/master/Tools/Tmux.md)
 - [Cisco CLI](https://github.com/64nYm3d3/CheatSheet/blob/master/Networks/Command%20Line.md)
 
-In progress and I'm proud of.
+In progress and I'm proud-ish of.
 - [Contact Cards](https://github.com/64nYm3d3/CheatSheet/blob/master/Security/RFID/Contact%20Cards.md)
 - [List of Protocols](https://github.com/64nYm3d3/CheatSheet/tree/master/Networks/Protocols)
 
