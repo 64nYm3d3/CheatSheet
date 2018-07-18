@@ -143,237 +143,237 @@ This is a modified list of the pentest-standard.org technical guidelines. The si
     3 Vulnerability_Analysis
         3.1 Vulnerability Testing
             3.1.1 Active
-            3.1.2 Automated Tools
-                3.1.2.1 Network/General Vulnerability Scanners
-                3.1.2.2 Open Vulnerability Assessment System (OpenVAS) (Linux)
-                3.1.2.3 Nessus (Windows/Linux)
+            3.1.2 Automated_Tools
+                3.1.2.1 Network/General_Vulnerability_Scanners
+                3.1.2.2 Open Vulnerability_Assessment_System_(OpenVAS)(Linux)
+                3.1.2.3 Nessus_(Windows/Linux)
                 3.1.2.4 NeXpose
-                3.1.2.5 eEYE Retina
+                3.1.2.5 eEYE_Retina
                 3.1.2.6 Qualys
-                3.1.2.7 Core IMPACT
-                    3.1.2.7.1 Core IMPACT Web
-                    3.1.2.7.2 Core IMPACT WiFi
-                    3.1.2.7.3 Core IMPACT Client Side
-                    3.1.2.7.4 Core Web
+                3.1.2.7 Core_IMPACT
+                    3.1.2.7.1 Core_IMPACT_Web
+                    3.1.2.7.2 Core_IMPACT_WiFi
+                    3.1.2.7.3 Core_IMPACT_Client Side
+                    3.1.2.7.4 Core_Web
                     3.1.2.7.5 coreWEBcrawl
-                    3.1.2.7.6 Core Onestep Web RPTs
-                    3.1.2.7.7 Core WiFi
+                    3.1.2.7.6 Core_Onestep_Web_RPTs
+                    3.1.2.7.7 Core_WiFi
                 3.1.2.8 SAINT
                     3.1.2.8.1 SAINTscanner
                     3.1.2.8.2 SAINTexploit
                     3.1.2.8.3 SAINTwriter
-            3.1.3 Web Application Scanners
-                3.1.3.1 General Web Application Scanners
-                    3.1.3.1.1 WebInspect (Windows)
-                    3.1.3.1.2 IBM AppScan
-                    3.1.3.1.3 Web Directory Listing/Bruteforcing
-                    3.1.3.1.4 Webserver Version/Vulnerability Identification
-                3.1.3.2 NetSparker (Windows)
-                3.1.3.3 Specialized Vulnerability Scanners
-                    3.1.3.3.1 Virtual Private Networking (VPN)
+            3.1.3 Web_Application_Scanners
+                3.1.3.1 General_Web_Application_Scanners
+                    3.1.3.1.1 WebInspect_(Windows)
+                    3.1.3.1.2 IBM_AppScan
+                    3.1.3.1.3 Web_Directory_Listing/Bruteforcing
+                    3.1.3.1.4 Webserver_Version/Vulnerability_Identification
+                3.1.3.2 NetSparker_(Windows)
+                3.1.3.3 Specialized_Vulnerability Scanners
+                    3.1.3.3.1 Virtual_Private_Networking_(VPN)
                     3.1.3.3.2 IPv6
-                    3.1.3.3.3 War Dialing
-            3.1.4 Passive Testing
-                3.1.4.1 Automated Tools
-                    3.1.4.1.1 Traffic Monitoring
+                    3.1.3.3.3 War_Dialing
+            3.1.4 Passive_Testing
+                3.1.4.1 Automated_Tools
+                    3.1.4.1.1 Traffic_Monitoring
                 3.1.4.2 Wireshark
                 3.1.4.3 Tcpdump
-                3.1.4.4 Metasploit Scanners
-                    3.1.4.4.1 Metasploit Unleashed
-        3.2 Vulnerability Validation
-            3.2.1 Public Research
-                3.2.1.1 Common/default passwords
-            3.2.2 Establish target list
-                3.2.2.1 Mapping Versions
-                3.2.2.2 Identifying Patch Levels
-                3.2.2.3 Looking for Weak Web Applications
-                3.2.2.4 Identify Weak Ports and Services
-                3.2.2.5 Identify Lockout threshold
-        3.3 Attack Avenues
-            3.3.1 Creation of Attack Trees
-            3.3.2 Identify protection mechanisms
-                3.3.2.1 Network protections
-                    3.3.2.1.1 "Simple" Packet Filters
-                    3.3.2.1.2 Traffic shaping devices
-                    3.3.2.1.3 Data Loss Prevention (DLP) systems
-                3.3.2.2 Host based protections
-                    3.3.2.2.1 Stack/heap protections
+                3.1.4.4 Metasploit_Scanners
+                    3.1.4.4.1 Metasploit_Unleashed
+        3.2 Vulnerability_Validation
+            3.2.1 Public_Research
+                3.2.1.1 Common/default_passwords
+            3.2.2 Establish_target_list
+                3.2.2.1 Mapping_Versions
+                3.2.2.2 Identifying_Patch_Levels
+                3.2.2.3 Looking_for_Weak_Web_Applications
+                3.2.2.4 Identify_Weak_Ports_and_Services
+                3.2.2.5 Identify_Lockout_threshold
+        3.3 Attack_Avenues
+            3.3.1 Creation_of_Attack_Trees
+            3.3.2 Identify_protection_mechanisms
+                3.3.2.1 Network_protections
+                    3.3.2.1.1 "Simple"Packet_Filters
+                    3.3.2.1.2 Traffic_shaping_devices
+                    3.3.2.1.3 Data_Loss_Prevention_(DLP)systems
+                3.3.2.2 Host_based_protections
+                    3.3.2.2.1 Stack/heap_protections
                     3.3.2.2.2 Whitelisting
-                    3.3.2.2.3 AV/Filtering/Behavioral Analysis
-                3.3.2.3 Application level protections
+                    3.3.2.2.3 AV/Filtering/Behavioral_Analysis
+                3.3.2.3 Application_level_protections
     4 Exploitation
-        4.1 Precision strike
-            4.1.1 Countermeasure Bypass
+        4.1 Precision_strike
+            4.1.1 Countermeasure_Bypass
                 4.1.1.1 AV
                 4.1.1.2 Human
                 4.1.1.3 HIPS
                 4.1.1.4 DEP
                 4.1.1.5 ASLR
-                4.1.1.6 VA + NX (Linux)
-                4.1.1.7 w^x (OpenBSD)
+                4.1.1.6 VA _+_NX_(Linux)
+                4.1.1.7 w^x_(OpenBSD)
                 4.1.1.8 WAF
-                4.1.1.9 Stack Canaries
-                    4.1.1.9.1 Microsoft Windows
+                4.1.1.9 Stack_Canaries
+                    4.1.1.9.1 Microsoft_Windows
                     4.1.1.9.2 Linux
-                    4.1.1.9.3 MAC OS
-        4.2 Customized Exploitation
+                    4.1.1.9.3 MAC_OS
+        4.2 Customized_Exploitation
             4.2.1 Fuzzing
-            4.2.2 Dumb Fuzzing
-            4.2.3 Intelligent Fuzzing
+            4.2.2 Dumb_Fuzzing
+            4.2.3 Intelligent_Fuzzing
             4.2.4 Sniffing
                 4.2.4.1 Wireshark
                 4.2.4.2 Tcpdump
             4.2.5 Brute-Force
-                4.2.5.1 Brutus (Windows)
-                4.2.5.2 Web Brute (Windows)
+                4.2.5.1 Brutus_(Windows)
+                4.2.5.2 Web Brute_(Windows)
                 4.2.5.3 THC-Hydra/XHydra
                 4.2.5.4 Medusa
                 4.2.5.5 Ncrack
-            4.2.6 Routing protocols
-            4.2.7 Cisco Discovery Protocol (CDP)
-            4.2.8 Hot Standby Router Protocol (HSRP)
-            4.2.9 Virtual Switch Redundancy Protocol (VSRP)
-            4.2.10 Dynamic Trunking Protocol (DTP)
-            4.2.11 Spanning Tree Protocol (STP)
-            4.2.12 Open Shortest Path First (OSPF)
+            4.2.6 Routing_protocols
+            4.2.7 Cisco_Discovery_Protocol(CDP)
+            4.2.8 Hot_Standby_Router_Protocol(HSRP)
+            4.2.9 Virtual_Switch_Redundancy_Protocol(VSRP)
+            4.2.10 Dynamic_Trunking_Protocol(DTP)
+            4.2.11 Spanning_Tree_Protocol(STP)
+            4.2.12 Open_Shortest_Path First(OSPF)
             4.2.13 RIP
-            4.2.14 VLAN Hopping
-            4.2.15 VLAN Trunking Protocol (VTP)
-        4.3 RF Access
-            4.3.1 Unencrypted Wireless LAN
-                4.3.1.1 Iwconfig (Linux)
-                4.3.1.2 Windows (XP/7)
-            4.3.2 Attacking the Access Point
-                4.3.2.1 Denial of Service (DoS)
-            4.3.3 Cracking Passwords
-                4.3.3.1 WPA-PSK/ WPA2-PSK
+            4.2.14 VLAN_Hopping
+            4.2.15 VLAN_Trunking_Protocol(VTP)
+        4.3 RF_Access
+            4.3.1 Unencrypted_Wireless_LAN
+                4.3.1.1 Iwconfig_(Linux)
+                4.3.1.2 Windows_(XP/7)
+            4.3.2 Attacking_the_Access_Point
+                4.3.2.1 Denial_of_Service(DoS)
+            4.3.3 Cracking_Passwords
+                4.3.3.1 WPA-PSK/WPA2-PSK
                 4.3.3.2 WPA/WPA2-Enterprise
             4.3.4 Attacks
                 4.3.4.1 LEAP
                     4.3.4.1.1 Asleap
                 4.3.4.2 802.1X
-                    4.3.4.2.1 Key Distribution Attack
-                    4.3.4.2.2 RADIUS Impersonation Attack
+                    4.3.4.2.1 Key_Distribution_Attack
+                    4.3.4.2.2 RADIUS_Impersonation_Attack
                 4.3.4.3 PEAP
-                    4.3.4.3.1 RADIUS Impersonation Attack
-                    4.3.4.3.2 Authentication Attack
+                    4.3.4.3.1 RADIUS_Impersonation_Attack
+                    4.3.4.3.2 Authentication_Attack
                 4.3.4.4 EAP-Fast
                 4.3.4.5 WEP/WPA/WPA2
                 4.3.4.6 Aircrack-ng
-        4.4 Attacking the User
-            4.4.1 Karmetasploit Attacks
-            4.4.2 DNS Requests
+        4.4 Attacking_the_User
+            4.4.1 Karmetasploit_Attacks
+            4.4.2 DNS_Requests
             4.4.3 Bluetooth
-            4.4.4 Personalized Rogue AP
+            4.4.4 Personalized_Rogue_AP
             4.4.5 Web
-                4.4.5.1 SQL Injection (SQLi)
+                4.4.5.1 SQL_Injection_(SQLi)
                 4.4.5.2 XSS
                 4.4.5.3 CSRF
-            4.4.6 Ad-Hoc Networks
-            4.4.7 Detection bypass
-            4.4.8 Resistance of Controls to attacks
-            4.4.9 Type of Attack
-            4.4.10 The Social-Engineer Toolkit
-        4.5 VPN detection
-        4.6 Route detection, including static routes
-            4.6.1 Network Protocols in use
-            4.6.2 Proxies in use
-            4.6.3 Network layout
-            4.6.4 High value/profile targets
+            4.4.6 Ad-Hoc_Networks
+            4.4.7 Detection_bypass
+            4.4.8 Resistance_of_Controls_to_attacks
+            4.4.9 Type_of_Attack
+            4.4.10 The_Social-Engineer_Toolkit
+        4.5 VPN_detection
+        4.6 Route_detection,including_static_routes
+            4.6.1 Network_Protocols_in_use
+            4.6.2 Proxies_in_use
+            4.6.3 Network_layout
+            4.6.4 High_value/profile_targets
         4.7 Pillaging
-            4.7.1 Video Cameras
-            4.7.2 Data Exfiltration
-            4.7.3 Locating Shares
-            4.7.4 Audio Capture
-            4.7.5 High Value Files
-            4.7.6 Database Enumeration
+            4.7.1 Video_Cameras
+            4.7.2 Data_Exfiltration
+            4.7.3 Locating_Shares
+            4.7.4 Audio_Capture
+            4.7.5 High_Value_Files
+            4.7.6 Database_Enumeration
             4.7.7 Wifi
-            4.7.8 Source Code Repos
+            4.7.8 Source_Code_Repos
             4.7.9 Git
-            4.7.10 Identify custom apps
+            4.7.10 Identify_custom_apps
             4.7.11 Backups
-        4.8 Business impact attacks
-        4.9 Further penetration into infrastructure
-            4.9.1 Pivoting inside
+        4.8 Business_impact_attacks
+        4.9 Further_penetration_into_infrastructure
+            4.9.1 Pivoting_inside
                 4.9.1.1 History/Logs
             4.9.2 Cleanup
         4.10 Persistence
     5 Post Exploitation
-        5.1 Windows Post Exploitation
-            5.1.1 Blind Files
-            5.1.2 Non Interactive Command Execution
+        5.1 Windows_Post_Exploitation
+            5.1.1 Blind_Files
+            5.1.2 Non_Interactive_Command_Execution
             5.1.3 System
-            5.1.4 Networking (ipconfig, netstat, net)
+            5.1.4 Networking_(ipconfig,netstat,net)
             5.1.5 Configs
-            5.1.6 Finding Important Files
-            5.1.7 Files To Pull (if possible)
-            5.1.8 Remote System Access
-            5.1.9 Auto-Start Directories
-            5.1.10 Binary Planting
-            5.1.11 Deleting Logs
-            5.1.12 Uninstalling Software “AntiVirus” (Non interactive)
+            5.1.6 Finding_Important_Files
+            5.1.7 Files_To_Pull_(if possible)
+            5.1.8 Remote_System_Access
+            5.1.9 Auto-Start_Directories
+            5.1.10 Binary_Planting
+            5.1.11 Deleting_Logs
+            5.1.12 Uninstalling_Software_“AntiVirus”_(Non_interactive)
             5.1.13 Other
-                5.1.13.1 Operating Specific
+                5.1.13.1 Operating_Specific
                     5.1.13.1.1 Win2k3
                     5.1.13.1.2 Vista/7
-                    5.1.13.1.3 Vista SP1/7/2008/2008R2 (x86 & x64)
-            5.1.14 Invasive or Altering Commands
-            5.1.15 Support Tools Binaries / Links / Usage
-                5.1.15.1 Various tools
-        5.2 Obtaining Password Hashes in Windows
+                    5.1.13.1.3 Vista_SP1/7/2008/2008R2_(x86_&\_x64)
+            5.1.14 Invasive_or_Altering_Commands
+            5.1.15 Support_Tools_Binaries_/Links_/Usage
+                5.1.15.1 Various_tools
+        5.2 Obtaining_Password_Hashes_in_Windows
             5.2.1 LSASS Injection
-                5.2.1.1 Pwdump6 and Fgdump
-                5.2.1.2 Hashdump in Meterpreter
-            5.2.2 Extracting Passwords from Registry
-                5.2.2.1 Copy from the Registry
-                5.2.2.2 Extracting the Hashes
-            5.2.3 Extracting Passwords from Registry using Meterpreter
+                5.2.1.1 Pwdump6_and_Fgdump
+                5.2.1.2 Hashdump_in_Meterpreter
+            5.2.2 Extracting Passwords_from_Registry
+                5.2.2.1 Copy_from_the_Registry
+                5.2.2.2 Extracting_the_Hashes
+            5.2.3 Extracting_Passwords_from_Registry_using_Meterpreter
     6 Reporting
-        6.1 Executive-Level Reporting
-        6.2 Technical Reporting
-        6.3 Quantifying the risk
+        6.1 Executive-Level_Reporting
+        6.2 Technical_Reporting
+        6.3 Quantifying_the_risk
         6.4 Deliverable
-    7 Custom tools developed
-    8 Appendix A - Creating OpenVAS "Only Safe Checks" Policy
+    7 Custom_tools_developed
+    8 Appendix_A-Creating_OpenVAS_"Only_Safe_Checks"Policy
         8.1 General
         8.2 Plugins
         8.3 Credentials
-        8.4 Target Selection
-        8.5 Access Rules
+        8.4 Target_Selection
+        8.5 Access_Rules
         8.6 Preferences
-        8.7 Knowledge Base
-    9 Appendix B - Creating the "Only Safe Checks" Policy
+        8.7 Knowledge_Base
+    9 Appendix_B-Creating_the_"Only_Safe_Checks"\_Policy
         9.1 General
         9.2 Credentials
         9.3 Plugins
         9.4 Preferences
-    10 Appendix C - Creating the "Only Safe Checks (Web)" Policy
+    10 Appendix_C-Creating_the_"Only_Safe_Checks_(Web)"\_Policy
         10.1 General
         10.2 Credentials
         10.3 Plugins
         10.4 Preferences
-    11 Appendix D - Creating the "Validation Scan" Policy
+    11 Appendix_D-Creating_the_"Validation_Scan"\_Policy
         11.1 General
         11.2 Credentials
         11.3 Plugins
         11.4 Preferences
-    12 Appendix E - NeXpose Default Templates
-        12.1 Denial of service
-        12.2 Discovery scan
-        12.3 Discovery scan (aggressive)
+    12 Appendix_E-NeXpose_Default_Templates
+        12.1 Denial_of_service
+        12.2 Discovery_scan
+        12.3 Discovery_scan_(aggressive)
         12.4 Exhaustive
-        12.5 Full audit
-        12.6 HIPAA compliance
-        12.7 Internet DMZ audit
-        12.8 Linux RPMs
-        12.9 Microsoft hotfix
-        12.10 Payment Card Industry (PCI) audit
-        12.11 Penetration test
-        12.12 Penetration test
-        12.13 Safe network audit
-        12.14 Sarbanes-Oxley (SOX) compliance
-        12.15 SCADA audit
-        12.16 Web audit
+        12.5 Full_audit
+        12.6 HIPAA_compliance
+        12.7 Internet_DMZ_audit
+        12.8 Linux_RPMs
+        12.9 Microsoft_hotfix
+        12.10 Payment_Card_Industry_(PCI)audit
+        12.11 Penetration_test
+        12.12 Penetration_test
+        12.13 Safe_network_audit
+        12.14 Sarbanes-Oxley_(SOX)compliance
+        12.15 SCADA_audit
+        12.16 Web_audit
 
 
 ---
