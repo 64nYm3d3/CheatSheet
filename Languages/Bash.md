@@ -66,11 +66,16 @@ Dirty knowledge ;)
 -
 
 ### Systemctl
- - **start** 
- - **stop**
- - **enable**
- - **disable**
-
+Some useful unit commands for **systemctl** 
+ - **start** - start a unit or multiple instances
+ - **stop** - stop a unit or multiple instances
+ - **enable** - This will create a number of symlinks as encoded in the "[Install]" sections of the unit files. 
+ - **disable** - This removes all symlinks to the specified unit files from the unit configuration directory, and hence undoes the changes made by enable.
+ - **status** - Show runtime status information about one or more units
+ - **kill** - Send a signal to one or more processes of the unit
+ - **restart** - Restart one or more units specified on the command line
+ 
+ You can always read more here https://www.commandlinux.com/man-page/man1/systemctl.1.html and I highly reccomend reading a little of this https://docs.fedoraproject.org/quick-docs/en-US/understanding-and-administering-systemd.html is definitely worthwhile.
 
 ### Find, Locate, and Which
 Knowing the difference between find, locate, and which.
