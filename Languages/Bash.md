@@ -65,6 +65,12 @@ tcp6       0      0 :::22                   :::*                    LISTEN      
 Dirty knowledge ;)
 -
 
+### Systemctl
+ - **start** 
+ - **stop**
+ - **enable**
+ - **disable**
+
 
 ### Find, Locate, and Which
 Knowing the difference between find, locate, and which.
