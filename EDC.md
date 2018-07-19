@@ -21,21 +21,22 @@
      
   
 [2.0 Gear](#Gear)
-  - [Special_Bypass](#Special_Bypass)
+  - [2.1 Special_Bypass](#Special_Bypass)
     * [REX_Sensors]
       + [Handwarmers](#Handwarmers)
       + [Compressed_Air](#Compressed_Air)
     * [Thermal_Imaging](#Thermal_Imaging)
       + [Mylar_Blankets](#Mylar_Blankets)
     * [Wondrous_Magnetic_Locks_Of_Wizards](#Magnetic_Locks)
-  - [Recon](#Recon)
+  - [2.2 Recon](#Recon)
     * [Cameras](#Cameras)
       + [Go_Pro](#Go_Pro)
       + [Nikon_P900](#Nikon_P900)
+      + [Thermal]
     * [Oculars](#Oculars)
       + [High_Power](#High_Power)
       + [Night_Vision](#Night_Vision)
-   -[Lights]()
+   - [2.3 Lights]()
      * [Headlamp](#Headlamp)
      * [Flashlight](#Flashlight)
      
