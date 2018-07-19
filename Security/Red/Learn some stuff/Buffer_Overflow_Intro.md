@@ -63,4 +63,7 @@ The quote that got me interested in this...
 
 *"Nice work. You can copy the PoC exploit code, run it, see that it doesn’t work (or if you are lucky, conclude that it works), or… you can try to understand the process of building the exploit so you can correct broken exploits, or just build your own exploits from scratch. (or if you are lucky, conclude that it works), or… you can try to understand the process of building the exploit so you can correct broken exploits, or just build your own exploits from scratch."*
 
-
+---
+Refs:
+https://www.corelan.be/index.php/2009/07/19/exploit-writing-tutorial-part-1-stack-based-overflows/
+https://github.com/justinsteven/dostackbufferoverflowgood (I cloned this repo)
