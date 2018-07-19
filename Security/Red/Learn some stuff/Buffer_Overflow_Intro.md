@@ -61,8 +61,6 @@ To put it simply, we are **freely able to write to memory addresses and execute 
 
 The quote that got me interested in this... 
 
-*"
-
-Nice work.� You can copy the PoC exploit code, run it, see that it doesn’t work (or if you are lucky, conclude that it works), or… you can try to understand the process of building the exploit so you can correct broken exploits, or just build your own exploits from scratch. (or if you are lucky, conclude that it works), or… you can try to understand the process of building the exploit so you can correct broken exploits, or just build your own exploits from scratch."*
+*"Nice work. You can copy the PoC exploit code, run it, see that it doesn’t work (or if you are lucky, conclude that it works), or… you can try to understand the process of building the exploit so you can correct broken exploits, or just build your own exploits from scratch. (or if you are lucky, conclude that it works), or… you can try to understand the process of building the exploit so you can correct broken exploits, or just build your own exploits from scratch."*
 
 
