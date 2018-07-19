@@ -4,7 +4,7 @@
 ### - Daemons can be managed with **systemctl**
 ### - Understand the **difference** between **find** (agressive), **locate** (local db), and **which** ($Path)
 
-Also included (**!!!REMEMBER TO UPDATE!!!**)
+Also included (**!!!\_REMEMBER TO UPDATE_!!!**)
 - **rcconf** useage ( rcconf allows you to control which services are started when the system boots up or reboots.)
 - **sysv-rc-conf** useage(Run-level configuration for SysV like init script link)
 - **dconf** useage (maybe? Are you a paranoid sysadmin? Snapshot a machine before it's broken!)
