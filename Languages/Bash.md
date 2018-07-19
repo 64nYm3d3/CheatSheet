@@ -33,9 +33,14 @@ Table
 **systemctl** - gives control over **systemd**, which is the system and service manager for linux. When run as first process on boot (as PID 1), it acts as init system that brings up and maintains userspace services.
 
 **grep** - "global regular expression print", processes text line by line and prints any lines which match a specified pattern.
- 
 
-Command cheatsheet
+**netstat** - prints information about the \*nix networking subsystem
+
+**apache2** - The HTTP service can come in handy during a penetration test, either for hosting a site,
+or providing a platform for downloading files to a victim machine.
+
+### Command cheatsheet
+
 
 **Create sudo user**
 ~~~
@@ -45,15 +50,15 @@ uname@box~# su - username
 ~~~
 
 **Start a service**
-In this case it's ssh
+In this case it's apache2
 ~~~
 ┌─[ganymede@parrot]─[~]
-└──╼ $sudo systemctl start ssh
+└──╼ $sudo systemctl start apach2
 ~~~
 
 **Verify a running process**
 
-In this case it's ssh again. If you're sexually insecure, don't worry, the "D" only means Damon.
+In this case it's ssh. If you're sexually insecure, don't worry, the "D" only means Damon.
 ~~~
 ┌─[✗]─[ganymede@parrot]─[~]
 └──╼ $sudo netstat -antp|grep sshd
@@ -62,19 +67,35 @@ tcp6       0      0 :::22                   :::*                    LISTEN      
 ~~~
 
 
+**Start SSH services automatically at boot time**
+~~~
+┌─[✗]─[ganymede@parrot]─[~]
+└──╼ $sudo systemctl enable ssh
+[sudo] password for ganymede: 
+\Synchronizing state of ssh.service with SysV service script with /lib/systemd/systemd-sysv-install.
+Executing: /lib/systemd/systemd-sysv-install enable ssh
+insserv: warning: current start runlevel(s) (empty) of script `ssh' overrides LSB defaults (2 3 4 5).
+insserv: warning: current stop runlevel(s) (2 3 4 5) of script `ssh' overrides LSB defaults (empty).
+~~~
+ 
+
+
 Dirty knowledge ;)
 -
 
 ### Systemctl
+
 Some useful unit commands for **systemctl** 
  - **start** - start a unit or multiple instances
  - **stop** - stop a unit or multiple instances
- - **enable** - This will create a number of symlinks as encoded in the "[Install]" sections of the unit files. 
- - **disable** - This removes all symlinks to the specified unit files from the unit configuration directory, and hence undoes the changes made by enable.
  - **status** - Show runtime status information about one or more units
  - **kill** - Send a signal to one or more processes of the unit
  - **restart** - Restart one or more units specified on the command line
  
+Some useful unit file commands for **systemctl**, my understanding is that these types of commands will modify files and the previous are only session specific.
+- **enable** - This will create a number of symlinks as encoded in the "[Install]" sections of the unit files. 
+- **disable** - This removes all symlinks to the specified unit files from the unit configuration directory, and hence undoes the changes made by enable.
+
  You can always read more here https://www.commandlinux.com/man-page/man1/systemctl.1.html and I highly reccomend reading a little of this https://docs.fedoraproject.org/quick-docs/en-US/understanding-and-administering-systemd.html is definitely worthwhile.
 
 ### Find, Locate, and Which
