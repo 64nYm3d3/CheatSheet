@@ -22,8 +22,50 @@ Table
 **pwd** - print working directory
 
 
+### Useful commands
+
+**tree** - creates a kind of map
+
+**ifconfig** - displays cnetwork interfaces, can be used to do some configurations
+
+**passwd** - changes password
+
+**systemctl** - gives control over **systemd**, which is the system and service manager for linux. When run as first process on boot (as PID 1), it acts as init system that brings up and maintains userspace services.
+
+**grep** - "global regular expression print", processes text line by line and prints any lines which match a specified pattern.
+ 
+
+Command cheatsheet
+
+**Create sudo user**
+~~~
+uname@box~# adduser username
+uname@box~# usermod -aG sudo username
+uname@box~# su - username
+~~~
+
+**Start a service**
+In this case it's ssh
+~~~
+┌─[ganymede@parrot]─[~]
+└──╼ $sudo systemctl start ssh
+~~~
+
+**Verify a running process**
+
+In this case it's ssh again. If you're sexually insecure, don't worry, the "D" only means Damon.
+~~~
+┌─[✗]─[ganymede@parrot]─[~]
+└──╼ $sudo netstat -antp|grep sshd
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      19438/sshd          
+tcp6       0      0 :::22                   :::*                    LISTEN      19438/sshd
+~~~
+
+
 ### Useful to know
 
+Find, Locate, and Which
+-
 Knowing the difference between find, locate, and which.
 
 
@@ -52,6 +94,7 @@ The **which** command only searches through directories that are defined in the 
 
 **find** is more aggressive than either than locate or which, allowing you to recursively search a given path for various files. 
 Due to the size of this example I had to collapse it.
+
 
 <details><summary>Details</summary><p>
    
@@ -104,42 +147,3 @@ Due to the size of this example I had to collapse it.
 /usr/src/linux-headers-4.14.0-parrot13-common/include/linux/sunrpc/svcsock.h
 ~~~
 </p></details>
-
-### Useful commands
-
-**tree** - creates a kind of map
-
-**ifconfig** - displays cnetwork interfaces, can be used to do some configurations
-
-**passwd** - changes password
-
-**systemctl** - gives control over **systemd**, which is the system and service manager for linux. When run as first process on boot (as PID 1), it acts as init system that brings up and maintains userspace services.
-
-**grep**
- 
-
-Command cheatsheet
-
-**Create sudo user**
-~~~
-uname@box~# adduser username
-uname@box~# usermod -aG sudo username
-uname@box~# su - username
-~~~
-
-**Start a service**
-In this case it's ssh
-~~~
-┌─[ganymede@parrot]─[~]
-└──╼ $sudo systemctl start ssh
-~~~
-
-**Verify a running process**
-
-In this case it's ssh again. If you're sexually insecure, don't worry, the "D" only means Damon.
-~~~
-┌─[✗]─[ganymede@parrot]─[~]
-└──╼ $sudo netstat -antp|grep sshd
-tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      19438/sshd          
-tcp6       0      0 :::22                   :::*                    LISTEN      19438/sshd
-~~~
