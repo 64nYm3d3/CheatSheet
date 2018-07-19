@@ -20,7 +20,7 @@
      
      
   
-2.0 Gear](#Gear)
+[2.0 Gear](#Gear)
   - [Special_Bypass](#Special_Bypass)
     * [REX_Sensors]
       + [Handwarmers](#Handwarmers)
