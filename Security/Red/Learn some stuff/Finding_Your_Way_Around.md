@@ -1,0 +1,1 @@
+Most services are operated in much the same way that the SSH and HTTP daemons are managed, through their service or init scripts. To get more granular control of these services, you can use tools such as rcconf or sysv- rc-conf, both designed to help simplify and manage the boot persistence of these services.
