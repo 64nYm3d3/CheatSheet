@@ -57,4 +57,6 @@ So if we have input ~~~ 0123 4567~~~ (64 bits allocated & 24 bits beyond intende
 
 To put it simply, we are **freely able to write to memory addresses and execute it** since the program does not stop executing the instruction set loaded into memory. So we may be able to execute a small amount of code that realistically may allow us to redirect, introduce, and execute our own arbitrary code for a shell into a limited space allocated for the program by the system.
 
+## Entry level buffer overflow
+
 
