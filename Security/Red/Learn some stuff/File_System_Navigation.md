@@ -2,7 +2,7 @@
 
 ## While this does go in depth, key points to remember
 ### - Daemons can be managed with **systemctl**
-### - Understand the **difference** between **find** (agressive), **locate** (local db), and **which** ($Path)
+### - Understand the **difference** between **find** (aggressive), **locate** (local db), and **which** ($Path)
 
 Also included (**!!!\_REMEMBER TO UPDATE_!!!**)
 - **rcconf** useage ( rcconf allows you to control which services are started when the system boots up or reboots.)
