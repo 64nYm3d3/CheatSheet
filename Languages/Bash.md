@@ -1,6 +1,16 @@
 # Bash
 
 Table
+Basic commands
+Complex commands
+Command cheatsheet
+[Introduction to bash scripting](#bash_scripting)
+
+
+Dirty knowledge ;)
+
+
+
 -
 
 ### Basic commands for interacting with linux
@@ -22,7 +32,7 @@ Table
 **pwd** - print working directory
 
 
-### Useful commands
+### Complex commands
 
 **tree** - creates a kind of map
 
