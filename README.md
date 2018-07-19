@@ -25,13 +25,12 @@ Also a lot of things are incomplete since I have so much to add overall. So here
 Completed
 - [NMAP](https://github.com/64nYm3d3/CheatSheet/blob/master/Tools/NMap.md)
 - [TMUX](https://github.com/64nYm3d3/CheatSheet/blob/master/Tools/Tmux.md)
-- [Cisco CLI](https://github.com/64nYm3d3/CheatSheet/blob/master/Networks/Command%20Line.md)
-- 
+- [Cisco CLI](https://github.com/64nYm3d3/CheatSheet/blob/master/Networks/Command%20Line.md) 
 
 In progress and I'm proud-ish of.
 - [Contact Cards](https://github.com/64nYm3d3/CheatSheet/blob/master/Security/RFID/Contact%20Cards.md)
 - [List of Protocols](https://github.com/64nYm3d3/CheatSheet/tree/master/Networks/Protocols)
-- - [Bash](https://github.com/64nYm3d3/CheatSheet/blob/master/Languages/Bash.md)
+- [Bash](https://github.com/64nYm3d3/CheatSheet/blob/master/Languages/Bash.md)
 
 Not worth looking at but in progress
 - Technical Guidelines
