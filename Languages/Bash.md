@@ -55,7 +55,10 @@ The **which** command only searches through directories that are defined in the 
 ~~~
 
 **find** is more aggressive than either than locate or which, allowing you to recursively search a given path for various files. 
+Due to the size of this example I had to collapse it.
+
 <details><summary>Details</summary><p>
+   
 ~~~
 ┌─[✗]─[ganymede@parrot]─[~]
 └──╼ $sudo find / -name svc*
@@ -104,4 +107,5 @@ The **which** command only searches through directories that are defined in the 
 /usr/src/linux-headers-4.14.0-parrot13-common/include/linux/sunrpc/svcauth_gss.h
 /usr/src/linux-headers-4.14.0-parrot13-common/include/linux/sunrpc/svcsock.h
 ~~~
+
    </p></details>
