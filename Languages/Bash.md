@@ -103,5 +103,4 @@ The **which** command only searches through directories that are defined in the 
 /usr/src/linux-headers-4.14.0-parrot13-common/include/linux/sunrpc/svc_rdma.h
 /usr/src/linux-headers-4.14.0-parrot13-common/include/linux/sunrpc/svcauth_gss.h
 /usr/src/linux-headers-4.14.0-parrot13-common/include/linux/sunrpc/svcsock.h
-/home/ganymede/Documents/ctf/svchost.zip
 ~~~
