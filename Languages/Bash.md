@@ -62,10 +62,11 @@ tcp6       0      0 :::22                   :::*                    LISTEN      
 ~~~
 
 
-### Useful to know
-
-Find, Locate, and Which
+Dirty knowledge ;)
 -
+
+
+### Find, Locate, and Which
 Knowing the difference between find, locate, and which.
 
 
