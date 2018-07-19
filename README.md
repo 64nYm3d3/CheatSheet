@@ -26,10 +26,12 @@ Completed
 - [NMAP](https://github.com/64nYm3d3/CheatSheet/blob/master/Tools/NMap.md)
 - [TMUX](https://github.com/64nYm3d3/CheatSheet/blob/master/Tools/Tmux.md)
 - [Cisco CLI](https://github.com/64nYm3d3/CheatSheet/blob/master/Networks/Command%20Line.md)
+- 
 
 In progress and I'm proud-ish of.
 - [Contact Cards](https://github.com/64nYm3d3/CheatSheet/blob/master/Security/RFID/Contact%20Cards.md)
 - [List of Protocols](https://github.com/64nYm3d3/CheatSheet/tree/master/Networks/Protocols)
+- - [Bash](https://github.com/64nYm3d3/CheatSheet/blob/master/Languages/Bash.md)
 
 Not worth looking at but in progress
 - Technical Guidelines
@@ -37,6 +39,7 @@ Not worth looking at but in progress
 - RFID Hackerz
 - EDC
 - NIST SP 800-53
+- [File System Navigation](https://github.com/64nYm3d3/CheatSheet/blob/master/Security/Red/Learn%20some%20stuff/File_System_Navigation.md)
 
 What I really want to add more information on
 - OSSTMM
