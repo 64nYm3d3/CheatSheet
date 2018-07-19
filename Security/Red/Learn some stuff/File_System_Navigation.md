@@ -1,5 +1,5 @@
 # Finding your way around an operating system
-
+---
 ## While this does go in depth, key points to remember
 ### - Daemons can be managed with **systemctl**
 ### - Understand the **difference** between **find** (aggressive), **locate** (local db), and **which** ($Path)
