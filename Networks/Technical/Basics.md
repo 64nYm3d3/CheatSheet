@@ -12,7 +12,7 @@ Icons you'll see in the wild
 Icon Guide
 ![Icon Guide](http://www.conceptdraw.com/How-To-Guide/picture/Cisco-switches-and-hubs-Design-elements.png)
 
-Common networking equipment
+Common LAN networking equipment
 -
 
 #### Hubs
@@ -45,6 +45,31 @@ Functionally in your network they do this...
 * **Packet filtering** (controlling access to a network based on IP address of source and destination) *packet filtering is both a tool and a technique that is a basic building block of network security*
 * **Internetwork communication** (Two or more routers, connected to eachother, routing traffic between two or more networks)
 * **Path Selection** (routing data from one location to another efficiently)
+
+Common WLAN Equipment
+-
+WLAN devices connect wireless devices such as computers, printers and tablets to the network. Since most devices today have a WNIC (wireless NIC) you just need to configure a basic access point (AP) to connect to the wored network.
+
+#### Access Points (AP)
+Allow wireless devices to connect to a wired network
+- extend a collision domain from a switch
+- typically their own own stand alone broadcast domain (VLAN)
+- Can be standalone, but usually managed through a wireles controller .
+
+#### WLAN Controllers
+These are devices that NOC's or admins use to manage AP's in medium to large quantities.
+- Automatically handles configuration of AP's
+- Traditionally used in Enterprise systems
+- With Meraki you can manage small to medium sized network via the cloud using their simple configuration web controller system
+
+#### Firewalls
+ Firewalls typically establishes a barrier between a trusted, secure, internal network and the internet.  IPS (Intrusion prevention system) it's really important to be aware of another tool called an IDS (Intrusions detection systems), where the IPS is like a firewall, the IDS is a visibility tool. These monitor and control incoming and outgoing network traffic based on predetermined security rules. There are a few different types of firewalls commonly found:
+ 
+ - Cisco ASA (Adaptive security appliance) firewall, one of the most widely used firewall/VPN solutions for small to medium businesse
+ - Fortinet Fortigate
+ -Juniper SRX
+ -pfSense
+ - FireEye
 
 NAT and PAT
 -
