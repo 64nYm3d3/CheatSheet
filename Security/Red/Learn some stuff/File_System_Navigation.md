@@ -35,7 +35,7 @@ tcp6       0      0 :::22                   :::*                    LISTEN      
 ~~~
 
 
-**Start SSH services automatically at boot time**
+**Start SSH services (or any other) automatically at boot time**
 ~~~
 ┌─[✗]─[ganymede@parrot]─[~]
 └──╼ $sudo systemctl enable ssh
