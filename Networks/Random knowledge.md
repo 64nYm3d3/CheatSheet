@@ -5,6 +5,7 @@
 * Low Badwidth
 * Adding hubs for connectivity to the network
 * A bunch of ARP broadcasts
+* Be wary of broadcast domain size, too large and your bandwidth is wasted
 
 # Important Things
 
