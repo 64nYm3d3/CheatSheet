@@ -57,7 +57,11 @@ So if we have input ~~~ 0123 4567~~~ (64 bits allocated & 24 bits beyond intende
 
 To put it simply, we are **freely able to write to memory addresses and execute it** since the program does not stop executing the instruction set loaded into memory. So we may be able to execute a small amount of code that realistically may allow us to redirect, introduce, and execute our own arbitrary code for a shell into a limited space allocated for the program by the system.
 
-## Entry level buffer overflow
+## Eazy level overflow
+
+### No DEP!
+### No ASLR!
+### No Stack Canaries
 
 The quote that got me interested in this... 
 
@@ -66,6 +70,8 @@ The quote that got me interested in this...
 ---
 Refs:
 
-https://www.corelan.be/index.php/2009/07/19/exploit-writing-tutorial-part-1-stack-based-overflows/
+https://www.corelan.be/index.php/2009/07/19/exploit-writing-tutorial-part-1-stack-based-overflows/ (I cannot stress how good this is, this single tutorial is basically the PWK buffer overflow section)
 
 https://github.com/justinsteven/dostackbufferoverflowgood (A similar example is used in the PWK course)
+
+https://www.vortex.id.au/2017/05/pwkoscp-stack-buffer-overflow-practice/ (practice)
