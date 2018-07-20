@@ -32,9 +32,9 @@ Mission Critical must knows
   
 RFID protocols
   - NFC
-  - EMx
-  - T=0
-  - T=1
+  - EM-x
+  - T=0 (kinda)
+  - T=1 (kinda)
   - Wiegand
   
 IoT
