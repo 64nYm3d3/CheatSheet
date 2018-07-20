@@ -1,5 +1,5 @@
 
-# Neato-working quickguide
+# Inter-neato-working basics
 learn the basics of networking
 
 ---
@@ -20,6 +20,8 @@ Common networking equipment
 A dumb device allowing computers to communicate with eachother.  
 * Hubs dont segment networks, they connect network segments. 
 * All hosts hear data being on the same line. 
+
+While we don't see traditional hubs in the wild anymore, we do see hubs in the form of an access point in present day!
 
 #### Switch
 
@@ -73,4 +75,9 @@ Is an extension to network address translation (NAT) that permits multiple devic
 For example an ISP assigns your router an IP adress, when your client communicates out, it is assigned a port number representing your client, and appended to the private IP address of the router giving it a unique internal address. Lets say your brother drops by your house unannounced after his girlfriend left him, then connects to your personal network with his own client, he gets a different port number, and while you are playing videogames, the traffic from the videos he's watching of his ex on instagram can distinguished by you ISP thanks to this.
 
 It's got a shorter definition under NAT if you just wann a read that.
+
+#### VLANS
+
+Virtual LANs logically break up broadcast domains in a Layer 2 switched network
+ - It's really important to understand that even in a swtiched network, a router is still need to provide communications between traffic
 
