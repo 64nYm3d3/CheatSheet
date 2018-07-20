@@ -6,6 +6,7 @@
 * Adding hubs for connectivity to the network
 * A bunch of ARP broadcasts
 * Be wary of broadcast domain size, too large and your bandwidth is wasted
+* Get low latency switch ports for all your devices, the biggest bottleneck on your local network now are usually routers and switches, especially since people there are so many legacy ones! Right now, 1 Gbps for desktop and 10 Gbps between switch uplinks should be the minimum
 
 # Important Things
 
