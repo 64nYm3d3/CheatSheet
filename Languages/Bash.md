@@ -49,6 +49,8 @@ Dirty knowledge ;)
 **apache2** - The HTTP service can come in handy during a penetration test, either for hosting a site,
 or providing a platform for downloading files to a victim machine.
 
+**chmod** - modify file permissions
+
 ### Command cheatsheet
 
 
@@ -87,7 +89,18 @@ Executing: /lib/systemd/systemd-sysv-install enable ssh
 insserv: warning: current start runlevel(s) (empty) of script `ssh' overrides LSB defaults (2 3 4 5).
 insserv: warning: current stop runlevel(s) (2 3 4 5) of script `ssh' overrides LSB defaults (empty).
 ~~~
- 
+
+**View file permissions(and then change them)**
+~~~
+ ┌─[ganymede@parrot]─[~/Downloads]
+└──╼ $ls -als ./ida*
+45956 -rw-r--r-- 1 ganymede ganymede 47056982 Jul 20 01:32 ./idafree70_linux.run
+┌─[✗]─[ganymede@parrot]─[~/Downloads]
+└──╼ $chmod 755 idafree70_linux.run
+┌─[ganymede@parrot]─[~/Downloads]
+└──╼ $ls -als ./ida*
+45956 -rwxr-xr-x 1 ganymede ganymede 47056982 Jul 20 01:32 ./idafree70_linux.run
+~~~
 
 
 Dirty knowledge ;)
