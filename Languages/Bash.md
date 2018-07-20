@@ -111,7 +111,11 @@ Intro to Bash Scripting
 To start we'll find the 
  - subdomains of an index page
  - ipaddress of those sub domains
-We'll use the  [Microshaft index page](https://www.microsoft.com/en-us/) for this example
+ 
+We'll use the  [Microshaft index page](https://www.microsoft.com/) for this example and start by downloading the page.
+~~~
+wget https://www.microsoft.com/
+~~~
 
 
 
