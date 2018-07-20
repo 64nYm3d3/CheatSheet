@@ -1,17 +1,18 @@
 # Bash
 
 Table
-Basic commands
-Complex commands
-Command cheatsheet
-[Introduction to bash scripting](#bash_scripting)
+
+1. Basic commands
+
+2. Complex commands
+
+3. Command cheatsheet
+
+4. [Introduction to bash scripting](#bash_scripting)
+5. Dirty knowledge ;)
 
 
-Dirty knowledge ;)
 
-
-
--
 
 ### Basic commands for interacting with linux
 
@@ -50,6 +51,8 @@ Dirty knowledge ;)
 or providing a platform for downloading files to a victim machine.
 
 **chmod** - modify file permissions
+
+**wget** - retrieves files using internet protocols, noninteractive
 
 ### Command cheatsheet
 
@@ -101,6 +104,32 @@ insserv: warning: current stop runlevel(s) (2 3 4 5) of script `ssh' overrides L
 └──╼ $ls -als ./ida*
 45956 -rwxr-xr-x 1 ganymede ganymede 47056982 Jul 20 01:32 ./idafree70_linux.run
 ~~~
+
+Intro to Bash Scripting
+-
+
+To start we'll find the 
+ - subdomains of an index page
+ - ipaddress of those sub domains
+We'll use the  [Microshaft index page](https://www.microsoft.com/en-us/) for this example
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 Dirty knowledge ;)
