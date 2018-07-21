@@ -1,4 +1,6 @@
 # Bash
+Now I know some of these arent bash,  but if it runs in the commandline, why does it matter?
+
 
 Table
 
@@ -105,9 +107,9 @@ insserv: warning: current stop runlevel(s) (2 3 4 5) of script `ssh' overrides L
 45956 -rwxr-xr-x 1 ganymede ganymede 47056982 Jul 20 01:32 ./idafree70_linux.run
 ~~~
 
-**Bring your internet up**
+**Bring your internet up, assign it an IP address**
 ~~~
-ifconfig eth0 up
+ifconfig eth0 up 192.168.1.34
 ~~~
 
 Intro to Bash Scripting
