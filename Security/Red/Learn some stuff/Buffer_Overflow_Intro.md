@@ -4,7 +4,7 @@ I LOVE THIS STUFF
 
 Table
 
-Dont know where to put this for now, but when you write opcode in C, and then convert it, using smaller registers heps avoid bad chars
+Dont know where to put this for now, but when you write opcode in C, and then convert it, using smaller registers helps avoid bad chars
 
 ## Introduction to the concept
 
