@@ -1,4 +1,11 @@
-### Walk Through
+# This is a tool from pentest monkeys!
+
+[Walkthrough](#Walkthrough)
+[FAQ](#FAQ)
+[Caveats](#Caveats)
+
+
+## Walk Through
 Modify the source
 
 To prevent someone else from abusing your backdoor – a nightmare scenario while pentesting – you need to modify the source code to indicate where you want the reverse shell thrown back to.  Edit the following lines of php-reverse-shell.php:
@@ -22,7 +29,7 @@ Using whatever vulnerability you’ve discovered in the website, upload php-reve
 http://somesite/php-reverse-shell.php
 ~~~
 
-Enjoy your new shell
+### Enjoy your new shell
 
 If all went well, the web server should have thrown back a shell to your netcat listener.  Some useful commans such as w, uname -a, id and pwd are run automatically for you:
 ~~~
