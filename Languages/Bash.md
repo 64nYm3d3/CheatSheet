@@ -105,6 +105,11 @@ insserv: warning: current stop runlevel(s) (2 3 4 5) of script `ssh' overrides L
 45956 -rwxr-xr-x 1 ganymede ganymede 47056982 Jul 20 01:32 ./idafree70_linux.run
 ~~~
 
+**Bring your internet up**
+~~~
+ifconfig eth0 up
+~~~
+
 Intro to Bash Scripting
 -
 
