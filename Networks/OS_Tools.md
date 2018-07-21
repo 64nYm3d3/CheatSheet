@@ -16,3 +16,7 @@ dig
 
 finger
 
+host
+
+nslookup
+
