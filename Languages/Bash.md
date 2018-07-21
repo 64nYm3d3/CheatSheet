@@ -1,5 +1,5 @@
 # Bash
-Now I know some of these arent bash,  but if it runs in the commandline, why does it matter?
+Now I know some of these arent bash,  but if it runs in the commandline, on most linux systems, and useful, I'll throw it here.
 
 
 Table
