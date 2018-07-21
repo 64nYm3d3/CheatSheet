@@ -1,5 +1,7 @@
 # Google Operators
 
+Use a vpn, you will get banned from using google services if you probe to hard
+
 Useful operators
 
 inurl
@@ -8,7 +10,28 @@ intext
 
 filetype
 
+site
 
+intitle
+
+allintitle
+
+cache
+
+filetype
+
+Neato Stuff
+-
+
+#### View all directories indexed
+~~~
+allintite:index of
+~~~
+
+#### Every admin page
+~~~
+inurl:admin
+~~~
 
 
 
