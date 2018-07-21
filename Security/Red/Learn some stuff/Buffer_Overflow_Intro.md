@@ -70,7 +70,7 @@ The quote that got me interested in this...
 ---
 Refs:
 
-https://www.corelan.be/index.php/2009/07/19/exploit-writing-tutorial-part-1-stack-based-overflows/ (I cannot stress how good this is, this single tutorial is basically the PWK buffer overflow section)
+https://www.corelan.be/index.php/2009/07/19/exploit-writing-tutorial-part-1-stack-based-overflows/ (I cannot stress how good this is, this single part-1 tutorial is basically the PWK buffer overflow section)
 
 https://github.com/justinsteven/dostackbufferoverflowgood (A similar example is used in the PWK course)
 
