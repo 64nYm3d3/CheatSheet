@@ -15,3 +15,12 @@ There is a concept called *binding*, in which communication processes that are r
 - It prevents changes in one layer from affecting other layers to expedite development.
 
 
+## OSI Reference model
+
+Thhe OSI model has seven different layers. These layers are divided into two groups.
+
+![OSI Model](https://www.lifewire.com/thmb/HmXo1D1vHnFhx9SNVJ34dEuZoDI=/400x0/filters:no_upscale():max_bytes(150000):strip_icc()/basics_osimodel-56a1ad0c5f9b58b7d0c19c53.jpg)
+
+*7 layers of the OSI model*
+
+The upper layers are the top 3 layers of the OSI model
