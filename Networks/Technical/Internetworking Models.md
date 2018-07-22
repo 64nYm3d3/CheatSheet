@@ -36,7 +36,7 @@ Presents data and handles processes such as encryption; *Data encryption, compre
 
 **Session**
 
-Keeps diferent applications data separate; *Dialog control.* This layer is responsible for setting up, managing, and dismatling sessions between presentation layer entities, and keeping user data separate. Dialog control between devices also occurs at this layer. Communications is coordinated and organized via 3 different modes:
+Keeps diferent applications data separate; *Dialog control.* This layer is responsible for setting up, managing, and dismatling sessions between presentation layer entities, and keeping user data separate. Dialog control between devices also occurs at this layer. Communications are coordinated and organized via 3 different modes:
   - **Simplex** (One way communication, like when I try to flirt)
   - **Half-Duplex**  (Two way communication, but only one can communicate at a time, like a debate)
   - **Full Duplex** (Two way simultanous communication, kind of like an argument)
@@ -45,7 +45,9 @@ Since the upper layers dont need to know nothin 'bout networking and network adr
 
 ### The Lower 4 layers of the OSI model
 
-**Transport** - Provides reliable (or unreliable in UDP's case) delivery, it also performs error correction before retransmit; *End-to-end connection*
+**Transport** 
+
+Provides reliable (or unreliable in UDP's case) delivery, it also performs error correction before retransmit; *End-to-end connection.* The Transport layer segments and reassembles data into aa single data stream. Taking all the data from the upper layers and combining them into a concise data stream. These protocols provide end--to-end data transport services                                                     
 
 **Network** - provides logical addressing which routers use for path determination; *Routing*
 
