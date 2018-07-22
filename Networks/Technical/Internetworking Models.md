@@ -23,10 +23,43 @@ Thhe OSI model has seven different layers. These layers are divided into two gro
 
 *7 layers of the OSI model*
 
-#### The upper layers are the top 3 layers of the OSI model.
+### The upper layers are the top 3 layers of the OSI model.
 
-**Application** - provides a user interface
+**Application** 
 
-**Presentation** - Presents data and handdles processes such as encryption
+Provides a user interface; *File, print, message, database, and application services.* The application layer is working as an interface between the actual program and the next layer down by providing way for the application to send information down through the protocol stack. Identifying an confirming the communication partners availibilty, verifying the required resources to permit the specified type of communication also occurs at this layer.
+ 
+**Presentation** 
 
-**Session** - Keeps diferent applications data separate
+Presents data and handles processes such as encryption; *Data encryption, compression, and translation services.* The presentation layer gets its name form it's purpose. It presents data to the Application Layer and is responsible for data translation and copde formatting. For example, the layer is responsible for encoding data into a generic standard format for transportation so one application layey on a machine can read data from another one. With this in mind, OSI also includes protocols defining how standard data should be formatted, so functions like data compression , decompression, encryption, decryption, incuding some multimedia operations as well.
+
+
+**Session**
+
+Keeps diferent applications data separate; *Dialog control.* This layer is responsible for setting up, managing, and dismatling sessions between presentation layer entities, and keeping user data separate. Dialog control between devices also occurs at this layer. Communications is coordinated and organized via 3 different modes:
+  - **Simplex** (One way communication, like when I try to flirt)
+  - **Half-Duplex**  (Two way communication, but only one can communicate at a time, like a debate)
+  - **Full Duplex** (Two way simultanous communication, kind of like an argument)
+
+Since the upper layers dont need to know nothin 'bout networking and network adresses, fuhget-about-em
+
+### The Lower 4 layers of the OSI model
+
+**Transport** - Provides reliable (or unreliable in UDP's case) delivery, it also performs error correction before retransmit; *End-to-end connection*
+
+**Network** - provides logical addressing which routers use for path determination; *Routing*
+
+**Data Link** - Combines packets  into bytes and bytes into frames, provides access to media using MAC addressing,  performs error detection (not correction); *Framing*
+
+**Phsyical** - Moves bits between devices, specifies voltage, wire speed, and pinout of cables; *Physical Topology*
+
+
+
+
+
+
+While 
+
+---
+Ref:
+Todd Lamle SYBEX CCNA study guide
