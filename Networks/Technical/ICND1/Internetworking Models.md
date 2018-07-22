@@ -48,7 +48,7 @@ Since the upper layers dont need to know nothin 'bout networking and network adr
 **Transport** 
 
 Provides reliable (or unreliable in UDP's case) delivery, it also performs error correction before retransmit; *End-to-end connection.* The Transport layer segments and reassembles data into aa single data stream. Taking all the data from the upper layers and combining them into a concise data stream. These protocols provide end-to-end data transport services and can establish a logical connection betweeen the sending host and the destination host on an internetwork. TCP and UDP are integral to this layerr. The transportation lai responsible for:
- - providing mechanisms for multiplexingupper applications
+ - Providing mechanisms for multiplexingupper applications
  - Estalbishing sessions
  - Tearing down virtual circuits.
  - Hide details of network-dependant information from higher levels or provide transparent data transfer
@@ -58,11 +58,48 @@ It can be either connectionless or connection oriented. Reliable networking requ
 
 ![SYN/ACK](https://s25785.pcdn.co/wp-content/uploads/2017/02/standard_tcp_handshake.png?t=1505317731683&width=673&name=standard_tcp_handshake.png)
 
-For reliable transport, a connection oriented communications session must first be established between devices. It's a peer system known as a *call setup* or more commonly *three way handshake.* Sessions occur like this:
- 1. Three way handshake occurs
- 2. Data Transfer occurs
- 3. Call termination tears down virtual circuits
+For reliable transport, a connection oriented communications session must first be established between devices. It's a peer system known as a *call setup* or more commonly *three way handshake.* 
+ **1.** Three way handshake occurs
+     
+ **2.** Data Transfer occurs
+     
+ **3.** Call termination tears down virtual circuits
+ 
+ *Connection Oriented communication*
 
+- **SYN** a syncronization request is sent out
+- **SYN/ACK** the request is acknowledges the request and and establishes connection parameters. These segments request that the receivers sequencing is synchronized here as well so that a bi-directional connection can be formed.
+- **ACK** the final segment is also an ACK, notifying the destination host that the connection agreement has been accepted, with the connection established, data transfer can now begin
+
+Lets say datagrams get sent out from one machine to another on a switched network, too quickly for that machine to process, then they get stored in a memory section called a *buffer*. If the buffer is filled and we run out of allocated memory it's  flooded. The datagrams just get lost and can't find their way home, the subsequent datagrams received just dissapear. Luckily there is a thing called  *flow control*
+
+*Flow Control*
+
+ The fail safe solution to avoid floods and losing data. Flow control ensures data integrity at the transport layer. It  prevents a sending host from overflowing the buffers on the receiving host at request. 
+ - The segments delivered are acknowledged back to the sender upon reception
+ - Segments are sequenced back into proper order upon arrival at their destination.
+ - A manageable data flow is maintained in order to avoid congestion, overloading, or data loss.
+
+ Insteading of dumping and losing data the transport layer can indicate whether it's "ready" or "not ready" to receive segments. Datagrams are delivered to the receiving host (hopefully) in the same sequence they were transmitted. If a failure occurs, data segments are lost, duplicated, or damaged, the receiving host will acknowledge this, have the the sending host retransmit, otherwise acknowledge it has received each and every data segment.
+ 
+ To be connection oriented, a service has to have the following characteristics
+ - A virtual circuit or "three-way handshake" is established
+ - It uses sequencing
+ - It uses acknowledgements
+ - It uses flow control
+ 
+ *Windowing*
+ 
+If a machine had to wait for acknowledgement after sending each segment before sending another, the process would be extremely slow. The quantityof data segments that a transmitting machine is allowed to send without receiving acknowledgement is called a *window*.
+
+While some protocols use the number of packets, TCP/IP uses it by counting the number of bytes. 
+ 
+ ![windowing](http://www.learncisco.net/assets/images/icnd1/17-windowing.jpg)
+ 
+ *Acknowledgementss*
+ 
+     
+     
 **Network** - provides logical addressing which routers use for path determination; *Routing.* 
 
 **Data Link** - Combines packets  into bytes and bytes into frames, provides access to media using MAC addressing,  performs error detection (not correction); *Framing*
@@ -80,3 +117,4 @@ While
 ---
 Ref:
 Todd Lamle SYBEX CCNA study guide
+http://www.learncisco.net/courses/icnd-1/building-a-network/tcpip-transport-layer.html - if you can't afford the book.
