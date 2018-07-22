@@ -22,7 +22,7 @@ Basics
 
 **rmdir**
 
-## Advanced Darkness and commandlets
+## Commandlets
 
 **Get-Process** - Gets the processes that are running on the local computer or a remote computer. Want something specific? Use the -name switch and separate the processes you're interested by comments
 
