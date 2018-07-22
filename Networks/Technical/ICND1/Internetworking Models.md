@@ -47,13 +47,28 @@ Since the upper layers dont need to know nothin 'bout networking and network adr
 
 **Transport** 
 
-Provides reliable (or unreliable in UDP's case) delivery, it also performs error correction before retransmit; *End-to-end connection.* The Transport layer segments and reassembles data into aa single data stream. Taking all the data from the upper layers and combining them into a concise data stream. These protocols provide end--to-end data transport services                                                     
+Provides reliable (or unreliable in UDP's case) delivery, it also performs error correction before retransmit; *End-to-end connection.* The Transport layer segments and reassembles data into aa single data stream. Taking all the data from the upper layers and combining them into a concise data stream. These protocols provide end-to-end data transport services and can establish a logical connection betweeen the sending host and the destination host on an internetwork. TCP and UDP are integral to this layerr. The transportation lai responsible for:
+ - providing mechanisms for multiplexingupper applications
+ - Estalbishing sessions
+ - Tearing down virtual circuits.
+ - Hide details of network-dependant information from higher levels or provide transparent data transfer
+It can be either connectionless or connection oriented. Reliable networking requires that acknowledgements, sequencing, and flow control all be used
 
-**Network** - provides logical addressing which routers use for path determination; *Routing*
+*Connection Oriented communication*
+
+![SYN/ACK](https://s25785.pcdn.co/wp-content/uploads/2017/02/standard_tcp_handshake.png?t=1505317731683&width=673&name=standard_tcp_handshake.png)
+
+For reliable transport, a connection oriented communications session must first be established between devices. It's a peer system known as a *call setup* or more commonly *three way handshake.* Sessions occur like this:
+ 1. Three way handshake occurs
+ 2. Data Transfer occurs
+ 3. Call termination tears down virtual circuits
+
+**Network** - provides logical addressing which routers use for path determination; *Routing.* 
 
 **Data Link** - Combines packets  into bytes and bytes into frames, provides access to media using MAC addressing,  performs error detection (not correction); *Framing*
 
 **Phsyical** - Moves bits between devices, specifies voltage, wire speed, and pinout of cables; *Physical Topology*
+
 
 
 
