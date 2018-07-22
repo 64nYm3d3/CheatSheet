@@ -88,12 +88,28 @@ Mode                LastWriteTime         Length  Name
 -a----         7/7/2016   7:19 PM             24  test.txt
 ~~~
 
+**Set-Content**
+~~~
+PS /home/jello>Set-Content -Path ./test.txt -Value "Hello world again!"
+~~~
 
+**Get-Content**
+Gets the content of the item at the specified location.
+~~~
+PS /home/jello> Get-Content -Path ./test.txt
+PS /home/jello> type -Path ./test.txt
+Hello world again!
+~~~
 
+**Remove-Item** - Deletes item
 
+~~~
+PS /home/jello> Remove-Item ./test.txt
+~~~
 
+**exit** Quit the PS game
 
-
+## Powershell Scripting
 
 
 ---
