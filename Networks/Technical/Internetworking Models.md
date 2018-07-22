@@ -23,4 +23,10 @@ Thhe OSI model has seven different layers. These layers are divided into two gro
 
 *7 layers of the OSI model*
 
-The upper layers are the top 3 layers of the OSI model
+#### The upper layers are the top 3 layers of the OSI model.
+
+**Application** - provides a user interface
+
+**Presentation** - Presents data and handdles processes such as encryption
+
+**Session** - Keeps diferent applications data separate
