@@ -76,6 +76,17 @@ PS /home/jello> dir –Path *.txt -Recurse
 //Get-ChildItem -Path *.txt -Recurse -Force
 ~~~
 
+**New-Item** Creates a new object. You can use the -Value parameter to add some data to your file. For example, the following command adds the phrase "Hello world!" as a file content to the test.txt. Because the (in this scenario) test.txt file exists already, we use -Force parameter to replace the existing content.
+~~~
+PS /home/jello> New-Item -Path ./test.txt -Value "Hello world!" -Force
+
+    Directory: /home/jello
+
+
+Mode                LastWriteTime         Length  Name
+----                -------------         ------  ----
+-a----         7/7/2016   7:19 PM             24  test.txt
+~~~
 
 
 
