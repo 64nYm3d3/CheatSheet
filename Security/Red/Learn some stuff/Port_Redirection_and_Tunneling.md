@@ -2,7 +2,7 @@
 
 This stuff is really useful, if I were you, I'd memorize it going into the interview
 ### Things to remember
- - **Port Forwarding** - redirect traffic from one port to another; can be done with the tool:
+ - **Port Forwarding** - redirect traffic from inbound  from one port and outbound through another; can be done with the tool:
  ~~~
  rinetd
  ~~~
@@ -10,7 +10,7 @@ This stuff is really useful, if I were you, I'd memorize it going into the inter
  ~~~ 
  /etc/rinetd.conf
  ~~~
- - **Local Portforwarding**
+ - **Local Portforwarding** - locally send outbound traffic
  ~~~
  ssh <gateway> -L <local port to listen>:<remote host>:<remote port>
  ~~~
@@ -72,7 +72,7 @@ in which our home machine will then send to another machine,a web server, at 123
 
 ## SSH Tunneling
 
-One lesser known feature of SSH is to create encrypted tunnels within the SSH protocol, which supports bi-directional communication channels. Lets say there is trickery going on, and we need to bypass [egress restrictions](https://github.com/64nYm3d3/CheatSheet/blob/master/Networks/Random%20knowledge.md) 
+One lesser known feature of SSH is to create encrypted tunnels within the SSH protocol, which supports bi-directional communication channels. Lets say there is trickery going on, and we need to bypass [an egress restriction] (https://github.com/64nYm3d3/CheatSheet/blob/master/Networks/Random%20knowledge.md) on this syntax
 ~~~
 ssh <gateway> -L <local port to listen>:<remote host>:<remote port>
 ~~~
@@ -86,7 +86,7 @@ And browsing this on the internal network:
 http://127.0.0.1/:8080
 ~~~
 
-So, we browse the local port 8080 on the internal network, which redirects traffic outound through port 445 to our machine at home, encrypted through ssh from the internal machine to our machine at home, which then again redirects to the web server at 123.123.123.123
+So, we browse the local port 8080 on the internal network, which redirects traffic outound through port 445 to our machine at home, encrypted through ssh from the internal machine to our machine at home, which then again redirects to the web server at 123.123.123.123 (I think I messed up explaining this)
 
 ## Remote Port Forwarding
 
