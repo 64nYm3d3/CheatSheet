@@ -1,3 +1,15 @@
+
+# Egress & Ingress
+
+**Egress** traffic is any data or traffic bound for an external entity and passing through the edge router of the host network to reach its destination node.
+
+Egress filtering is a popular network management technique. It scans all egress traffic for any sign of abnormality or malicious activity and then discards any infected data packets.
+
+**Ingress** traffic is composed of all the data communications and network traffic originating from external networks and destined for a node in the host network.
+
+Ingress traffic can be any form of traffic whose source lies in an external network and whose destination resides inside the host network. Ingress traffic can be from all applications accessed via a remote server or over the Internet.
+
+
 # Common LAN Traffic issues
 * Too many Hosts in a collision or Broadcast Domain
 * Broadcast Storms
