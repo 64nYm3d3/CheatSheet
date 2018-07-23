@@ -50,7 +50,7 @@ So in this example, lets say we have access to a machine, with outbound network 
 
 ## SSH Tunneling
 
-One lesser known feature of SSH is to create encrypted tunnels within the SSH protocol, which supports bi-directional communication channels. Lets say there is trickery going on, and we need to bypass (egress restrictions)[https://github.com/64nYm3d3/CheatSheet/blob/master/Networks/Random%20knowledge.md] on syntax like this 
+One lesser known feature of SSH is to create encrypted tunnels within the SSH protocol, which supports bi-directional communication channels. Lets say there is trickery going on, and we need to bypass [egress restrictions](https://github.com/64nYm3d3/CheatSheet/blob/master/Networks/Random%20knowledge.md) on syntax like this 
 ~~~
 ssh <gateway> -L <local port to listen>:<remote host>:<remote port>
 ~~~
