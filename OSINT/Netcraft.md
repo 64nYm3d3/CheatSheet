@@ -1,3 +1,3 @@
 # Netcraft
 
-A kind of passive form of gathering web server info.
+A kind of passive form of gathering web server info. Performs functions like dig dns for you
