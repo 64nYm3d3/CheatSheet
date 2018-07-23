@@ -10,7 +10,8 @@ The tool **rinet** functions as an internet redirection server. Redirects TCP co
 ~~~ /etc/rinetd.conf. 
 ~~~
 Install the tool:
-~~~┌─[✗]─[ganymede@parrot]─[~/Downloads]
+~~~
+┌─[✗]─[ganymede@parrot]─[~/Downloads]
 └──╼ $sudo apt-get install rinetd
 ~~~
 Edit the file:
