@@ -12,9 +12,9 @@ This stuff is really useful, if I were you, I'd memorize it going into the inter
  ~~~ 
  /etc/rinetd.conf
  ~~~
- - **Local Portforwarding** - locally send outbound traffic
+ - **Local Portforwarding** - connect
  ~~~
- ssh <gateway> -L <local port to listen>:<remote host>:<remote port>
+ ssh <gateway> -p <outbound port> -L <local port to listen>:<remote host>:<remote port>
  ~~~
  
  
@@ -91,7 +91,12 @@ So, we browse the local port 8080 on the internal network, which redirects traff
 
 ## Remote Port Forwarding
 
-SSH remote port forwarding allows us to tunnel a remote port to a local server. 
+SSH remote port forwarding allows us to tunnel a remote port to a local server. We have a shell on an internal, non routable corporate with an exposed RDP service running on 3390. From the penetrated internal machine, you create a reverse SSH tunnel with your attacking machine, through which you expose the victim’s RDP port on your attacking machine on port 3390. We can create this tunnel with SSH, using syntax similar to the following:
+~~~
+ssh <gateway> -R <remote port to bind>:<local host>:<local port>
+~~~
+
+
 
 
 
