@@ -31,6 +31,11 @@ In progress and I'm proud-ish of.
 - [Contact Cards](https://github.com/64nYm3d3/CheatSheet/blob/master/Security/RFID/Contact%20Cards.md)
 - [Bash](https://github.com/64nYm3d3/CheatSheet/blob/master/Languages/Bash.md)
 - [Buffer Overflow intro](https://github.com/64nYm3d3/CheatSheet/blob/master/Security/Red/Learn%20some%20stuff/Buffer_Overflow_Intro.md)
+- [Google Dorking](https://github.com/64nYm3d3/CheatSheet/blob/master/OSINT/Google_Dorking.md)
+- [Internetworking Models](https://github.com/64nYm3d3/CheatSheet/blob/master/Networks/Technical/ICND1/Internetworking%20Models.md)
+- [Port Redirection & Tunneling](https://github.com/64nYm3d3/CheatSheet/blob/master/Security/Red/Learn%20some%20stuff/Port_Redirection_and_Tunneling.md)
+- [PowerShell & DOS](https://github.com/64nYm3d3/CheatSheet/blob/master/Languages/PowerShell_%26_DOS.md)
+
 
 Not worth looking at but in progress
 - Technical Guidelines
