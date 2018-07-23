@@ -73,7 +73,7 @@ in which our home machine will then send to another machine,a web server, at 123
 
 ## SSH Tunneling
 
-One lesser known feature of SSH is to create encrypted tunnels within the SSH protocol, which supports bi-directional communication channels. Lets say there is trickery going on, and we need to bypass [an egress restriction] (https://github.com/64nYm3d3/CheatSheet/blob/master/Networks/Random%20knowledge.md) on this syntax
+One lesser known feature of SSH is to create encrypted tunnels within the SSH protocol, which supports bi-directional communication channels. Lets say there is trickery going on, and we need to bypass [an egress restriction](https://github.com/64nYm3d3/CheatSheet/blob/master/Networks/Random%20knowledge.md) on this syntax
 ~~~
 ssh <gateway> -L <local port to listen>:<remote host>:<remote port>
 ~~~
