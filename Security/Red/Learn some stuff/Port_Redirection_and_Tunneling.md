@@ -77,7 +77,7 @@ One lesser known feature of SSH is to create encrypted tunnels within the SSH pr
 ssh <gateway> -L <local port to listen>:<remote host>:<remote port>
 ~~~
 
-Using the same example as before. We have a machine on an internal network, on our home machine we use this SSH command
+Using the same example as before. We have a machine on an internal network, on our home machine we use this SSH command (it might be the other way around but I'm too lazy to spin up labs and verify this)
 ~~~
 ssh 321.321.321.321 -p 445 -L 8080:123.123.123.123:80
 ~~~
@@ -86,7 +86,7 @@ And browsing this on the internal network:
 http://127.0.0.1/:8080
 ~~~
 
-So, we browse the local port 8080 on the internal network, which redirects traffic outound through port 445 to our machine at home, encrypted through ssh from the internal machine to our machine at home, which then again redirects to the web server at 123.123.123.123 (I think I messed up explaining this)
+So, we browse the local port 8080 on the internal network, which redirects traffic outound through port 445 to our machine at home, encrypted through ssh from the internal machine to our machine at home, which then again redirects to the web server at 123.123.123.123 
 
 ## Remote Port Forwarding
 
