@@ -1,5 +1,23 @@
 # Port Redirection and Tunneling
 
+This stuff is really useful, if I were you, I'd memorize it going into the interview
+### Things to remember
+ - **Port Forwarding** - redirect traffic from one port to another; can be done with the tool:
+ ~~~
+ rinetd
+ ~~~
+ and editing:
+ ~~~ 
+ /etc/rinetd.conf
+ ~~~
+ - **Local Portforwarding**
+ ~~~
+ ssh <gateway> -L <local port to listen>:<remote host>:<remote port>
+ ~~~
+ 
+ 
+ ## Intro
+
 Tunneling involves carrying a protocol over the network encapsulated within a different payload protocol
 
 Portforwarding involves accepting traffic on a given IP address and port and then redirecting it to a different IP address and port. 
