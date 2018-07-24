@@ -6,21 +6,21 @@ Basics
 
 **[cmd] /?** - typing '/?' after a command will get you everywhere. It displays help info about a tool
 
-**dir**
+**dir** - lists directory contents
 
-**cd**
+**cd** - change directory
 
-**cls**
+**cls** - clear screen
 
-**mkdir**
+**mkdir** - make directory
 
-**move**
+**move** - move  a file from one path to another
+ 
+**rename** - rename a file
 
-**rename**
+**del** - delete a file
 
-**del**
-
-**rmdir**
+**rmdir** - delete a directory
 
 ## Commandlets
 
