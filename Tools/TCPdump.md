@@ -36,14 +36,14 @@ Scripting with pcap
 * **-Z <user>** Drop privileges from root to user
 
 ### Capture Filter Primitives
-* **[src|dst] host <host>** - Matches a host as the IP source, destination, or either
-* **ether [src|dst] host <ehost>**- Matches a host as the Ethernet source, destination, or either
-* **gateway host <host>** - Matches packets which used hostas a gateway
-* **[src|dst] net <network>/<len>** -  Matches packets to or from an endpoint residing in network
-* **[tcp|udp] [src|dst]** - port <port>Matches TCP or UDP packets sent to/from port
+* **[src|dst] host \<host>** - Matches a host as the IP source, destination, or either
+* **ether [src|dst] host \<ehost>**- Matches a host as the Ethernet source, destination, or either
+* **gateway host \<host>** - Matches packets which used hostas a gateway
+* **[src|dst] net \<network>/\<len>** -  Matches packets to or from an endpoint residing in network
+* **[tcp|udp] \[src|dst]** - port <port>Matches TCP or UDP packets sent to/from port
 * **[tcp|udp] [src|dst]** - portrange <p1> - <p2> Matches TCP or UDP packets to/from a port in the given range
-* **less <length>** - Matches packets less than or equal to length
-* **greater <length>** - Matches packets greater than or equal to length
+* **less \<length>** - Matches packets less than or equal to length
+* **greater \<length>** - Matches packets greater than or equal to length
 * **(ether|ip|ip6)** - proto <protocol> Matches an Ethernet, IPv4, or IPv6 protocol
 * **(ether|ip)** - broadcast Matches Ethernet or IPv4 broadcasts
 * **(ether|ip|ip6)** - multicast Matches Ethernet, IPv4, or IPv6 multicasts
