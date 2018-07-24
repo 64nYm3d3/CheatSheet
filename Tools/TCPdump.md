@@ -49,7 +49,7 @@ Scripting with pcap
 * **(ether|ip|ip6) multicast** - Matches Ethernet, IPv4, or IPv6 multicasts
 * **type (mgt|ctl|data) [subtype \<subtype>]** - Matches 802.11 frames based on type and optional subtype
 * **vlan [\<vlan>]** - Matches 802.1Q frames, optionally with a VLAN ID of vlan
-* **mpls \[<label>]** - Matches MPLS packets, optionally with a label of label
+* **mpls [\<label>]** - Matches MPLS packets, optionally with a label of label
 * **\<expr> \<relop> \<expr>** - Matches packets by an arbitrary expression
   
 ### Protocols
