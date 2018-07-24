@@ -12,45 +12,45 @@ Scripting with pcap
 ## Cheatsheet
 
 ### Command Line Options
-* -A Print - frame payload in ASCII
-* -c <count> - Exit after capturing  count packets
-* -D List available interfaces
-* -e Print - link-level headers
-* -F <file> - Use file as the filter expression
-* -G <n> Rotate the dump file every n seconds
-* -i <iface> Specifies the capture interface
-* -K Don't verify TCP checksums
-* -L List data link types for the interface
-* -n Don't convert addresses to names
-* -p Don't capture in promiscuous mode
-* -q Quick output
-* -r <file> Read packets from  file
-* -s <len> Capture up to len bytes per packet
-* -S Print absolute TCP sequence numbers
-* -t Don't print timestamps
-* -v[v[v]] Print more verbose output
-* -w <file> Write captured packets to file
-* -x Print frame payload in hex
-* -X Print frame payload in hex and ASCII
-* -y <type> Specify the data link type
-* -Z <user> Drop privileges from root to user
+* **-A** Print - frame payload in ASCII
+* **-c** <count> - Exit after capturing  count packets
+* **-D** List available interfaces
+* **-e** Print - link-level headers
+* **-F** <file> - Use file as the filter expression
+* **-G** <n> Rotate the dump file every n seconds
+* **-i** <iface> Specifies the capture interface
+* **-K** Don't verify TCP checksums
+* **-L** List data link types for the interface
+* **-n** Don't convert addresses to names
+* **-p** Don't capture in promiscuous mode
+* **-q** Quick output
+* **-r** <file> Read packets from  file
+* **-s** <len> Capture up to len bytes per packet
+* **-S** Print absolute TCP sequence numbers
+* **-t** Don't print timestamps
+* **-v[v[v]]** Print more verbose output
+* **-w <file>** Write captured packets to file
+* **-x** Print frame payload in hex
+* **-X** Print frame payload in hex and ASCII
+* **-y <type>** Specify the data link type
+* **-Z <user>** Drop privileges from root to user
 
 ### Capture Filter Primitives
-* [src|dst] host <host> Matches a host as the IP source, destination, or either
-* ether [src|dst] host <ehost> Matches a host as the Ethernet source, destination, or either
-* gateway host <host> Matches packets which used hostas a gateway
-* [src|dst] net <network>/<len> Matches packets to or from an endpoint residing in network
-* [tcp|udp] [src|dst] port <port>Matches TCP or UDP packets sent to/from port
-* [tcp|udp] [src|dst] portrange <p1> - <p2> Matches TCP or UDP packets to/from a port in the given range
-* less <length> Matches packets less than or equal to length
-* greater <length> Matches packets greater than or equal to length
-* (ether|ip|ip6) proto <protocol> Matches an Ethernet, IPv4, or IPv6 protocol
-* (ether|ip) broadcast Matches Ethernet or IPv4 broadcasts
-* (ether|ip|ip6) multicast Matches Ethernet, IPv4, or IPv6 multicasts
-* type (mgt|ctl|data) [subtype <subtype>] Matches 802.11 frames based on type and optional subtype
-* vlan [<vlan>] Matches 802.1Q frames, optionally with a VLAN ID of vlan
-* mpls [<label>] Matches MPLS packets, optionally with a label of label
-* <expr> <relop> <expr> Matches packets by an arbitrary expression
+* **[src|dst] host <host>** - Matches a host as the IP source, destination, or either
+* **ether [src|dst] host <ehost>**- Matches a host as the Ethernet source, destination, or either
+* **gateway host <host>** - Matches packets which used hostas a gateway
+* **[src|dst] net <network>/<len>** -  Matches packets to or from an endpoint residing in network
+* **[tcp|udp] [src|dst]** - port <port>Matches TCP or UDP packets sent to/from port
+* **[tcp|udp] [src|dst]** - portrange <p1> - <p2> Matches TCP or UDP packets to/from a port in the given range
+* **less <length>** - Matches packets less than or equal to length
+* **greater <length>** - Matches packets greater than or equal to length
+* **(ether|ip|ip6)** - proto <protocol> Matches an Ethernet, IPv4, or IPv6 protocol
+* **(ether|ip)** - broadcast Matches Ethernet or IPv4 broadcasts
+* **(ether|ip|ip6)** - multicast Matches Ethernet, IPv4, or IPv6 multicasts
+* **type (mgt|ctl|data) [subtype <subtype>]** - Matches 802.11 frames based on type and optional subtype
+* **vlan [<vlan>]** - Matches 802.1Q frames, optionally with a VLAN ID of vlan
+* **mpls [<label>]** - Matches MPLS packets, optionally with a label of label
+* **<expr> <relop> <expr>** - Matches packets by an arbitrary expression
   
 ### Protocols
 * arp
