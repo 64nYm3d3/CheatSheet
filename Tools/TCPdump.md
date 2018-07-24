@@ -44,13 +44,13 @@ Scripting with pcap
 * **[tcp|udp] [src|dst]** - portrange <p1> - <p2> Matches TCP or UDP packets to/from a port in the given range
 * **less \<length>** - Matches packets less than or equal to length
 * **greater \<length>** - Matches packets greater than or equal to length
-* **(ether|ip|ip6)** - proto <protocol> Matches an Ethernet, IPv4, or IPv6 protocol
-* **(ether|ip)** - broadcast Matches Ethernet or IPv4 broadcasts
-* **(ether|ip|ip6)** - multicast Matches Ethernet, IPv4, or IPv6 multicasts
-* **type (mgt|ctl|data) [subtype <subtype>]** - Matches 802.11 frames based on type and optional subtype
-* **vlan [<vlan>]** - Matches 802.1Q frames, optionally with a VLAN ID of vlan
-* **mpls [<label>]** - Matches MPLS packets, optionally with a label of label
-* **<expr> <relop> <expr>** - Matches packets by an arbitrary expression
+* **(ether|ip|ip6) proto \<protocol>** - Matches an Ethernet, IPv4, or IPv6 protocol
+* **(ether|ip) broadcast** - Matches Ethernet or IPv4 broadcasts
+* **(ether|ip|ip6) multicast** - Matches Ethernet, IPv4, or IPv6 multicasts
+* **type (mgt|ctl|data) [subtype \<subtype>]** - Matches 802.11 frames based on type and optional subtype
+* **vlan [\<vlan>]** - Matches 802.1Q frames, optionally with a VLAN ID of vlan
+* **mpls \[<label>]** - Matches MPLS packets, optionally with a label of label
+* **\<expr> \<relop> \<expr>** - Matches packets by an arbitrary expression
   
 ### Protocols
 * arp
