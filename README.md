@@ -23,15 +23,15 @@ Some Weirdo
 Also a lot of things are incomplete since I have so much to add overall. So here is a list to help with what is worth looking at right now...
 
 Completed
-- [NMAP](https://github.com/64nYm3d3/CheatSheet/blob/master/Tools/NMap.md)
-- [TMUX](https://github.com/64nYm3d3/CheatSheet/blob/master/Tools/Tmux.md)
-- [Packet Filtering Basics](https://github.com/64nYm3d3/CheatSheet/blob/master/Security/networks/PacketFiltering.md)
+- [NMAP(Cheat Sheet)](https://github.com/64nYm3d3/CheatSheet/blob/master/Tools/NMap.md)
+- [TMUX(CheatSheet)](https://github.com/64nYm3d3/CheatSheet/blob/master/Tools/Tmux.md)
+- [Packet Filtering Basics(informative)](https://github.com/64nYm3d3/CheatSheet/blob/master/Security/networks/PacketFiltering.md)
 
 In progress and I'm proud-ish of.
-- [Contact Cards](https://github.com/64nYm3d3/CheatSheet/blob/master/Security/RFID/Contact%20Cards.md)
+- [Contact Cards(Reasearch)](https://github.com/64nYm3d3/CheatSheet/blob/master/RFID/Contact%20Cards.md)
 - [Bash](https://github.com/64nYm3d3/CheatSheet/blob/master/Languages/Bash.md)
-- [Internetworking Models](https://github.com/64nYm3d3/CheatSheet/blob/master/Networks/Technical/ICND1/Internetworking%20Models.md)
-- [Port Redirection & Tunneling](https://github.com/64nYm3d3/CheatSheet/blob/master/Security/Red/Learn%20some%20stuff/Port_Redirection_and_Tunneling.md)
+- [Internetworking Models(Informative)](https://github.com/64nYm3d3/CheatSheet/blob/master/Networks/Technical/ICND1/Internetworking%20Models.md)
+- [Port Redirection & Tunneling(Learning)](https://github.com/64nYm3d3/CheatSheet/blob/master/Security/Red/Learn%20some%20stuff/Port_Redirection_and_Tunneling.md)
 
 
 Not worth looking at but in progress
