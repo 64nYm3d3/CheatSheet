@@ -8,7 +8,7 @@ ex..
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 git clone https://github.com/secretsqirrel/the-back-door-factory /extras/opt/the-backdoor-factory
 git clone https://github.com/fuzzdb-project/fuzzdb /extras/web-apps/fuzzdb
-(While in the, you can update your local repo with the command "git pull")
+(While in the FuzzDB Directory, you can update your local repo with the command "git pull")
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
                                                                 
 #  Create a new repository
