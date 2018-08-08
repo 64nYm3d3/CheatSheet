@@ -11,4 +11,3 @@ Target specific messages (Spear Phishing)
 Wardialing , Reconaiscance, Enumeration via non digital/mixed techniques and more
 
 OSINT, HUMINT, INT in general
-
