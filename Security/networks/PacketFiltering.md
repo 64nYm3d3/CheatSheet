@@ -8,10 +8,9 @@ In a TCP/IP connection, a packet filter analyzes the IP datagram, checking the h
 These support packet filtering
 
 * \*nix systems
-* Windows NT
-* Windows 2000
 * Virtually all commercial firewalls
 * Big $$$ company Routers
+* Windows NT & Windows 2000 even support it
 
 Some commercial firewalls have the ability to perform stateful inspection.
 
