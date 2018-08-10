@@ -75,3 +75,5 @@ https://www.corelan.be/index.php/2009/07/19/exploit-writing-tutorial-part-1-stac
 https://github.com/justinsteven/dostackbufferoverflowgood (A similar example is used in the PWK course)
 
 https://www.vortex.id.au/2017/05/pwkoscp-stack-buffer-overflow-practice/ (practice)
+
+https://github.com/64nYm3d3/CheatSheet/edit/master/Languages/x86.md (Yes I'm referencing my own github, it's the location of the cheatsheet for for building)
