@@ -23,7 +23,7 @@ Thhe OSI model has seven different layers. These layers are divided into two gro
 
 *7 layers of the OSI model*
 
-### The upper layers are the top 3 layers of the OSI model.
+### The upper 3 layers of the OSI model.
 
 **Application** 
 
