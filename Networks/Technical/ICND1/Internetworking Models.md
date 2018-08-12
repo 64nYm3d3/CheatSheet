@@ -96,7 +96,7 @@ While some protocols use the number of packets, TCP/IP uses it by counting the n
  
  ![windowing](http://www.learncisco.net/assets/images/icnd1/17-windowing.jpg)
  
- *Acknowledgements*
+ *Windowing Acknowledgements Example*
  
      
      
