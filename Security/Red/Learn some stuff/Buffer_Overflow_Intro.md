@@ -51,7 +51,7 @@ Hopefully this helps.
 
 We know **char** will allocate memory in increments of  32 bits (a dword) to addresses in memory to store it’s variable, since we have indicated we need 5 bytes in our stored variable, it will allocate 64 bits of space for the variable **buffer**.
 
-So if we have input ~~~ 0123 4567~~~ (64 bits allocated & 24 bits beyond intended) it will run smoothly, because there are 8 characters, each one only taking up 1 byte of space even though it’s beyond our allocated buffer length. However if we input ~~~ 0123 4567 8~~~ our program will crash since we have just written 1 byte beyond our allocated addresses into another. This is a segmentation fault, accessing memory that does not belong to you.
+So if we have input ~~~ 0123 4567~~~ (64 bits allocated & 24 bits beyond intended) it will run smoothly, because there are 8 characters, each one only taking up 1 byte of space even though it’s beyond our allocated buffer length. However if we input ~~~ 0123 4567 8~~~ our program will crash since we have just written 1 byte beyond our allocated addresses into another. This is known as a segmentation fault, accessing memory that does not belong to you.
 
 ### Okay but how is crashing the program result in exploitation?
 
