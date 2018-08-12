@@ -1,4 +1,4 @@
-# A big gear list for engagements
+# A big gear list for engagements oriented towards physical attacks.
 
 ##### Table of Contents  
 
@@ -14,7 +14,8 @@
       + [Underdoor_Tool](#Underdoor_Tool)
     - [1.1b Lockpicks](#Lockpicks)
   - [Software](#Software)
-    * [On_USB](#On_USB
+    * [On_USB](#On_USB)
+    * [Operating System]
   - [Hardware](#Hardware)
      </p></details>
      
@@ -60,14 +61,20 @@ A definite in every Red Teamer's toolbag. We've opened so many doors with this a
 
 https://www.amazon.com/dp/B071RQ9NHK?tag=redteamsecure-20
 
-More lock picks than you need. We use 4 or 5 on a consistent basis for the past 8 years. But this will get you everything you need.
+"More lock picks than you need. We use 4 or 5 on a consistent basis for the past 8 years. But this will get you everything you need." ~ Red Team Security, in case you're wondering what those main picks likely are.
 
 Main Picks:
+
 Short hook pick
+
 Deep reach curve pick
+
 Offset diamond (DeForrest) pick
+
 Half-diamond pick
+
 Hollow half-diamond pick
+
 Multi-hump wave jiggler (a.k.a. Faux-Gota) pick
 
 ## Software
