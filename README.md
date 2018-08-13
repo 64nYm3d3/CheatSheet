@@ -51,3 +51,4 @@ What I really want to add more information on
 - x86 and opcode
 - Networks
 - [List of Protocols](https://github.com/64nYm3d3/CheatSheet/tree/master/Networks/Protocols)
+- [AV Evasion](https://github.com/64nYm3d3/CheatSheet/blob/master/Security/Red/AV_Evasion.md)
