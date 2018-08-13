@@ -8,6 +8,23 @@ Network Stuff
 System stuff
 Programming stuff
 
+Operators
+
+AND - both inputs
+
+OR - either inputexclusively
+
+XAND - exclusively and
+
+XOR - exclusively ot
+
+NAND - not and
+
+NOR - not or
+
+MUX - Multiplexing, input to this determines trace out
+
+Inverters
 
 
 bind shell
