@@ -107,6 +107,8 @@ Reliable data delivery ensures the integrity of a stream of data sent from one m
 ![]( https://slideplayer.com/slide/4768989/15/images/13/Figure+1.12:+Transport+layer+reliable+delivery.jpg)
 
 The sending machine transmits segments 1, 2, and 3. The receiving node acknowledges that it has received them by requesting segment 4 (what it is expecting next). When it receives the acknowledgment, the sender then transmits segments 4, 5, and 6. If segment 5 doesn’t make it to the destination, the receiving node acknowledges that event with a request for the segment to be re-sent. The sending machine will then resend the lost segment and wait for an acknowledgment, which it must receive in order to move on to the transmission of segment 7.
+
+The Transport layer, working in with the Session layer, also separates the data from different applications, an activity known as *session multiplexing*, and it happens when a client connects to a server with multiple browser sessions open.
  
      
      
