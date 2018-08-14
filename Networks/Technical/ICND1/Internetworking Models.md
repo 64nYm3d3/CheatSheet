@@ -98,6 +98,16 @@ While some protocols use the number of packets, TCP/IP uses it by counting the n
  
  *Windowing Acknowledgements Example*
  
+Where as some protocols measure information in packets, TCP/IP measures it by counting **bytes**. Above the sending machine will wait for acknowledgments every 3 data segments since the window. So the receiving client's TCP/IP stack will ack every 3 bytes received correctly and if not...
+
+*Acknowledgements*
+
+Reliable data delivery ensures the integrity of a stream of data sent from one machine to the other through a fully functional data link. It guarantees that the data won’t be duplicated or lost. This is done by a mechanism called *positive acknowledgement with retransmission*. The sender documents each segment measured in bytes, then sends and waits for this acknowledgment before sending the next segment. When it sends a segment, the transmitting machine starts a timer and will retransmit if it expires before it gets an acknowledgment back from the receiving end.
+
+![]( https://slideplayer.com/slide/4768989/15/images/13/Figure+1.12:+Transport+layer+reliable+delivery.jpg)
+
+The sending machine transmits segments 1, 2, and 3. The receiving node acknowledges that it has received them by requesting segment 4 (what it is expecting next). When it receives the acknowledgment, the sender then transmits segments 4, 5, and 6. If segment 5 doesn’t make it to the destination, the receiving node acknowledges that event with a request for the segment to be re-sent. The sending machine will then resend the lost segment and wait for an acknowledgment, which it must receive in order to move on to the transmission of segment 7.
+ 
      
      
 **Network** - provides logical addressing which routers use for path determination; *Routing.* 
