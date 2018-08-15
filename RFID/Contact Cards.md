@@ -200,7 +200,7 @@ The T = 0 protocol is byte-oriented, which means that the smallest unit processe
 The  clock  signal  is  used  drive  the  logic  of  the  IC  and  is  also  used  as  the  reference  for  the  serial
 communications link.
 
-# **CONTACT CARD RESEARCH IS ON HOLD WHILE I FIND A JOB**
+# **CONTACT CARD RESEARCH IS ON HOLD WHILE I FIND A JOB (and purchase things like an APDU in order to get hands on)**
 
 ---
 Refs and Material: 
