@@ -24,7 +24,7 @@ Also a lot of things are incomplete since I have so much to add overall. So here
 
 In progress and I'm proud-ish of.
 - [Contact Cards(Reasearch)](https://github.com/64nYm3d3/CheatSheet/blob/master/RFID/Contact%20Cards.md)
-- [X86] (https://github.com/64nYm3d3/CheatSheet/blob/master/Languages/x86.md)
+- [X86(CheatSheet&Learning)](https://github.com/64nYm3d3/CheatSheet/blob/master/Languages/x86.md)
 
 Needs More
 - [NMAP(Cheat Sheet)](https://github.com/64nYm3d3/CheatSheet/blob/master/Tools/NMap.md)
