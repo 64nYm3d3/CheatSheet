@@ -22,6 +22,8 @@ zigbee is a protocol used to locally connect and network devices together, the b
 
 ---
 
+# Why we use the stack
+
 Modern computers are designed with the need of high-level languages in mind.  The most important technique for structuring programs introduced by high-level languages is the procedure or function.  From one point of view, a procedure call alters the flow of control just as a jump does, but unlike a jump, when finished performing its task, a function returns control to the  statement or instruction following the call.  This high-level abstraction is implemented with the help of the stack.
 
   The stack is also used to dynamically allocate the local variables used in functions, to pass parameters to the functions, and to return values from the function.
