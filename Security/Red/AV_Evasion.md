@@ -1,4 +1,9 @@
 # AV evasion
 
 The testing ground Link for your malware.
-https://www.virustotal.com
+
+Step 1: Upload your malware her https://www.virustotal.com
+
+Step 2: Was it detected? Modify it...
+
+Step 3: Repeat until only Kaspersky knows...
