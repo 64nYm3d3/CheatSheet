@@ -17,7 +17,7 @@ VBA (Visual Basic for Applications) is a subset of Microsoft’s proprietary Vis
 
 Tips: 
  - Function names and variables have been generated randomly
- - Functions being imported from kernel32.dll are suspicious. ie,processes such as 
+ - Functions being imported from kernel32.dll are suspicious and will be flagged by AV regardless of whether there is shellcode or not. ie,processes such as 
     + **CreateThread**creating process threads
     + **VirtualAlloc**allocating shellcode
     + **RtlMoveMemory**  moving shellcode into memory.
