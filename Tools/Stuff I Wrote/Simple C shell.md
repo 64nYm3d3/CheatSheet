@@ -1,4 +1,4 @@
-A simple program written in C, opens a shell via execve, which is a linux system call, so linux only!
+A simple program written in C, opens a shell via execve, so linux only!
 
 ~~~
 #include <stdio.h>
