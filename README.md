@@ -16,7 +16,7 @@ Some Weirdo
 
 
 ### The Lore/Disclaimer
- Disclaimer: This Document has "deepest lore" scattered among it's pages and is written  by a dude who literally works in a sandich shop, not as an owner, or manager, or even a shift lead, but as master of janitorial arms(otherwise known as "crew member"). The lore starting here, In 1848, under the rule of first High Chancellor Abraham Lincoln, when I was just a humble repair technician in his robot army. Often reading to myself as back then, we didnt have the technological comforts of present day, began the lore which contains references and misquotes of my favorite and sometimes least favorite authors, movies, anime, real life, video games, sometimes including but not limited to requests from friends, family, the homeless, etc, irc, whatever.
+ Disclaimer: This Document has "deepest lore" scattered among it's pages, and is written  by a dude who literally works in a sandich shop, not as an owner, or manager, or even a shift lead, but as master of janitorial arms(otherwise known as "crew member"). The lore starting here, In 1848, under the rule of first High Chancellor Abraham Lincoln, when I was just a humble repair technician in his robot army. Often reading to myself as back then, we didnt have the technological comforts of present day, began the lore which contains references and misquotes of my favorite and sometimes least favorite authors, movies, anime, real life, video games, sometimes including but not limited to requests from friends, family, the homeless, etc, irc, whatever.
 
 
 ### The good stuff
