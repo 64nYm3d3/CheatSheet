@@ -1,4 +1,4 @@
-# This is documentation for smart chips
+# Documentation for smart chips
 
 Plagiarism is all around! Reworded, reformatted, and mangled together from multiple sources into something finally easy to comprehend!
 
