@@ -26,7 +26,7 @@ Plagiarism is all around! Reworded, reformatted, and mangled together from multi
 
 **Encapsulation:** This is a supporting case that prevents physical damage and corrosion of the chip, and is the IC packaging
 
-**Chip:** It kind of looks like a semi conductor device  and will be described later in detail 
+**Chip:** It's a semiconductordevice.
 
 **Wire Bonding:** A way of making interconnections between an IC or other semi conductor device and IC packaging
 
