@@ -18,15 +18,15 @@ Plagiarism is all around! Reworded, reformatted, and mangled together from multi
 
 **Chip Adhesive:** Pretty sure this is self explanatory, adhesive keeping the chip in place inside the encapsulation
 
-**Hotmelt:** I'm guessing this is glue mounting the substrate to the card body
+**Hotmelt:** This is glue mounting the substrate to the card body
 
-**Substrate:** This is the epoxy resin thing that all electronics go in (like the memory, raw DIE, pins, whatever) and acts as the system GND(Vss) for the chip 
+**Substrate:** This is the epoxy resin that all electronics go in (like the memory, raw DIE, pins, whatever) and acts as the system GND(Vss) for the chip 
 
 **Card Body:** The pvc card the chip is attached to
 
-**Encapsulation:** I'm guessing this is a supporting case that prevents physical damage and corrosion of the chip, and is probably IC packaging
+**Encapsulation:** This is a supporting case that prevents physical damage and corrosion of the chip, and is the IC packaging
 
-**Chip:** It kind of looks like a semi conductor device honestly Im not sure what the purpose of this is in detail 
+**Chip:** It kind of looks like a semi conductor device  and will be described later in detail 
 
 **Wire Bonding:** A way of making interconnections between an IC or other semi conductor device and IC packaging
 
