@@ -1,5 +1,3 @@
-
-
 <#
 I would love to say I made this for a ctf but I'd be lying. This was made because
 I was too lazy to download and install curl on my Win10 machine for a while. It 
