@@ -5,8 +5,8 @@ was made as a way to download multiple images from an image gallery I was lookin
 
 
 Might need some modification, when user info is passed to the variable website, 
-there might be an issue if certain characters come up. I threw in a lazy fix in
-the main function but who knows if it will work.
+there might be an issue if certain characters come up. I removed all the hardocded 
+variables and threw in a lazy fix but who knows if it will work.
 #>
 
 $filetype = $null
@@ -26,7 +26,7 @@ str($filetype) =  Read-Host -Prompt "File Extension?"
 foreach ($i in $n) 
 	{
 	
-	wget  "$website$i$filetype" -OutFile "$i$filetype"
+	wget  $website$i$filetype -OutFile $i$filetype
 	print $i	
 	}
  
