@@ -18,7 +18,7 @@ $website = Read-Host -Prompt "Website link?"
 $x = Read-Host -Prompt "Number of files?"
 $n = 0..$x;
 
-$filetype =  Read-Host -Prompt "File Extension?"
+str($filetype) =  Read-Host -Prompt "File Extension?"
 
 
 
