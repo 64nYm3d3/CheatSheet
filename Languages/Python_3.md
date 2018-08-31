@@ -1,5 +1,7 @@
 
 
+Webbrowser module
 
-webbrowsermodule()
+~~~
+import webbrowser
 webrowser.open('https://example.url.com')
