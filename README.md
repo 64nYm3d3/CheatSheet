@@ -1,9 +1,7 @@
-# CheatSheet
-
-Dirty Cheetz
+# Everything I Know
 
 
- A lot of this is stuff is knowledge I probably stole from somewhere else, sources are cited at the bottom of each  file. If I made a mistake, and you want credit for something, let me know! I'm attempting to document what I know and have experience with. It's a bit lacking in information but if you scroll down a bit in this readme filer you can find quick links to some of my docs.
+ A lot of this is stuff is knowledge I probably stole from somewhere else, sources are cited at the bottom of each  file. It does fall shy in a lot of areas. I try to inkle in hints at my up to date knowledge, but due to the amount of time and effort that must be dedicated to writing these out, it's fairly slow going. If I made a mistake, and you want credit for something, let me know! I'm attempting to document what I know and have experience with. It's a bit lacking in information but if you scroll down a bit in this readme filer you can find quick links to some of my docs.
  
  
 ### Intro
