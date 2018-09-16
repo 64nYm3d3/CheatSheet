@@ -54,27 +54,30 @@ What I really want to add more information on
 How I want to build this from now on in 5 parts
 
 part 1: Core Concepts
-- Deep understanding of Windows
+-Deep understanding of Windows
  * TechNet Evaluation Center
-  + Build AD Domain Controller
-  + Build Exchange
-  + Build a bunch of windows workstations, tied into AD
-  + Standup Sharepoint
-  + Create an Outlook Web Access portal
-  + SCCM
-  + Configuration Management
-  + **Don't trust anybody**
-- Deep understanding of linux
- * 
-- Deep understanding of networking
+  +Build AD Domain Controller
+  +Build Exchange
+  +Build a bunch of windows workstations, tied into AD
+  +Standup Sharepoint
+  +Create an Outlook Web Access portal
+  +SCCM
+  +Configuration Management
+  +**Don't trust anybody**
+-Deep understanding of linux
+ * Learn Bash Scripting
+  -The Linux Command Line https://www.amazon.com/Linux-Command-Line-Complete-Introduction/dp/1593273894
+  -Linux Bible https://www.amazon.com/Linux-Bible-Christopher-Negus/dp/1118999878/ref=sr_1_6?s=books&ie=UTF8&qid=1537067345&sr=1-6&keywords=Linux
+  -Shell programming and bash https://www.amazon.com/Shell-Programming-Bash-Scripting-Beginners/dp/1540637700/ref=sr_1_8?s=books&ie=UTF8&qid=1537067389&sr=1-8&keywords=Shell+programming+and+bash
+-Deep understanding of networking
  * http://www.brianlinkletter.com/open-source-network-simulators/
  * Old Cisco Gear
-  + Wipe Config
-  + Reset Passwords
-  + Use Juniper too
+  +Wipe Config
+  +Reset Passwords
+  +Use Juniper too
  * MikroTiks, cheap and powerful!
-  + Start with free software and then move into hardware
-- Proficiency with Python
+  +Start with free software and then move into hardware
+-Proficiency with Python
 
 - CIS
 - Nist 800
