@@ -50,3 +50,33 @@ What I really want to add more information on
 - Networks
 - [List of Protocols](https://github.com/64nYm3d3/CheatSheet/tree/master/Networks/Protocols)
 - [AV Evasion](https://github.com/64nYm3d3/CheatSheet/blob/master/Security/Red/AV_Evasion.md)
+
+How I want to build this from now on in 5 parts
+
+part 1: Core Concepts
+- Deep understanding of Windows
+ * TechNet Evaluation Center
+  + Build AD Domain Controller
+  + Build Exchange
+  + Build a bunch of windows workstations, tied into AD
+  + Standup Sharepoint
+  + Create an Outlook Web Access portal
+  + SCCM
+  + Configuration Management
+  + **Don't trust anybody**
+- Deep understanding of linux
+ * 
+- Deep understanding of networking
+ * http://www.brianlinkletter.com/open-source-network-simulators/
+ * Old Cisco Gear
+  + Wipe Config
+  + Reset Passwords
+  + Use Juniper too
+ * MikroTiks, cheap and powerful!
+  + Start with free software and then move into hardware
+- Proficiency with Python
+
+- CIS
+- Nist 800
+
+part 2:
