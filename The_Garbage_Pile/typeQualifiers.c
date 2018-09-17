@@ -18,7 +18,8 @@ void sp_t_dash(const char *str)
     if(*str== ' ') printf("%c", '-');
     
   //replaces each space in the string but only when printed
-  //we cannot modify the str, due to declaring the original value as a const
+  //we cannot modify the string due to declaring the original value as a const
+  //however we can manipulate our outcome to an extent
 
     else printf("%c", *str);
     str++;
