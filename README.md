@@ -83,3 +83,30 @@ part 1: Core Concepts
 - Nist 800
 
 part 2:
+- PowerShell Unleashed
+- CommandLine Kungfu http://blog.commandlinekungfu.com/
+- Start a security group
+
+Part 3:
+- start with php and asp.net
+   * how to make a database call
+   * sanitize input to stop sql injection
+   * make the mistakes to allow them
+- Develop something
+- Learn to code badly
+- Feel free to branch into networked IOS apps and Android
+
+Part 4:
+- Learn IDA pro and Immunity Debugger
+- Pick a protocol and learn how it works,read the RFC, find tools that implement it, use sca.py to attack it, dig into it
+- Hit online challenges
+- ZAP from OWASP
+Part 5: 
+- Presenting
+ * Shmoocon
+ * WWH
+ * DerbyCon
+ * Defcon
+ * Bsides
+Part 6:
+- Ignore all this, get distracted, just be productive
