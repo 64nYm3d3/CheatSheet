@@ -1,3 +1,11 @@
+/*
+A string is created and unable to be modified
+Here, its declared as a const, which is great for placing a variable in ROM
+While we may not be able to hardcode a change of the variable,
+we can manipulate it as it's sent to stdout
+*/
+
+
 #include <stdio.h>
 
 void sp_t_dash(const char *str);
@@ -13,13 +21,10 @@ void sp_t_dash(const char *str)
 {
   while(*str)
   {
-    //error code
-    //if(*str== ' ')  *string = '-';
-    if(*str== ' ') printf("%c", '-');
-    
-  //replaces each space in the string but only when printed
-  //we cannot modify the string due to declaring the original value as a const
-  //however we can manipulate our outcome to an extent
+    /***error code***
+    if(*str== ' ')  *string = '-';
+    */
+    if(*str== ' ') printf("%c", '-');  //Replaces each space in the string with a '-' but only when printed
 
     else printf("%c", *str);
     str++;
