@@ -2,7 +2,9 @@
 A string is created and unable to be modified
 Here, its declared as a const, which is great for placing a variable in ROM
 While we may not be able to hardcode a change of the variable,
-we can manipulate it as it's sent to stdout
+we can manipulate it as it's sent to stdout and 
+while it doesn't keep a variable from being manipulated
+it proves changes to a variable occurred because of external events
 */
 
 
