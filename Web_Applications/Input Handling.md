@@ -16,8 +16,7 @@ Numerous blacklist-based  filters, particularly those implemented in the web app
 
 -`%<script>alert(1)</script>`
 
-Attacks that handle the exploit of come up often in many areas of web security. In situations where a NULL byte acts as a string delimiter, it can be used to terminate a filename or a query to some back end component. When NULL bytes are both tolerated and
-
+Attacks that handle the exploit of come up often in many areas of web security. In situations where a NULL byte acts as a string delimiter, it can be used to terminate a filename or a query to some back end component. When NULL bytes are both tolerated and ignored arbitrary nullbytes can be used to defeat some blacklist-based filters.
 
 
 
