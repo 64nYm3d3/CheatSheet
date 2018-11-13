@@ -1,1 +1,1 @@
-All the trash leftover from learning. Exercises from books, copied, stolen code, stuff I don't want to represent myself with but may be useful in gauging my skillset and what I've gone through.
+All the trash leftover from learning. Exercises from books, copied, stolen code, stuff that doesn't necessarily reflect or represent myself well with but may be useful in gauging my skillset and what I've gone through.
