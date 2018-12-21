@@ -14,3 +14,15 @@
 **Network connections:** C:\Windows\system32> netstat -ano
 **Firewall rules:** C:\Windows\system32> netsh firewall show state
 **Firewall config:** C:\Windows\system32> netsh firewall show config
+
+**Lists verbose output for all scheduled tasks:** C:\Windows\system32> schtasks /query /fo LIST /v
+**Links running processes to started services:** C:\Windows\system32> tasklist /SVC
+**started services:** C:\Windows\system32> net start
+
+**This can be useful sometimes as some 3rd party drivers, even by reputable companies, contain more holes
+than Swiss cheese. This is only possible because ring0 exploitation lies outside most peoples expertise:** C:\Windows\system32> DRIVERQUERY
+
+
+Source
+---
+http://www.fuzzysecurity.com/tutorials/16.html
