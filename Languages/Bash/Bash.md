@@ -253,3 +253,8 @@ Due to the size of this example I had to collapse it.
 /usr/src/linux-headers-4.14.0-parrot13-common/include/linux/sunrpc/svcsock.h
 ~~~
 </p></details>
+
+---
+Sources:
+
+tldp.org
