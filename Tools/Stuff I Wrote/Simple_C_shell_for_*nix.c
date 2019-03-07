@@ -1,5 +1,5 @@
 
-//A simple program written in C, opens a shell via execve, so linux only!
+//A simple program written in C, opens a shell via execve, so linux only! For windows I think system("cmd.exe /c dir c:\\") can be used inside your int main(){system("cmd.exe /c dir c:\\")} to.
 
 
 #include <stdio.h>
