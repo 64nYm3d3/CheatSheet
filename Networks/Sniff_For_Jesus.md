@@ -18,6 +18,9 @@ Otherwise here is a shortlist of commands:
 **Nortel** ```port-mirroring mode mirror-port <source port> monitor-port <destination port>```
 
 
+Hubbing out is a really simple way of placing your analyzer and target on the same network segment. You can connect a 
+
+
 
 
 
