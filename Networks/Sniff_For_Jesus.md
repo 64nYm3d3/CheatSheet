@@ -1,4 +1,4 @@
-# ha goteem
+# Sniff_For_Jesus
 
 How to sniff a hub
 As you probablyknow, traffic sent through a hub is sent to every port connected to that hub. Therefore, to analyze a computer on a hub, all you have to do is plug in a packet sniffer to an empty port on the hub, and you can see all communication to and from all computers connected to that hub. While someone may argue that hubs no longer exist in the wild, they a appear in modern under the guise of "Access Points" 
