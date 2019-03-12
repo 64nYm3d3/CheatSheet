@@ -1,4 +1,4 @@
-# A big gear list for engagements oriented towards physical attacks.
+# A big gear list for engagements oriented towards the physical side of things.
 
 ##### Table of Contents  
 
