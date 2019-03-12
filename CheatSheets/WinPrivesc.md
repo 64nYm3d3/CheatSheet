@@ -31,9 +31,9 @@
 **started services:** C:\Windows\system32> net start
 
 **This can be useful sometimes as some 3rd party drivers, even by reputable companies, contain more holes
-than Swiss cheese. This is only possible because ring0 exploitation lies outside most peoples expertise:
+than Swiss cheese. This is only possible because ring0 exploitation lies outside most peoples expertise:** 
 
-** C:\Windows\system32> DRIVERQUERY
+C:\Windows\system32> DRIVERQUERY
 
 
 Sources
