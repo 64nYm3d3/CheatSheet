@@ -91,7 +91,7 @@ Simply put, NAT gateways can map IP addresses in several ways:
 A NAT gateway will sit between an internal network and an external network
 "Pure NAT", operating on IP alone, may or may not correctly parse protocols that are totally concerned with IP information, such as ICMP, depending on whether the payload is interpreted by a host on the "inside" or "outside" of translation. As soon as the protocol stack is traversed, even with such basic protocols as TCP and UDP, the protocols will break unless NAT takes action beyond the network layer. 
 
-It is worth mentioning that there are a few different kinds of NAT 
+It is worth mentioning that there are a few different kinds of NAT (like SNAT and DNAT)
 
 #### PAT
 
